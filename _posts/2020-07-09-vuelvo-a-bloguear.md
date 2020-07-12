@@ -36,7 +36,9 @@ Lo anterior me permite usar etiquetas exclusivamente para contexto y asi poder a
 
 ![Estrenaor Ternico](/photos/2020-ronco-retes.jpg)
 
-Este blog es una PWA realizada con [VuePress](https://vuepress.vuejs.org/). Use el tema [wowthemesnet/mediumish-vuepress-blog-theme](https://github.com/wowthemesnet/mediumish-vuepress-blog-theme) como base, a la cual le cambie/arreglé un montón de pifias.
+Este blog es una PWA realizada con [VuePress](https://vuepress.vuejs.org/).
+
+> 😘 Revisa mi repositorio [mediumish](https://github.com/rodolfoberrios/mediumish) si quieres tener un blog exactamente igual a este pero con tu contenido.
 
 Todo se genera automáticamente a partir de documentos `.md` que conservo en un repositorio git. El hosting es gracias al gentil auspicio de Github y me sale totalmente "gratis".
 
