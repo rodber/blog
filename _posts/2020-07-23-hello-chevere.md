@@ -62,7 +62,7 @@ My mistake was that I should have started this new foundation much earlier. I wa
 
 ### Everything
 
-I needed to change my my software to make it customizable enough, from the simple turnkey options up to very specific needs. Must became easier to others to collaborate in all layers, and I must offer a delicate fine-tuned control on the service provisioning so it can be highly optimized.
+I needed to change my software to make it customizable enough, from the simple turnkey options up to very specific needs. Must became easier to others to collaborate in all layers, and I must offer a delicate fine-tuned control on the service provisioning so it can be highly optimized.
 
 Nothing was available for my goals, so a new foundation was needed to be created from scratch, forbidding all the old bad habits and embracing change and modern PHP from the beginning.
 
