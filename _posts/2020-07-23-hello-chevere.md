@@ -14,6 +14,10 @@ I made it for easing my development, aiming for software meant to be heavily cus
 
 Chevere is a brand new foundation aiming for PHP 8, _the ocho_. I made it to use it with application runners (loop, async) and I've taken many strong opinions on its design towards a safer (and better) usage of the PHP programming language.
 
+I named it Chevere with the explicit intention to honor how [Chevereto](https://chevereto.com/) pushed me again into another stage of my career, and here we are.
+
+> Also, the word [_chévere_](https://en.wiktionary.org/wiki/ch%C3%A9vere) literally means terrific, cool, awesome, nifty. Perfect naming.
+
 ## Introduction
 
 [PHP](https://www.php.net/) is a programming language, which allows the creation of scripts that can be _wired_ to do anything. Its most common implementation is to provide website applications hosted in a server providing access to multiple users, which access these applications using a client device (browser).
@@ -28,7 +32,7 @@ Chevere is all about just better software, and I hope that it also helps others 
 
 ### Bad planning
 
-[Chevereto V2](https://github.com/chevereto/chevereto-2) was very basic with just three views and even being mostly spaghetti code, I never experienced any maintenance issues because the code base was so small. With [Chevereto V3](https://v3-docs.chevereto.com/) I added listings, dashboard panel, users, albums, etc. I tough that the new feature set was large enough for the iteration so I didn't even care in making it extensible.
+[Chevereto V2](https://github.com/chevereto/chevereto-2) was very basic with just three views and even being mostly spaghetti code, I never experienced any maintenance issues because the code base was so small. With [Chevereto V3](https://v3-docs.chevereto.com/) I added listings, dashboard panel, users, albums, etc. I thought that the new feature set was large enough for the iteration, I didn't worry about making it extensible.
 
 It happened that V3 brought a huge increase in users which started to suggest many stuff to improve the software. I learned that users wanting to do more with a piece of software of this kind was a very common and broad thing. The more users, the more needs. It is very logic if you think about it.
 
@@ -63,8 +67,6 @@ I needed to change my my software to make it customizable enough, from the simpl
 Nothing was available for my goals, so a new foundation was needed to be created from scratch, forbidding all the old bad habits and embracing change and modern PHP from the beginning.
 
 Thats how I got into the long journey of crafting a new system that can be plugged to the very _line_, covering from the most basic "what-if" up to complex systems extending their base functionality.
-
-I named it Chevere with the explicit intention to honor how Chevereto pushed me again into another stage of my career, and here we are.
 
 ### New waves
 
