@@ -24,9 +24,7 @@ I named it Chevere with the explicit intention to honor how [Chevereto](https://
 
 This basic foundation made PHP capable to power most of the web (yes, the whole internet) that you use everyday, but its popularity is constantly declining in favor of newer technologies.
 
-With Chevere I'm introducing a clean PHP framework that suits the process of pushing PHP beyond the basic known web foundation. It took me years to craft this system architecture, and it accounts all my experience around developing Chevereto which includes sales, support, marketing, etc.
-
-Chevere is all about just better software, and I hope that it also helps others sharing the same mindset.
+With Chevere I'm introducing a clean PHP framework that suits the process of pushing PHP beyond the basic known web foundation. It took me years to craft this system architecture, and it accounts all my experience around developing Chevereto. Chevere is all about just better software, and I hope that it also helps others sharing the same mindset.
 
 ## Mistakes made
 
@@ -54,9 +52,9 @@ I learned how and when to delegate responsibility in the systems that I design, 
 
 I assumed stupid stuff, like that [cPanel](https://en.wikipedia.org/wiki/CPanel) based shared servers was my only market or that the maintenance hell was how every software works in this world. I also assumed that clients won't look for newer tech, that "if ain't broke don't fix it" and basically, I told myself everything needed to resist the need of change.
 
-When VPS offering became cheap as $5/mo I should have jump immediately into that world and _fuck off_ the previous service model. But I didn't.
+When VPS offering became cheap as $5/mo I should have jump immediately into that world and _fuck off_ the previous service model. I wasn't quick enough to forsee how I could benefit from the new server offering and I refused change, just because.
 
-My mistake was that I should have started this new foundation much earlier. I wasn't quick enough to forsee how I could benefit from the new server offering and I refused change, just because.
+My mistake was that I should have started this new foundation much earlier.
 
 ## The change
 
@@ -68,19 +66,50 @@ Nothing was available for my goals, so a new foundation was needed to be created
 
 Thats how I got into the long journey of crafting a new system that can be plugged to the very _line_, covering from the most basic "what-if" up to complex systems extending their base functionality.
 
-### a different market
+### Pluggable
 
-The current offering in the server market is great and it gets better very quickly. Developers can now provision elaborated systems in flexible setups at very good prices. Perfect for me as it allows me to deliver a more sophisticated software solution.
+Chevere is all about being able to create pluggable distributed applications that can be _wired_ to do _anything_. Pluggable applications are those in which it is intended to allow extension via adding extra code, think about it as a bunch of wires and switches.
 
-Remarkable PHP software have mature enough to provide the modern tooling needed to go wild with this server offering. Projects like [Swoole](https://www.swoole.co.uk/), [RoadRunner](https://roadrunner.dev/) and [ReactPHP](https://reactphp.org/) (just to name a few) are allowing to guys like me to build more elaborated systems.
+A pluggable architecture is a must have for me because it enables me to put toggles and hooks that will allow me to easily change the code and to distribute these assets. It also enables users to do their own changes and to grow an ecosystem of developers and services around my software.
 
-### The Chevere model
+### Performing
 
-Chevere is all about being able to create pluggable distributed applications that can be _wired_ to do anything. It is a collection of highly opinionated components that provide the basic tooling needed for this purpose and rather offering an application model or even over simplify things, it focus exclusively in the tools.
+Adding more bells & whistles turns costumers, but it also means lot of trouble. At first, adding more plugins means more uncertain computing time so the application runtime strategy must be addressed.
+
+I figured out that I had to focus in reducing the runtime operations and to isolate the application jobs much as possible. I ended up finding a nice profit by using application runners, which allows to  run the application by implementing a process loop. Rather than bootstrapping on every request, application runners allow to preserve these states for faster runtime operations and the performance gain is just ridiculously great.
+
+I've a [example script](https://github.com/chevere/examples/tree/master/03.Http) where you can test on your own, it allows to benchmark the performance of different runtime strategies, for a complete request-response context with a hook altering the response data.
+
+```sh
+ab -t 10 -c 10 <target>
+```
+
+| Software | [#/sec] (mean) |
+|-|-|
+| PHP -S | 419.86 |
+| Apache 2.4 | 884.46 |
+| Vanilla PHP -S | 8477.45 |
+| Vanilla Apache 2.4 | 8696.59 |
+| RoadRunner 1.8 | 11818.71 |
+| Swoole 4.5 | 13428.49 |
+
+What you are seeing in the table above is how a code base with routing, controller, cache, hooks and a bunch of static code is performing way faster than a bare `<?php echo 'Hello, World!';` and it is doing it with types everywhere, data structures and many other sophisticated tools.
+
+Application runners are _la cumbia_, but the caveat is that code for it must address thread safety. Not a big deal, I've to change everything anyway.
+
+### Tooling
+
+Chevere is a collection of highly opinionated components that provide the basic tooling needed for the changes I require. Rather offering an application model or even over simplify things, it focus exclusively in the tools.
 
 In Chevere is common to bring your own stuff and knowledge, as for me each different need suits its own efficient way to develop and present a software system. I don't believe that making fixed application models ease the developers life at all.
 
 I just can't live the idea of a fixed application model. What can I say? I like Lego bricks and I hate the little wheels on the side of the bike.
+
+### A different market
+
+The current server market offering is great, and it gets better very quickly. Developers can provision elaborated systems, in flexible setups at very good prices. Also, remarkable PHP software have mature enough to provide the modern tooling needed to go wild with this server offering. Projects like [Swoole](https://www.swoole.co.uk/), [RoadRunner](https://roadrunner.dev/) and [ReactPHP](https://reactphp.org/) (just to name a few) are allowing to make it a thing.
+
+This market and new tooling is perfect for me as it enables me to deliver a more sophisticated software solution.
 
 ## Development
 
