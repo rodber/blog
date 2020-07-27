@@ -46,7 +46,7 @@ It was foolish to don't embrace change, to assume that "it will do" and try to c
 
 Up to Chevereto V3, I took the well-know [front controller](https://en.wikipedia.org/wiki/Front_controller) mapped to the web server to provide the application. The model was everywhere, and since the market already existed, I assumed that it was OK to rely the responsibility of designing my own application model in favor of choose the market defacto standard. Also, I didn't knew that much about software architecture back then anyway.
 
-My mistake was that I didn't realized how not-standard was the market until I got in the mud, and I experienced first-hand the annoyance of having to deal with each hosting provider doing their own flavoured PHP recipe, targeting a different niche. The hosting market offering became a nightmare for me, and I had to spent a lot of time adapting my software to support rhe universe of available servers.
+My mistake was that I didn't realized how not-standard was the market until I got in the mud, and I experienced first-hand the annoyance of having to deal with each hosting provider doing their own flavoured PHP recipe, targeting a different niche. The hosting market offering became a nightmare for me, and I had to spent a lot of time adapting my software to support the universe of available servers.
 
 I learned how and when to delegate responsibility in the systems that I design, and that mission critical stuff like the server layer must be designed on my entirely discretion.
 
@@ -68,11 +68,11 @@ Nothing was available for my goals, so a new foundation was needed to be created
 
 Thats how I got into the long journey of crafting a new system that can be plugged to the very _line_, covering from the most basic "what-if" up to complex systems extending their base functionality.
 
-### New waves
+### a different market
 
-The server market is a different beast now and developers can now provision very elaborated systems in more flexible setups at very good prices. Rather than doing one single monolith app, we can now distribute services and create impressive things.
+The current offering in the server market is great and it gets better very quickly. Developers can now provision elaborated systems in flexible setups at very good prices. Perfect for me as it allows me to deliver a more sophisticated software solution.
 
-Remarkable PHP software projects have started to provide the modern tooling needed to go wild with it. Projects like [Swoole](https://www.swoole.co.uk/), [RoadRunner](https://roadrunner.dev/) and [ReactPHP](https://reactphp.org/) (just to name a few) are allowing to guys like me to build more elaborated systems.
+Remarkable PHP software have mature enough to provide the modern tooling needed to go wild with this server offering. Projects like [Swoole](https://www.swoole.co.uk/), [RoadRunner](https://roadrunner.dev/) and [ReactPHP](https://reactphp.org/) (just to name a few) are allowing to guys like me to build more elaborated systems.
 
 ### The Chevere model
 
