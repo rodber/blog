@@ -93,7 +93,7 @@ ab -t 10 -c 10 <target>
 | RoadRunner 1.8 | 11818.71 |
 | Swoole 4.5 | 13428.49 |
 
-What you are seeing in the table above is how a code base with routing, controller, cache, hooks and a bunch of static code is performing way faster than a bare `<?php echo 'Hello, World!';` and it is doing it with types everywhere, data structures and many other sophisticated tools.
+What you are seeing in the table above is how a codebase with routing, controller, cache, hooks and a bunch of static code is performing way faster than a bare `<?php echo 'Hello, World!';` file and it is doing it with types everywhere, data structures and many other sophisticated tools.
 
 Application runners are _la cumbia_, but the caveat is that code for it must address thread safety. Not a big deal, I've to change everything anyway.
 
