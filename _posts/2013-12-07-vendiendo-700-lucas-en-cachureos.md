@@ -1,5 +1,5 @@
 ---
-date: 2013-12-07 02:10:00 GMT
+date: 2013-12-07T02:10:00Z
 title: Vendiendo 700 lucas en cachureos
 tags:
     - 🧪experiments

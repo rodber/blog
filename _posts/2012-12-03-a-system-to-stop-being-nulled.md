@@ -1,5 +1,5 @@
 ---
-date: 2012-12-03 18:22:00 GMT
+date: 2012-12-03T18:22:00Z
 title: A system to stop being nulled
 tags:
     - 💻systems

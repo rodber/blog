@@ -1,6 +1,6 @@
 ---
+date: 2015-09-03T19:43:50Z
 title: "Quickty dev update #2"
-date: 2015-09-03 19:43:50 GMT
 tags:
     - 👨🏾‍💻development
 author: One Man Army

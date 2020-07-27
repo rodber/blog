@@ -1,6 +1,6 @@
 ---
+date: 2015-02-11T00:23:00Z
 title: A word on Quickty, Chevereto and Chevere.me
-date: 2015-02-11 00:23:00 GMT
 tags:
     - 🌎world-domination
 author: Rodolfo

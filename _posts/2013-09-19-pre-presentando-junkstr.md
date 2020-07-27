@@ -1,5 +1,5 @@
 ---
-date: 2013-09-19 00:44:00 GMT
+date: 2013-09-19T00:44:00Z
 title: Pre-Presentando Junkstr
 tags:
     - 🤯showtime

@@ -1,5 +1,5 @@
 ---
-date: 2020-07-09 11:32:02 GMT
+date: 2020-07-09T11:32:02Z
 title: Vuelvo a bloguear
 tags:
     - ✊🏾resurrecting

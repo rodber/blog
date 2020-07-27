@@ -1,5 +1,5 @@
 ---
-date: 2013-04-06 22:45:32 GMT
+date: 2013-04-06T22:45:32Z
 title: Junkstr Pitch
 tags:
     - 📸photos

@@ -1,5 +1,5 @@
 ---
-date: 2014-03-14 22:47:00 GMT
+date: 2014-03-14T22:47:00Z
 title: Introducing G\ Library
 tags:
     - 🤯showtime

@@ -1,6 +1,6 @@
 ---
+date: 2015-06-07T22:44:40Z
 title: Quickty is already under development!
-date: 2015-06-07 22:44:40 GMT
 tags:
     - 👨🏾‍💻development
 author: One Man Army

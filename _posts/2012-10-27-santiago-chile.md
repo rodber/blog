@@ -1,5 +1,5 @@
 ---
-date: 2012-10-27 03:08:49 GMT
+date: 2012-10-27T03:08:49Z
 title: Santiago, Chile
 tags:
     - 📸photos

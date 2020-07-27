@@ -1,6 +1,6 @@
 ---
+date: 2017-01-11T16:12:39Z
 title: Quickty Promo
-date: 2017-01-11 16:12:39 GMT
 tags:
     - 🤯showtime
 author: Rodolfo

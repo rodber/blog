@@ -1,5 +1,5 @@
 ---
-date: 2013-09-02 22:36:00 GMT
+date: 2013-09-02T22:36:00Z
 title: The G\ library
 tags:
     - 🐘php

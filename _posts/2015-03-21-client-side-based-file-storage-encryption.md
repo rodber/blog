@@ -1,6 +1,6 @@
 ---
+date: 2015-03-21T23:23:51Z
 title: Client-side based file storage encryption
-date: 2015-03-21 23:23:51 GMT
 tags:
     - 💻systems
 author: Sape

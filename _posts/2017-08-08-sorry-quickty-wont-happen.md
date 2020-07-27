@@ -1,5 +1,5 @@
 ---
-date: 2017-08-08 16:43:02 GMT
+date: 2017-08-08T16:43:02Z
 title: Sorry, Quickty won't happen
 tags:
     - 💔broken-harts 

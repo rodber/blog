@@ -1,5 +1,5 @@
 ---
-date: 2013-11-23 07:29:00 GMT
+date: 2013-11-23T07:29:00Z
 title: Hola Junkstr
 tags:
     - 🤯showtime
