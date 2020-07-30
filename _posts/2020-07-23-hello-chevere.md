@@ -28,7 +28,7 @@ With Chevere I'm introducing a clean PHP framework that suits the process of pus
 
 ## Mistakes made
 
-### Bad planning
+### 🤦🏾 Bad planning
 
 [Chevereto V2](https://github.com/chevereto/chevereto-2) was very basic with just three views and even being mostly spaghetti code, I never experienced any maintenance issues because the code base was so small. With [Chevereto V3](https://v3-docs.chevereto.com/) I added listings, dashboard panel, users, albums, etc. I thought that the new feature set was large enough for the iteration, I didn't worry about making it extensible.
 
@@ -40,7 +40,7 @@ Everyday people came with great ideas, but I was hands-tied with the code struct
 
 It was foolish to don't embrace change, to assume that "it will do" and try to cover everything on my own.
 
-### Lack of responsibility
+### 🤤 Lack of responsibility
 
 Up to Chevereto V3, I took the well-know [front controller](https://en.wikipedia.org/wiki/Front_controller) mapped to the web server to provide the application. The model was everywhere, and since the market already existed, I assumed that it was OK to rely the responsibility of designing my own application model in favor of choose the market defacto standard. Also, I didn't knew that much about software architecture back then anyway.
 
@@ -48,7 +48,7 @@ My mistake was that I didn't realized how not-standard was the market until I go
 
 I learned how and when to delegate responsibility in the systems that I design, and that mission critical stuff like the server layer must be designed on my entirely discretion.
 
-### Late response
+### 😴 Late response
 
 I assumed stupid stuff, like that [cPanel](https://en.wikipedia.org/wiki/CPanel) based shared servers was my only market or that the maintenance hell was how every software works in this world. I also assumed that clients won't look for newer tech, that "if ain't broke don't fix it" and basically, I told myself everything needed to resist the need of change.
 
@@ -58,7 +58,7 @@ My mistake was that I should have started this new foundation much earlier.
 
 ## The change
 
-### Everything
+### 😱 Everything
 
 I needed to change my software to make it customizable enough, from the simple turnkey options up to very specific needs. Must became easier to others to collaborate in all layers, and I must offer a delicate fine-tuned control on the service provisioning so it can be highly optimized.
 
@@ -66,38 +66,54 @@ Nothing was available for my goals, so a new foundation was needed to be created
 
 Thats how I got into the long journey of crafting a new system that can be plugged to the very _line_, covering from the most basic "what-if" up to complex systems extending their base functionality.
 
-### Pluggable
+### 🔌 Pluggable
 
 Chevere is all about being able to create pluggable distributed applications that can be _wired_ to do _anything_. Pluggable applications are those in which it is intended to allow extension via adding extra code, think about it as a bunch of wires and switches.
 
 A pluggable architecture is a must have for me because it enables me to put toggles and hooks that will allow me to easily change the code and to distribute these assets. It also enables users to do their own changes and to grow an ecosystem of developers and services around my software.
 
-### Performing
+### 👯 Performing
 
 Adding more bells & whistles turns costumers, but it also means lot of trouble. At first, adding more plugins means more uncertain computing time so the application runtime strategy must be addressed.
 
-I figured out that I had to focus in reducing the runtime operations and to isolate the application jobs much as possible. I ended up finding a nice profit by using application runners, which allows to  run the application by implementing a process loop. Rather than bootstrapping on every request, application runners allow to preserve these states for faster runtime operations and the performance gain is just ridiculously great.
+I figured out that I had to focus in reducing the bootstrapping operations and isolate the application jobs much as possible. I ended up finding a nice profit by using application runners, which allow to preserve these states for faster runtime operations and the performance is ridiculously great.
 
-I've a [example script](https://github.com/chevere/examples/tree/master/03.Http) where you can test on your own, it allows to benchmark the performance of different runtime strategies, for a complete request-response context with a hook altering the response data.
+I've an [example script](https://github.com/chevere/examples/tree/master/03.Http) which you use to test the performance of different runtime strategies for a complete request-response context.
 
 ```sh
 ab -t 10 -c 10 <target>
 ```
 
-| Software | [#/sec] (mean) |
+Table below shows the raw performance vanilla PHP. This measures how "fastest" PHP can go.
+
+| Vanilla `echo "Hello, World!"` | [#/sec] (mean) |
+|-|-|
+| PHP -S | 8477.45 |
+| Apache 2.4 | 8696.59 |
+
+Adding stuff on top of vanilla PHP will drastically reduce the performance as shown in the table below, where the application footprint is huge with a reduction of about 90% of vanilla PHP performance.
+
+| Chevere `Hello, <name>!` | [#/sec] (mean) |
 |-|-|
 | PHP -S | 419.86 |
 | Apache 2.4 | 884.46 |
-| Vanilla PHP -S | 8477.45 |
-| Vanilla Apache 2.4 | 8696.59 |
+
+The reduction is because, even using cache, the system needs to bootstrap everything on every single request.
+
+But when using application runners the bootstrapping remains in the loop and the result is a drastically improvement in application performance. Table below shows how the application is now faster than vanilla PHP.
+
+| Chevere `Hello, <name>!` | [#/sec] (mean) |
+|-|-|
 | RoadRunner 1.8 | 11818.71 |
 | Swoole 4.5 | 13428.49 |
 
-What you are seeing in the table above is how a codebase with routing, controller, cache, hooks and a bunch of static code is performing way faster than a bare `<?php echo 'Hello, World!';` file and it is doing it with types everywhere, data structures and many other sophisticated tools.
+Amazing isn't? The Chevere application with routing, controller, cache, hooks and a bunch of static code is performing way faster than a bare `echo "Hello, World!"` and it is doing it with types and data structures everywhere.
 
-Application runners are _la cumbia_, but the caveat is that code for it must address thread safety. Not a big deal, I've to change everything anyway.
+Application runners are _la zorra_, but the caveat is that code for it must address thread safety and many other considerations.
 
-### Tooling
+Not a big deal, I've to change everything anyway and the performance improvement totally worth the effort.
+
+### 🧰 Tooling
 
 Chevere is a collection of highly opinionated components that provide the basic tooling needed for the changes I require. Rather offering an application model or even over simplify things, it focus exclusively in the tools.
 
@@ -105,7 +121,7 @@ In Chevere is common to bring your own stuff and knowledge, as for me each diffe
 
 I just can't live the idea of a fixed application model. What can I say? I like Lego bricks and I hate the little wheels on the side of the bike.
 
-### A different market
+### 🛒 A different market
 
 The current server market offering is great, and it gets better very quickly. Developers can provision elaborated systems, in flexible setups at very good prices. Also, remarkable PHP software have mature enough to provide the modern tooling needed to go wild with this server offering. Projects like [Swoole](https://www.swoole.co.uk/), [RoadRunner](https://roadrunner.dev/) and [ReactPHP](https://reactphp.org/) (just to name a few) are allowing to make it a thing.
 
