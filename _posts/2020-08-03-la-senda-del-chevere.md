@@ -16,9 +16,7 @@ Creo que soy pasto seco ya que bastaron solo seis likes para prenderme a escribi
 
 Mi actividad productiva es el desarrollo de software, específicamente [software de servidores](https://en.wikipedia.org/wiki/Server-side) que son estas maquinas donde aplicaciones distribuidas (software) son ofrecidas al mundo gracias a Internet y ya van siete años en los que he estado trabajado exclusivamente para mis softwares. Yo no hago _freelance_, no tengo un trabajo que me solvente el _hobby_ y solamente tengo los ingresos provenientes del licenciamiento del software [Chevereto](https://chevereto.com/).
 
-Preguntas tipo ¿Cómo chucha? ¿Es muy peluo? ¿Cómo lo hiciste? ¿Cuánto se gana? son las típicas que saltan espontáneamente cuando la gente me conoce o sabe de mi trabajo.
-
-En este post me quiero enfocar en por que creo que otros deberían considerar mi experiencia de vida y cuales son los sacrificios que tienes que pagar si es que te interesa.
+Preguntas tipo ¿Cómo chucha? ¿Es muy peluo? ¿Cómo lo hiciste? ¿Cuánto se gana? son las típicas que saltan espontáneamente cuando la gente me conoce o sabe de mi trabajo. En este post me quiero enfocar en por que creo que otros deberían considerar mi experiencia de vida y cuales son los sacrificios que tienes que pagar si es que te interesa.
 
 ## ¿De dónde salí?
 
@@ -44,7 +42,7 @@ Desde entonces nunca más he trabajado en código que no sea de mi propiedad, to
 
 ![Ruleta](/photos/2020-ruleta.jpg)
 
-Voy a partir altiro con esta parte ya que por la plata baila el mono. Se gana harto... pero es una ruleta. He tenido máximos del orden de $7,000 USD al mes y mínimos de $400 USD. Si lo que necesitas es estabilidad económica te recomiendo que vayas pensando en otra cosa.
+Voy a partir altiro con esta parte ya que por la plata baila el mono: Es una ruleta. He tenido máximos del orden de $7,000 USD al mes y mínimos de $400 USD. Si lo que necesitas es estabilidad económica te recomiendo que vayas pensando en otra cosa.
 
 Desde que partí con Chevereto en la universidad me tomo seis años recién ganar plata con licenciamiento. Se trata de una inversion, donde no metes lucas directamente sino que tiempo (¿al final es lo mismo no?) y el retorno es variable dependiendo de que tipo de software haces y la base de usuarios activa en un momento dado.
 
@@ -58,7 +56,7 @@ Los dias generalmente son tranquilos, con sesiones de desarrollo entre cuatro a 
 
 Lejos la mejor parte es poder determinar como administro mis metas y mi tiempo. Si un día (o incluso semanas) siento que no se da, simplemente hago otra cosa. Si me viene una idea o algo no tengo problema alguno en poner todo en pausa y ver que pasa. El negocio alrededor del software tiene muchos matices, asi que siempre hay algo más que aprender, leer o cachurear.
 
-No creo en el concepto de plazos y mis clientes lo saben. Doy por hecho que muchos odian esa parte de mi oferta, pero lo que pasa es que el software está listo _cuando esté listo_. Como el control está en mis manos, soy yo quien asume toda la responsabilidad de los costos y los problemas de un código mal hecho, los que son bastante caros.
+No creo en el concepto de plazos y mis clientes lo saben. Doy por hecho que muchos odian esa parte de mi oferta, pero lo que pasa es que el software está listo _cuando esté listo_. Como el control está en mis manos, soy yo quien asume toda la responsabilidad de los costos de un código mal hecho, los que son bastante caros.
 
 Podría definir mi día como un [comodo paseo](https://www.youtube.com/watch?v=VGeefnUOHO4) donde tengo mucho cuidado donde piso y por donde paso.
 
@@ -70,25 +68,25 @@ No tener estabilidad ha implicado que cada que me va bien, tengo que asegurar pr
 
 La ansiedad, depresión y el contexto de la sociedad pega super fuerte. Como no si andan todos tus ex-compañeros paseando por el caribe, comprándose autos cómodos, formando familia, dedicándose semi-profesionalmente a otra actividad. En resumen, disfrutan de la vida y yo ni si quiera me tomo vacaciones.
 
-Aprender a vivir con el fantasma de "no estas ya en edad para ____" es fuerte y he pasado por etapas muy depresivas. Pero con el tiempo he aprendido a apreciar las cosas buenas del sacrificio y no me arrepiento de nada. No le debo nada a nadie y puedo desarrollar completamente relajado, sin presiones, sin un tarado diciéndome que hacer. También me hizo hacer estándar el llevar mi operación a un costo muy bajo.
+Aprender a vivir con el fantasma de "¿no estas ya en edad para ____?" es fuerte y he pasado por etapas muy depresivas. Con el tiempo he aprendido a superar esos pensamientos y apreciar las cosas buenas del sacrificio. No me arrepiento de nada, no le debo nada a nadie y puedo desarrollar completamente relajado, sin presiones, sin un tarado diciéndome que hacer. También me hizo hacer estándar el llevar mi operación a un costo muy bajo.
 
-A lo que voy es que como toda actividad existe algo que tienes que dejar de lado. Yo tuve que dejar el consumismo y la idea de el trabajo y la vida son cosas distintas. Para mi, la vida y el trabajo existen en el mismo plano.
+A lo que voy es que como toda actividad existe algo que tienes que dejar de lado. Yo tuve que dejar el consumismo y la idea de que el trabajo y la vida son cosas distintas. Para mi, la vida y el trabajo existen en el mismo plano.
 
 ## El Gran Beneficio
 
-Más allá del tema lucas o de lo ideal que es trabajar a tu propio ritmo, el real beneficio es que dedicas la vida a algo tuyo. Para mi es impensable el dedicar mi tiempo productivo y mi empeño en algo que no será mio o que yo no podre beneficiarme directamente.
+Más allá del tema lucas o de lo ideal que es trabajar a tu propio ritmo, el real beneficio es que dedicas la vida a algo tuyo. Para mi es impensable el dedicar mi tiempo productivo y mi empeño en algo que no será mio o que yo no podré beneficiarme directamente.
 
-Creo que si te vas a matar trabajando que sea por algo tuyo, no por algo que otro pagó por tener. Sin embargo, la gente está en otra parada, a mi juicio, esclavizándose voluntariamente a una vida horrible, tratando de vivir una vida estándar, con una ruta inventada por el mercado para que estudies, trabajes, consumas. Tienes familia, propiedades, lujos pero la mayor parte de tu vida la pasas haciendo haciendo algo que ni te importa con tal de disfrutar un poquito las cosas.
+Creo que si te vas a matar trabajando que sea por algo tuyo, no por algo que otro pagó por tener. A mi juicio, la gente está en otra parada, esclavizándose voluntariamente a una vida horrible, tratando de vivir una vida estándar, con una ruta inventada por el mercado para que estudies, trabajes, consumas. Tienes familia, propiedades, lujos pero la mayor parte de tu vida la pasas haciendo haciendo algo que ni te importa con tal de disfrutar un poquito las cosas.
 
-Mi tiempo y mis pensamientos están exclusivamente en mis proyectos y en todas mis ideas locas. No me agota lo que hago y siento que cada vez me empujo más lejos. Si antes quería hacer webs, ahora quiero hacer aplicaciones distribuidas y después quiero también llenar la capa de cliente. Sueño con ser capaz de derrocar empresas enormes, solo con mi software y mi tiempo.
+Mi tiempo y mis pensamientos están exclusivamente en mis proyectos y en todas mis ideas locas. No me agota lo que hago y siento que cada vez me empujo más lejos. Si antes quería hacer webs, ahora quiero hacer aplicaciones distribuidas, y después quiero también llenar la capa de cliente. Sueño con ser capaz de hacer obsoletos servicios enormes, solo con mi software y mi tiempo.
 
-No voy ni a la mitad del camino, pero creo que llegaré. Quizás no primero, pero creo que es más importante saber como llegar.
+No voy ni a la mitad del camino, pero creo que llegaré.
 
 ## Vo dale!
 
-Si tu quieres comercializar tu propio software o tienes la intención de algún día hacerlo tienes que hacerla. Ahora, partiste altoque. Yo ya transite toda la parte horrible del camino y no tienes por que caerte donde mismo me caí. He explorado de todo y tengo la obligación moral de compartir mi experiencia.
+Si tu quieres comercializar tu propio software o tienes la intención de algún día hacerlo tienes que hacerla. Ahora, partiste altoque. Yo ya transité toda la parte horrible del camino y no tienes por que caerte donde mismo me caí. He explorado de todo y tengo la obligación moral de compartir mi experiencia.
 
-Me gustaría ver más colegas con negocios como el mio y me da ene pena que los tengan programando tonteras y perdiendo el tiempo con requerimientos estúpidos. Ofrezco mi ayuda sin pedir nada cambio y siéntanse en total confianza de mandarme dudas o cualquier tipo de consulta particular sobre el tema, voy a tratar de asesorar en lo que pueda.
+Me gustaría ver más colegas con negocios como el mio y me da ene pena que los tengan perdiendo el tiempo con cachos y plazos agilados. Ofrezco mi ayuda sin pedir nada cambio y siéntanse en total confianza de mandarme dudas o cualquier tipo de consulta particular sobre el tema, voy a tratar de asesorar en lo que pueda.
 
 ## ¿Qué va a ocurrir ahora?
 
