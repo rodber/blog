@@ -78,9 +78,7 @@ Mi tiempo y mis pensamientos están exclusivamente en las cosas que me importan,
 
 ## Vo dale!
 
-Si tu quieres comercializar tu propio software o tienes la intención de algún día hacerlo tienes que hacerla. Ahora, partiste altoque. Yo ya transité toda la parte horrible del camino y no tienes por que caerte donde mismo me caí. He explorado de todo y tengo la obligación moral de compartir mi experiencia.
-
-Me gustaría ver más colegas con negocios como el mio y me da ene pena que los tengan perdiendo el tiempo con cachos y plazos agilados. Ofrezco mi ayuda sin pedir nada cambio y siéntanse en total confianza de mandarme dudas o cualquier tipo de consulta particular sobre el tema, voy a tratar de asesorar en lo que pueda.
+Si tu quieres comercializar tu propio software o tienes la intención de algún día hacerlo tienes que hacerla. Ahora, partiste altoque.
 
 ## ¿Qué va a ocurrir ahora?
 
