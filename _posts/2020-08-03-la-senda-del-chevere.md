@@ -42,7 +42,7 @@ Desde entonces nunca más he trabajado en código que no sea de mi propiedad, to
 
 ![Ruleta](/photos/2020-ruleta.jpg)
 
-Voy a partir altiro con esta parte ya que por la plata baila el mono: Es una ruleta. He tenido máximos del orden de $7,000 USD al mes y mínimos de $400 USD. Si lo que necesitas es estabilidad económica te recomiendo que vayas pensando en otra cosa.
+Voy a partir altiro con esta parte ya que por la plata baila el mono: Es una ruleta. He tenido máximos de $7,000 USD al mes y mínimos de $400 USD. Si lo que necesitas es estabilidad económica te recomiendo que vayas pensando en otra cosa.
 
 Desde que partí con Chevereto en la universidad me tomo seis años recién ganar plata con licenciamiento. Se trata de una inversion, donde no metes lucas directamente sino que tiempo (¿al final es lo mismo no?) y el retorno es variable dependiendo de que tipo de software haces y la base de usuarios activa en un momento dado.
 
@@ -74,11 +74,7 @@ A lo que voy es que como toda actividad existe algo que tienes que dejar de lado
 
 Más allá del tema lucas o de lo ideal que es trabajar a tu propio ritmo, el real beneficio es que dedicas la vida a algo tuyo. Para mi es impensable el dedicar mi tiempo productivo y mi empeño en algo que no será mio o que yo no podré beneficiarme directamente.
 
-Creo que si te vas a matar trabajando que sea por algo tuyo, no por algo que otro pagó por tener. A mi juicio, la gente está en otra parada, esclavizándose voluntariamente a una vida horrible, tratando de vivir una vida estándar, con una ruta inventada por el mercado para que estudies, trabajes, consumas. Tienes familia, propiedades, lujos pero la mayor parte de tu vida la pasas haciendo haciendo algo que ni te importa con tal de disfrutar un poquito las cosas.
-
-Mi tiempo y mis pensamientos están exclusivamente en mis proyectos y en todas mis ideas locas. No me agota lo que hago y siento que cada vez me empujo más lejos. Si antes quería hacer webs, ahora quiero hacer aplicaciones distribuidas, y después quiero también llenar la capa de cliente. Sueño con ser capaz de hacer obsoletos servicios enormes, solo con mi software y mi tiempo.
-
-No voy ni a la mitad del camino, pero creo que llegaré.
+Mi tiempo y mis pensamientos están exclusivamente en las cosas que me importan, mis proyectos y en todas mis ideas locas. No me agota lo que hago y siento que cada vez me empujo más lejos. Si antes quería hacer webs, ahora quiero hacer aplicaciones distribuidas, y después quiero también llenar la capa de cliente. Sueño con ser capaz de hacer obsoletos servicios enormes, solo con mi software y mi tiempo.
 
 ## Vo dale!
 
