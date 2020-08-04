@@ -46,9 +46,7 @@ Voy a partir altiro con esta parte ya que por la plata baila el mono: Es una rul
 
 Desde que partí con Chevereto en la universidad me tomo seis años recién ganar plata con licenciamiento. Se trata de una inversion, donde no metes lucas directamente sino que tiempo (¿al final es lo mismo no?) y el retorno es variable dependiendo de que tipo de software haces y la base de usuarios activa en un momento dado.
 
-En la actualidad el promedio mensual es de alrededor de $1,000, lo que considero bajo pero insisto, es parte de la inversión y hay cosas que tienen un valor intangible, como mi base de clientes que es de sobre 5,000 personas o la base de mis instalaciones: Entre 15,000 a 20,000.
-
-No tengo dudas en que futuras versiones del software elevaran los ingresos a la conchasumadre. Lo sé, por que esto es un ciclo que ya pasó antes y está pasando justo ahora.
+En la actualidad el promedio mensual es de alrededor de USD $1,000, lo que considero bajo pero es parte de la inversión y hay cosas que tienen un valor intangible, como mi base de clientes que es de sobre 5,000 personas o la base de mis instalaciones: Entre 15,000 a 20,000.
 
 ## Un día como otros
 
