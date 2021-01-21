@@ -3,7 +3,7 @@ date: 2013-07-08T21:46:00Z
 title: Chevereto cumple 6 años
 tags:
     - 🎉celebration
-author: One Man Army
+author: OMA
 summary: Feliz 6to cumpleaños al Chevereto Software de alojamiento de imágenes.
 featuredImage: /photos/2013-chevereto-2.png
 ---

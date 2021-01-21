@@ -48,20 +48,20 @@ module.exports = {
             {
                 name: 'Rodolfo',
                 avatar: '/avatars/rodolfo.jpg',
-                link: 'https://github.com/rodolfoberrios/',
+                link: 'https://rodolfoberrios.com/',
                 linktext: 'Stalk me',
             },
             {
                 name: 'Sape',
                 avatar: '/avatars/sape.jpg',
-                link: 'https://github.com/rodolfoberrios/',
+                link: 'https://rodolfoberrios.com/',
                 linktext: 'EL RODO SAPEE!',
             },
             {
-                name: 'One Man Army',
+                name: 'OMA',
                 avatar: '/avatars/oma.jpg',
-                link: 'https://github.com/rodolfoberrios/',
-                linktext: 'OMA',
+                link: 'https://rodolfoberrios.com/',
+                linktext: 'One Man Army',
             }
         ],
         footer: {

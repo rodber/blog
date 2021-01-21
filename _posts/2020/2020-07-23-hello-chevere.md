@@ -3,12 +3,14 @@ date: 2020-07-23T19:44:41Z
 title: Hello, Chevere
 tags:
     - 🤯showtime
-author: One Man Army
+author: OMA
 summary: My opinionated PHP framework for building extensible server-side applications.
 featuredImage: /photos/2020-chevere.png
 ---
 
-I've created a new PHP development framework: [Chevere](https://chevere.org/).
+I've created a new PHP development framework, and I called it [Chevere](https://chevere.org/).
+
+This is the second framework I [announce](../2014/2014-03-14-introducing-g-library.md) and I believe that this time I'm better prepared for the challenge. The original idea that I had [the very first time](../2013/2013-09-02-the-g-library.md) is still around and I've been all these years just lurking for more knowledge to make it happen.
 
 I made it for easing my development, aiming for software meant to be heavily customized and yet highly performing. It is intended to be used for the creation of pluggable software, and it can be progressively implemented in any project.
 
@@ -87,25 +89,25 @@ ab -t 10 -c 10 <target>
 Table below shows the raw performance vanilla PHP. This measures how "fastest" PHP can go.
 
 | Vanilla `echo "Hello, World!"` | [#/sec] (mean) |
-|-|-|
-| PHP -S | 8477.45 |
-| Apache 2.4 | 8696.59 |
+| ------------------------------ | -------------- |
+| PHP -S                         | 8477.45        |
+| Apache 2.4                     | 8696.59        |
 
 Adding stuff on top of vanilla PHP will drastically reduce the performance as shown in the table below, where the application footprint is huge with a reduction of about 90% of vanilla PHP performance.
 
 | Chevere `Hello, <name>!` | [#/sec] (mean) |
-|-|-|
-| PHP -S | 419.86 |
-| Apache 2.4 | 884.46 |
+| ------------------------ | -------------- |
+| PHP -S                   | 419.86         |
+| Apache 2.4               | 884.46         |
 
 The reduction is because, even using cache, the system needs to bootstrap everything on every single request.
 
 But when using application runners the bootstrapping remains in the loop and the result is a drastically improvement in application performance. Table below shows how the application is now faster than vanilla PHP.
 
 | Chevere `Hello, <name>!` | [#/sec] (mean) |
-|-|-|
-| RoadRunner 1.8 | 11818.71 |
-| Swoole 4.5 | 13428.49 |
+| ------------------------ | -------------- |
+| RoadRunner 1.8           | 11818.71       |
+| Swoole 4.5               | 13428.49       |
 
 Amazing isn't? The Chevere application with routing, controller, cache, hooks and a bunch of static code is performing way faster than a bare `echo "Hello, World!"` and it is doing it with types and data structures everywhere.
 

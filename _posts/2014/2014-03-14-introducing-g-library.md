@@ -2,11 +2,14 @@
 date: 2014-03-14T22:47:00Z
 title: Introducing G\ Library
 tags:
+    - 🐘php
     - 🤯showtime
-author: One Man Army
+author: OMA
 summary: Taking back the fun to PHP.
 featuredImage: /photos/2013-g.png
 ---
+
+Remember the [framework](../2013/2013-09-02-the-g-library.md) thing I was talking mentioned in a previous post?
 
 Long time ago I started to learn and working with [PHP](https://php.net/). It started mostly because I needed a way to make real my ideas and it was the most used web programming language in that days. It was a self learned thing which was actually a very long process and it also included other languages and web development technologies. Several year later PHP is still the most used web programming language and I keep working with it.
 
