@@ -47,7 +47,7 @@ Flat fees won't account for the fair usage charges, it will end up with a global
 
 ```sh
 total_cost / all_users = cost_per_user
-cost_per_user + revenue_margin = cost_payed_by_user
+cost_per_user + revenue_margin = cost_paid_by_user
 ```
 
 To get more revenue the only alternative is to either reduce total cost or getting more users at the same cost. Overselling could work for a while, and we likely don't notice it because service providers are constantly putting more infrastructure. Eventually it will show off, always.
@@ -62,16 +62,16 @@ Big companies can afford do this kind of silly offering, but even they are all s
 
 ## A better business model
 
-Many of the vices described can be avoided by just not being a jerk. On top of that I've came with my own personal considerations which are now core values that I'm putting for the next-gen Chevereto.
+Many of the vices described can be avoided by just not being a jerk. On top of that I've came with my own personal considerations which are now core values that I'm putting for my software now.
 
 ### Pay for what you use
 
 Users should pay for their specific service usage costs, with rate and limits based on their usage volume. This suppress the need of having to figure out where to get the money to sustain a growing user base.
 
-- 🤑 Rate limit pretty much every interaction
-- 😎 No surprises
+- 🤑 Rate limit all that drives costs
+- 😎 No surprises on your billing
 
-The concept behind this is to allow to tweak exactly the offering for your target audience.
+The concept behind this is to allow to tweak exactly the offering for your target audience. In some contexts the usage will be driven by storage where in other situations it could be traffic or anything else.
 
 ### Specific
 
@@ -80,14 +80,16 @@ To make your service offering _very_ specific is what will give you the edge in 
 - 👩🏾‍🎤 More similar alike users
 - 🤗 Better engagement
 
-Basically, you want an user-base with similar needs and goals. You don't want to mix people with different use cases for your service, you want a cohesive user base.
+You want an user-base with similar needs and goals, don't want to mix people with different use cases for your service, you want a cohesive user base.
 
 ### Freedom to use
 
-Users should have the freedom to choose _how to use_ the service. This enables users to spontaneously find new uses for your service, specially if they are paying for. The service must provide all the feasible use options, allowing users to do _more_.
+Users should have the freedom to choose _how to use_ the service. This enables users to spontaneously find new uses for your service (specially if they are paying for).
 
-- 🤯 Don't restrict the user interface
-- 🤓 Allow any user interface
+The service must provide all the feasible use options, allowing users to do _more_ for what they pay for.
+
+- 🤯 Don't drive usage, let users drive your offering
+- 🤓 Allow, encourage and welcome _any_ user interface
 
 The idea is that users can consume your service as they like, which is achieved by offering the service as a headless API in which clients can directly interact or better, you provide a tailored user interface for it.
 
