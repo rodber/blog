@@ -5,11 +5,11 @@ tags:
     - 👴🏾experience
     - 🤑money-making
 author: Rodolfo
-summary: Easy make money online cheap viagra
+summary: Pushing towards a saner service provisioning
 featuredImage: /photos/2021-money.jpg
 ---
 
-Doing [Chevereto](https://chevereto.com/) allowed me to learn and understand the different subtle needs of self-hosted services, specially those around money making for providing an image hosting service for others. This post is about how monetization has been changing around web services and how Chevereto will drive monetization in a more organic manner.
+Doing [Chevereto](https://chevereto.com/) allowed me to learn and understand the different subtle needs of self-hosted services, specially those around money making for providing an image hosting service for others. This post is about how monetization has been changing around web services, and how Chevereto will drive monetization for their users in a more organic manner.
 
 ## Some context
 
