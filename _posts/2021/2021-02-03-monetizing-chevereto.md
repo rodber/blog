@@ -35,7 +35,7 @@ This is similar to what envato does but **without evil fees**. My idea is to dri
 
 My store will require a high-standard seeking to **protect the software** and to care about the consumer of these addons.
 
-👨🏾‍⚖ I don't want it near scammers! I don't want it to be used for harming others! That's an _infamia_ and I will take strict care in this regard:
+👨🏾‍⚖ I want to control it as a business, to [keep it respectable](https://www.youtube.com/watch?t=197&v=2D_zITtVJGA) and I will take strict care in this regard:
 
 - Contracts for sellers
 - Expropriate abandoned addons
