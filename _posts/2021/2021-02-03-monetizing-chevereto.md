@@ -2,7 +2,8 @@
 date: 2021-02-03T17:46:26Z
 title: Monetizing Chevereto
 tags:
-    - 🤑business
+    - 👨🏾‍💼business
+    - 🤑money-making
 author: Rodolfo
 summary: How I will monetize Open Source Chevereto?
 featuredImage: /photos/2021-monetize.png
