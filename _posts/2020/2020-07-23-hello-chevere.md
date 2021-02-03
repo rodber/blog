@@ -80,7 +80,7 @@ Adding more bells & whistles turns costumers, but it also means lot of trouble. 
 
 I figured out that I had to focus in reducing the bootstrapping operations and isolate the application jobs much as possible. I ended up finding a nice profit by using application runners, which allow to preserve these states for faster runtime operations and the performance is ridiculously great.
 
-I've an [example script](https://github.com/chevere/examples/tree/master/03.Http) which you use to test the performance of different runtime strategies for a complete request-response context.
+I've an [example script](https://github.com/chevere/examples/tree/main/03.Http) which you use to test the performance of different runtime strategies for a complete request-response context.
 
 ```sh
 ab -t 10 -c 10 <target>
@@ -102,7 +102,9 @@ Adding stuff on top of vanilla PHP will drastically reduce the performance as sh
 
 The reduction is because, even using cache, the system needs to bootstrap everything on every single request.
 
-But when using application runners the bootstrapping remains in the loop and the result is a drastically improvement in application performance. Table below shows how the application is now faster than vanilla PHP.
+But when using application runners the bootstrapping remains in the loop and the result is a drastically improvement in application I/O performance.
+
+Table below shows how the application is now faster than vanilla PHP.
 
 | Chevere `Hello, <name>!` | [#/sec] (mean) |
 | ------------------------ | -------------- |
@@ -111,21 +113,21 @@ But when using application runners the bootstrapping remains in the loop and the
 
 Amazing isn't? The Chevere application with routing, controller, cache, hooks and a bunch of static code is performing way faster than a bare `echo "Hello, World!"` and it is doing it with types and data structures everywhere.
 
-Application runners are _la zorra_, but the caveat is that code for it must address thread safety and many other considerations.
-
-Not a big deal, I've to change everything anyway and the performance improvement totally worth the effort.
+Application runners are _la zorra_, but the caveat is that code for it must address thread safety and many other considerations. Not a big deal, I've to change everything anyway and the performance improvement totally worth the effort. I'm a [one-man army or not](https://www.youtube.com/watch?t=63&v=ko1q9xy6PLk)?
 
 ### 🧰 Tooling
 
 Chevere is a collection of highly opinionated components that provide the basic tooling needed for the changes I require. Rather offering an application model or even over simplify things, it focus exclusively in the tools.
 
-In Chevere is common to bring your own stuff and knowledge, as for me each different need suits its own efficient way to develop and present a software system. I don't believe that making fixed application models ease the developers life at all.
+In Chevere is standard to bring your own stuff and knowledge, as for me each different need suits its own efficient way to develop and present a software system. I don't believe that making fixed application models ease the developers life at all, I believe that such practice narrows you down.
 
-I just can't live the idea of a fixed application model. What can I say? I like Lego bricks and I hate the little wheels on the side of the bike.
+I just can't live with the idea of a fixed application model. What can I say? I like Lego bricks and I hate the little wheels on the side of the bike.
 
 ### 🛒 A different market
 
-The current server market offering is great, and it gets better very quickly. Developers can provision elaborated systems, in flexible setups at very good prices. Also, remarkable PHP software have mature enough to provide the modern tooling needed to go wild with this server offering. Projects like [Swoole](https://www.swoole.co.uk/), [RoadRunner](https://roadrunner.dev/) and [ReactPHP](https://reactphp.org/) (just to name a few) are allowing to make it a thing.
+The current server market offering is great, and it gets better very quickly.
+
+Developers can provision elaborated systems, in flexible setups at very good prices. Also, remarkable PHP software have mature enough to provide the modern tooling needed to go wild with this server offering. Projects like [Swoole](https://www.swoole.co.uk/), [RoadRunner](https://roadrunner.dev/) and [ReactPHP](https://reactphp.org/) (just to name a few) are allowing to make it a thing.
 
 This market and new tooling is perfect for me as it enables me to deliver a more sophisticated software solution.
 
@@ -137,7 +139,7 @@ Development started in 2018-05 and it took long to have it ready to be presented
 
 Want to use Chevere?! Awesome, go to [chevere.org](https://chevere.org/) where you can learn everything about it. Everything MIT licensed.
 
-Chances are that you won't have any fucking clue on how to use it anyway. Don't mind, feel free to contact me if you want me to review your existing system and how Chevere could help you.
+Chances are that you won't have any _puta_ clue on how to use it anyway. Don't mind, feel free to contact me if you want me to review your existing system and how Chevere could help you.
 
 ## What now?
 

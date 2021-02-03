@@ -9,19 +9,21 @@ summary: Pushing towards a saner service provisioning
 featuredImage: /photos/2021-money.jpg
 ---
 
-Doing [Chevereto](https://chevereto.com/) allowed me to learn and understand the different subtle needs of self-hosted services, specially those around money making for providing an image hosting service for others. This post is about how monetization has been changing around web services, and how Chevereto will drive monetization for their users in a more organic manner.
+Doing [Chevereto](https://chevereto.com/) allowed me to learn and understand the different subtle needs of self-hosted services, specially those around money making for providing an image hosting service for others.
+
+This post is about how monetization has been changing around web services, and how Chevereto will drive monetization for their users in a more organic manner.
 
 ## Some context
 
-About a decade ago it was standard to _easy_ make money online with the good old traffic + ads formula. It is always a thing to talk among people of my age and in this business, imagine the hype of getting a printed check which reads your name and GOOGLE for the ads clicks in your website.
+About a decade ago it was standard to _easy_ make money online with the good old traffic + ads formula. It is always a thing to talk among people of my age in this business, imagine the hype of getting a printed check which reads your name and GOOGLE for the ads clicks in your website back in the day.
 
-At Chevereto ads was always THE way to make money until a couple of years back when all started to went down and not only at Chevereto, all ads everywhere started to pay way less than before.
+For Chevereto installations, ads was always THE way to make money until a couple of years back when all started to went down and not only at Chevereto, all ads everywhere started to pay way less than before.
 
 New ways to make revenue are needed, but in the context of what Chevereto is and avoiding all the vices and bad practices of established services.
 
 ## Vices
 
-There are some business practices and habits that I classify as vices due that is stuff that I know that drives trouble. I strongly believe in that the following practices are bad and triggers a lot of nasty consequences.
+There are some business practices and habits that I classify as vices due that is stuff that I know that **drives trouble**. I strongly believe in that the following practices are bad and triggers a lot of nasty consequences.
 
 ### Freemium as the standard
 
@@ -37,11 +39,11 @@ When offering a free tier it will be normal to get a lot of heat, which carries 
 - 👨🏾‍💻 Monitor abuse
 - 😨 Moderate content
 
-Freemium is likely to be the most expensive thing you can throw and even guys like Google can't deal with that heat.
+Freemium is likely to be the most **expensive** thing you can throw.
 
 ### Flat fees
 
-Services that flat charge users for what they use trend to exploit a revenue model based on **overselling**, which is the concept of selling more accounts that your infrastructure can support at full load. It exists because there's an installed capacity that is unlikely that will be used at the same time. In other words, those that barely use the system are paying for those that abuse it.
+Services that flat charge users for what they use trend to exploit a revenue model based on **overselling**, which is the concept of selling more accounts that your infrastructure can support at full load. It exists because there's an installed capacity that is unlikely to be used all at the same time. In other words, those that barely use the system are paying for those who abuse it.
 
 Flat fees won't account for the fair usage charges, it will end up with a global costs calculation:
 
@@ -58,7 +60,9 @@ Service providers offering unlimited storage, bandwidth or anything without a so
 
 > I need moar users, so I will offer unlimited storage! I'm genius MARKETING HALL OF FAME!!1!"
 
-Big companies can afford do this kind of silly offering, but even they are all screwed because it is not _natural_ to offer something like that. Check on how Google, the biggest thing in tech, had to take back its stupid free photo offering same as PhotoBucket, TinyPic, etc. Chances are that this will be the same path for Flickr, Imgur, 500px and many others if they don't stop _stupidity_.
+Big companies can afford do this kind of silly offering, but even they are all screwed because it is not _natural_ to offer something like that.
+
+Check on how Google, the biggest thing in tech, had to take back its stupid free photo offering same as PhotoBucket, TinyPic, etc. Chances are that this will be the same path for Flickr, Imgur, 500px and many others if they don't stop _stupidity_.
 
 ## A better business model
 
@@ -66,7 +70,7 @@ Many of the vices described can be avoided by just not being a jerk. On top of t
 
 ### Pay for what you use
 
-Users should pay for their specific service usage costs, with rate and limits based on their usage volume. This suppress the need of having to figure out where to get the money to sustain a growing user base.
+Users should pay for their specific service usage costs, with rate and limits based on their usage volume. This suppress the need of having to figure out where to get the money to sustain a **growing** user base.
 
 - 🤑 Rate limit all that drives costs
 - 😎 No surprises on your billing
@@ -75,7 +79,7 @@ The concept behind this is to allow to tweak exactly the offering for your targe
 
 ### Specific
 
-To make your service offering _very_ specific is what will give you the edge in users, traffic and everything else in any given niche. Being specific (and not general) will grant you these:
+To make your service offering _very_ specific is what will give you the edge in users, traffic and everything else in any given niche. Being specific will grant you these:
 
 - 👩🏾‍🎤 More similar alike users
 - 🤗 Better engagement
