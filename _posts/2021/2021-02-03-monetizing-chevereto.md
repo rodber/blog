@@ -9,11 +9,13 @@ summary: How do I pretend to monetize Open Source Chevereto?
 featuredImage: /photos/2021-monetize.png
 ---
 
-There was a time when I really wanted to scale my business, to make it a large software development company and hire people to go beyond my single-person limitations. However, I realized that I won't go anywhere without leveraging technical debt. After two and half years of intense learning and refactoring I came with a bunch of new concepts and applications for my software.
+There was a time when I really wanted to scale my business, to make it a large software development company and hire people to go beyond my single-person limitations. However, I realized that I won't go anywhere without leveraging technical debt.
+
+After two and half years of intense learning and refactoring I came with a bunch of new concepts and applications for my software.
 
 As a result of this process, I'm not longer interested in building the software company thing anymore as I realized that there's a better fit for my context and current times.
 
-This post is about the stuff I've learned in all these years of providing self-hosted software an how I pretend to monetize Chevereto for the future.
+This post is about the stuff I've learned in all these years of providing self-hosted software an how I pretend to monetize Open Source [Chevereto](https://chevereto.com) for the future.
 
 ## Tailored offering
 
@@ -107,7 +109,7 @@ I got this idea from CraftCMS which offers a [partner program](https://craftcms.
 
 👷🏾‍♂ I want to provide a service for managing instances on top existing providers, allowing to run and monitor Chevereto with your own infra.
 
-This is very similar to what ServerPilot does: You get a panel for handling instances in any supported provider, cutting all the middle-man costs and saying goodbye to crippled not-specialized panels.
+This is very similar to what [ServerPilot](https://serverpilot.io/) does: You get a panel for handling instances in any supported provider, cutting all the middle-man costs and saying goodbye to crippled not-specialized panels.
 
 ## Wrapping up
 
