@@ -5,7 +5,7 @@ tags:
     - 👨🏾‍💼business
     - 🤑money-making
 author: Rodolfo
-summary: How I will monetize Open Source Chevereto?
+summary: How do I pretend to monetize Open Source Chevereto?
 featuredImage: /photos/2021-monetize.png
 ---
 
