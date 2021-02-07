@@ -1,6 +1,6 @@
 ---
 date: 2021-01-20T20:48:42Z
-title: Thoughts on monetize Chevereto installations
+title: Monetize Chevereto installations
 tags:
     - 👴🏾experience
     - 🤑money-making
