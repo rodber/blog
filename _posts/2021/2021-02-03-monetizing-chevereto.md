@@ -105,11 +105,13 @@ Self-hosted server side software could be intimidating and even with all the [kn
 
 I got this idea from CraftCMS which offers a [partner program](https://craftcms.com/partners) for all sizes. I will also seek to enable **third-party certified support** so the offering in supporting services can be more diverse than just being me the provider.
 
-## Infra management
+## Cloud
 
-👷🏾‍♂ I want to provide a service for managing instances on top existing providers, allowing to run and monitor Chevereto with your own infra.
+⛅ I will offer [chevereto.cloud](https://chevereto.cloud), a hosted service where the main feature will be the software **reliability**, **built-in support** and **easy access** to all software assets.
 
-This is very similar to what [ServerPilot](https://serverpilot.io/) does, where you get a panel for handling instances in any supported provider, cutting all the middle-man costs and saying goodbye to crippled not-specialized panels.
+The service will basically me configuring and maintaining VPS instances where you can easily run Chevereto and never worry about the setup hassles, at all. For this I will deliver updates, patches, backup, roll-back or anything else required to keep the service provisioning.
+
+I want to provide a service similar to what [ServerPilot](https://serverpilot.io/) does, where you get a panel for handling instances and services in any supported provider. Of course, you can migrate from/to self-hosted at any time.
 
 ## Wrapping up
 
