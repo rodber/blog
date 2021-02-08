@@ -109,7 +109,7 @@ I got this idea from CraftCMS which offers a [partner program](https://craftcms.
 
 ⛅ I will offer [chevereto.cloud](https://chevereto.cloud), a hosted service where the main feature will be the software **reliability**, **built-in support** and **easy access** to all software assets.
 
-The service will basically me configuring and maintaining VPS instances where you can easily run Chevereto and never worry about the setup hassles, at all. For this I will deliver updates, patches, backup, roll-back or anything else required to keep the service provisioning.
+The service will basically me configuring and maintaining VPS instances where you can easily run Chevereto and never worry about the setup hassles, at all. For this I will deliver support, updates, patches, backup, roll-back or anything else required to keep the service provisioning.
 
 I want to provide a service similar to what [ServerPilot](https://serverpilot.io/) does, where you get a panel for handling instances and services in any supported provider. Of course, you can migrate from/to self-hosted at any time.
 
