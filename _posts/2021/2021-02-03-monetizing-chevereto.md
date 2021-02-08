@@ -107,7 +107,7 @@ I got this idea from CraftCMS which offers a [partner program](https://craftcms.
 
 ## Cloud
 
-⛅ I will offer [chevereto.cloud](https://chevereto.cloud), a hosted service where the main feature will be the software **reliability**, **built-in support** and **easy access** to all software assets.
+⛅ I will offer [chevereto.cloud](https://chevereto.cloud), a hosted service where the main feature will be the software **reliability**, **built-in support** and **early access** to all software assets.
 
 The service will basically me configuring and maintaining VPS instances where you can easily run Chevereto and never worry about the setup hassles, at all. For this I will deliver support, updates, patches, backup, roll-back or anything else required to keep the service provisioning.
 
