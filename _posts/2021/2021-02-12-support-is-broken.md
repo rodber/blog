@@ -5,7 +5,7 @@ tags:
     - 👴🏾experience
     - 💔broken-harts
 author: Sape
-summary: Have you ever experienced bad support from me?
+summary: How support went the wrong way and how I'm fixing it.
 featuredImage: /photos/2021-don-sata.jpeg
 ---
 
