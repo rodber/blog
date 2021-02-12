@@ -19,7 +19,7 @@ Although the following content is taken from my little business realm, perhaps m
 
 ❌ Avoid interacting with an impatient or angry user. Do not touch!.
 
-✅ I found that the best course of action is to wait until the user slow down. By doing that, most users give it another try later, with a cool head and most of the time my intervention is totally unnecessary.
+✅ I found that the best course of action is to wait until the user slow down. Most users give it another try later, with a cool head and most of the time my intervention is totally unnecessary.
 
 ## Variable demand
 
@@ -27,7 +27,7 @@ Although the following content is taken from my little business realm, perhaps m
 
 Is normal to get support demand spikes after a new release or any breaking change, problem is that is hard to tell how tall the tide will be every time.
 
-❌ Support offerings are fixed, you need time to train people and to write documentation. You won't ever match the speed required by a spike.
+❌ Support offerings aren't flexible, you need time to train people and to write documentation. You won't ever match the speed required by a spike.
 
 ✅ It worked great to narrow the problem to progressively deliver the software updates to small batches of users.
 
@@ -57,7 +57,7 @@ I'm always being told that I'm the kind of person that worries too much, that I 
 
 ## Bad communication
 
-🥴 Some users don't have a compelling tech vocabulary, causing **communication jam**.
+🥴 Some users don't have a compelling tech vocabulary, which causes a **communication jam**.
 
 Cultural differences and language barriers will also play a role. Some users want to be greet and handled as if I were Adobe, chatter five minutes before cutting to the chase, or get easily offended by a translation issue or the use of certain word.
 
@@ -69,19 +69,17 @@ Cultural differences and language barriers will also play a role. Some users wan
 
 ## Overlapping
 
-😵 Users with lack of tech knowledge won't be capable to differentiate what's **your responsibility** and that is a system requirement.
+😵 Users with lack of tech knowledge won't be capable to differentiate what's **your responsibility** and what's a system requirement.
 
 ❌ Some of these users won't take a "no" for answer and will demand for support for stuff which is not under your responsibility. They will find all the arguments in the world to make you help them. They will use pity, public exposure, defamation, disavowing and anything in their reach to make you feel bad for not helping.
 
-> A term in Chilean Spanish for this kind of stubborn user is "Barsa culiao".
-
-It gets worse when the user is forwarded from the hosting company, which simply throws back all issues to the software authors. This is a common practice, _más vieja que sentarse con el poto_, they re-sell servers and expect software authors to do the rest.
+It gets worse when the user is forwarded from the hosting company, which simply throws back all issues to software authors. This is a common practice, _más vieja que sentarse con el poto_, they re-sell servers and expect software developers to do the rest.
 
 ✅ Do not provide support for stuff you don't sell, even if your software stops working.
 
-## Get it fixed
+## Getting it fixed
 
-After getting all this out my chest I'm sure that the problem is caused by me, for my lack of professionalism in this matter, for not being able to get these noises out of my head.
+After taking all this out my chest I'm sure that the problem is caused by me, for my lack of professionalism in this matter, for not being able to get these noises out of my head.
 
 So I've started changes in [Chevereto](https://chevereto.com/) that I hope will help me to drive better support:
 
