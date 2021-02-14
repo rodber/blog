@@ -9,73 +9,71 @@ summary: How support went the wrong way and how I'm fixing it.
 featuredImage: /photos/2021-don-sata.jpeg
 ---
 
-For a couple of years I've been analyzing and testing, to try to witness directly why and how my support offering got broken. In this post I review why my support went that way and what I'm doing to fix it for good.
+For a couple of years I've been witness how my support offering got broken. In this post I review why my support went that way and what I'm doing to fix it for good.
 
-Although the following content is taken from my little business realm, perhaps my root problem is the same thing affecting others providing bad support? Your feedback is welcome.
+## Context
+
+Since [Chevereto](https://chevereto.com/) V2 my support offering has been built-in and back then the system was so simple that it didn't cause any issue. Then V3 emerged and the situation got way worse as it got more usage so the support.
+
+I've been challenging myself to find a cost-effective solution. But support involves people handling people, it will be always expensive and hard to deal with. Also, V3 has too many moving parts in the system provisioning layer and for most people (specially novel users) that equals to developer responsible for the conflicts between these, to review bad system settings, etc.
+
+For V4 I don't want to keep carrying that, so I'm designing the system with more stricter requirements and building it containerized to leverage all the provisioning on my own standard. I'm also following Clean Code principles, which have helped me to leverage technical debt.
 
 ## Frustration
 
-🤬 The software rely in so many technologies that most users **get easily frustrated** with the subtle tech terminology and concepts.
+Chevereto rely in so many technologies that most users **get easily frustrated** with the subtle tech terminology and concepts.
 
-❌ Avoid interacting with an impatient or angry user. Do not touch!.
+🤬 Avoid interacting with an impatient or angry user. Do not touch!.
 
-✅ I found that the best course of action is to wait until the user slow down. Most users give it another try later, with a cool head and most of the time my intervention is totally unnecessary.
+✔ Wait until the user slow down worked great for me. Most give it another try later, with a cool head and most of the time my intervention was totally unnecessary.
+
+🔮 A container provisioning model should remove the frustration and allow me to worry about just one standard.
 
 ## Variable demand
 
-😨 Support demand suffers from **unpredictable spikes**.
+Support demand suffers from **unpredictable spikes**, which are normal after a new release or any breaking change. Problem is that is hard to tell how tall the tide will be every single time.
 
-Is normal to get support demand spikes after a new release or any breaking change, problem is that is hard to tell how tall the tide will be every time.
+😨 Support offerings aren't flexible, it requires time to train people and to write documentation. You won't ever match the speed required by a spike.
 
-❌ Support offerings aren't flexible, you need time to train people and to write documentation. You won't ever match the speed required by a spike.
-
-✅ It worked great to narrow the problem to progressively deliver the software updates to small batches of users.
+✔ Deliver Chevereto updates to small batches of users allowed me to narrow the number of affected users, avoiding the spike.
 
 ## Flat rates
 
-🤯 Any flat support offering will **get abused**.
+Any flat support offering will **get abused** as to include an uncapped layer of support will force that activity to be driven as an overselling business model, where users never using support will pay the bill for those folks sending you 40 emails in one morning (true story).
 
-To include an uncapped layer of support will force that activity to be driven as an overselling business model, where users never using support will pay the bill for those folks sending you 40 emails in one morning (true story).
+🤯 Users will abuse when possible, allowing that will decrease the value of your work.
 
-❌ Users will abuse when possible, allowing that will decrease the value of your work.
+✔ Support should be charged on a per-event basis.
 
-✅ Support should be charged on a per-event basis. You don't want to deal with abusers as once their start they won't ever stop.
-
-⭐ Offering a **support insurance** subscription covering up to $X support cost per year is the way to go, just like insurance companies do.
+⭐ I believe that offering a **support insurance** subscription covering up to $X support cost per year is the way to go, just like insurance companies do. Otherwise support will be too expensive, it needs a common collaboration.
 
 ## Worry too much
 
-😢 Worrying too much is **highly counterproductive** for me.
+Worrying too much is **highly counterproductive** for me. After many years in that train I'm sure that is a really bad course of action as it gives the user a wrong idea of the value of my time.
 
-I'm always being told that I'm the kind of person that worries too much, that I always aim for the extra mile. After many years in that train I'm sure that it is a really bad course of action as it gives the user a wrong idea of the value of your time.
+😢 Being of top of everything is like spoiling a little child. Users will forget that they are users and will became kids of you, depending entirely on you to debug, fix simple issues and ultimate to reason.
 
-❌ Being of top of everything is like spoiling a little child. Users will forget that they are users and will became kids of you, depending entirely on you to debug, fix simple issues and ultimate to reason.
+✔ Leave users in the wild, let them grow as peers, don't want zombies. Don't explain design decisions in comments, neither reply others to create "searchable content".
 
-✅ Leave users in the wild, let them grow as peers, you don't want zombies. Don't explain your design decisions to people won't make any use of it. Don't reply to create "searchable content". To summarize, don't waste your time.
-
-⭐ Charge money for those needing your extra care and touch, if they pay they value you.
+⭐ Charge money for those needing your extra care and touch.
 
 ## Bad communication
 
-🥴 Some users don't have a compelling tech vocabulary, which causes a **communication jam**.
+Some users don't have a compelling tech vocabulary which causes a **communication jam**. There are also cultural differences, different timezones and language barriers that will also play a role.
 
-Cultural differences and language barriers will also play a role. Some users want to be greet and handled as if I were Adobe, chatter five minutes before cutting to the chase, or get easily offended by a translation issue or the use of certain word.
+🥴 Users not being able to communicate are too hard to handle. They require at least twice the time to deal with.
 
-❌ Users not being able to communicate are really hard to handle. At times I require to explain things over and over and most of the time it ends bad anyway.
+✔ Don't provide support for those who can't communicate in a reasonable manner.
 
-✅ Don't provide support for those who can't communicate in a reasonable manner.
-
-⭐ Worse that will happen is that you will save a headache. If there too many users with this problem, they will end up forming their own user community around your software.
+⭐ Save the headache and if there too many users with this problem, they will end up forming many own user communities around your software.
 
 ## Overlapping
 
-😵 Users with lack of tech knowledge won't be capable to differentiate what's **your responsibility** and what's a system requirement.
+Users with lack of tech knowledge won't be capable to differentiate what's **your responsibility** and what's a system requirement.
 
-❌ Some of these users won't take a "no" for answer and will demand for support for stuff which is not under your responsibility. They will find all the arguments in the world to make you help them. They will use pity, public exposure, defamation, disavowing and anything in their reach to make you feel bad for not helping.
+😵 Some users won't take a "no" for answer and demand support for stuff which is not under your responsibility. They will use pity, public exposure, defamation, disavowing and anything in their reach to make you feel bad for not helping.
 
-It gets worse when the user is forwarded from the hosting company, which simply throws back all issues to software authors. This is a common practice, _más vieja que sentarse con el poto_, they re-sell servers and expect software developers to do the rest.
-
-✅ Do not provide support for stuff you don't sell, even if your software stops working.
+✔ I just do not provide support for stuff I don't sell, even if the software stops working.
 
 ## Getting it fixed
 
