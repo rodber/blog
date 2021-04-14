@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Rodolfo Berrios',
     base: '/',
-    description: 'Rodolfo logging since 2012.',
+    description: 'Rodolfo blogging since 2012.',
     theme: require.resolve('../../'),
     head: [
         ['link', {
