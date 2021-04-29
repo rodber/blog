@@ -72,7 +72,7 @@ module.exports = {
             contact: [
                 {
                     type: 'github',
-                    link: 'https://github.com/rodolfoberrios',
+                    link: 'https://github.com/rodber',
                 },
                 {
                     type: 'mail',

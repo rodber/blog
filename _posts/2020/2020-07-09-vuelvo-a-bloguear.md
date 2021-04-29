@@ -38,7 +38,7 @@ Lo anterior me permite usar etiquetas exclusivamente para contexto y asi poder a
 
 Este blog es una PWA realizada con [VuePress](https://vuepress.vuejs.org/).
 
-> 😘 Revisa mi repositorio [mediumish](https://github.com/rodolfoberrios/mediumish) si quieres tener un blog exactamente igual a este pero con tu contenido.
+> 😘 Revisa mi repositorio [mediumish](https://github.com/rodber/mediumish) si quieres tener un blog exactamente igual a este pero con tu contenido.
 
 Todo se genera automáticamente a partir de documentos `.md` que conservo en un repositorio git. El hosting es gracias al gentil auspicio de Github y me sale totalmente "gratis".
 
