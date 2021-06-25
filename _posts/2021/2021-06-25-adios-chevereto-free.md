@@ -1,6 +1,6 @@
 ---
 date: 2021-06-25T15:16:02Z
-title: Adios Chevereto-Free
+title: Adiós Chevereto-Free
 tags:
     - 💔broken-harts
 author: Rodolfo
