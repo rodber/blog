@@ -5,7 +5,7 @@ tags:
     - 👨🏾‍💼business
     - 🤑money-making
 author: Rodolfo
-summary: How do I pretend to monetize Open Source Chevereto?
+summary: How do I pretend to monetize Chevereto?
 featuredImage: /photos/2021-monetize.png
 ---
 
@@ -15,7 +15,7 @@ After two and half years of intense learning and refactoring I came with a bunch
 
 As a result of this process, I'm not longer interested in building the software company thing anymore as I realized that there's a better fit for my context and current times.
 
-This post is about the stuff I've learned in all these years of providing self-hosted software and how I pretend to monetize Open Source [Chevereto](https://chevereto.com) for the future.
+This post is about the stuff I've learned in all these years of providing self-hosted software and how I pretend to monetize [Chevereto](https://chevereto.com) for the future.
 
 ## Tailored offering
 
@@ -42,14 +42,6 @@ My store will require a high-standard seeking to **protect the software** and to
 - Code review and quality-assurance
 
 It is time to STOP the stores that only care for the commission fee and NEVER protect the customer.
-
-### Crowdfunding
-
-🤯 I will sell my addons until those reach **a defined market cap**. Once that boundary gets reached, I will consider the addon **founded** and I will re-release those as Open Source software.
-
-> The market cap for each addon will depend on the investing required and the cost of maintenance for it.
-
-The **community will drive development** and I will give back to keep the software always relevant, updated and competitive.
 
 ## Memberships
 
