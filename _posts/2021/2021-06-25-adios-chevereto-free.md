@@ -8,7 +8,7 @@ summary: Why I'm shutting down my Open Source software?
 featuredImage: /photos/2021-chevereto-free.jpeg
 ---
 
-In 2016 I released [Chevereto-Free 1.0.0](https://github.com/Chevereto/Chevereto-Free/releases/tag/1.0.0) with the goal of building a new audience and to also discourage piracy of my stuff. I did this move because back then I really wanted to turn the entire project into a collaborative thing as I was getting too burn with the never ending "can you add X please?" or the "add this and you will make rich!" kind of feedback.
+In 2016 I released [Chevereto-Free 1.0.0](https://github.com/Chevereto/Chevereto-Free/releases/tag/1.0.0) with the goal of building a new audience and to also discourage piracy of my stuff. I did this move because back then I really wanted to turn the entire project into a collaborative thing as I was getting too burned with the never ending "can you add X please?" or the "add this and you will make rich!" kind of feedback.
 
 I was expecting people to join development and that some users will upgrade to paid edition progressively. The idea was also to use this Open Source edition as marketing for my stuff as the general rule of thumb is that more users equals more money.
 
@@ -22,10 +22,10 @@ IMO something very annoying about Open Source advocates is the ridiculously anno
 
 ## Sorry
 
-Without contribution and with that "low" user base for me is impossible to keep consider doing Chevereto-Free and that's why I will terminate it by the end of this year.
+Without contribution and with that "low" user base for me it is impossible to keep considering doing Chevereto-Free and that's why I will terminate it by the end of this year.
 
-I feel bad because I should have terminate this fork way earlier as working in this wasn't a good use of my time. But I also feel great that I took 4 years for really considering this and give it a try. I love when that shit happens, it teach me to focus in my own experience.
+I feel bad because I should have terminated this fork way earlier as working in this wasn't a good use of my time. But I also feel great that I took 4 years to really consider this and give it a try. I love when that shit happens, it teaches me to focus on my own experience.
 
 ## Bonus Track
 
-[Ese muerto no lo cargo yo](https://open.spotify.com/track/6kwNZO2cZ8zOcni06l9e0m?si=9ad74ab93bd44e4f)
+[A Ese Muerto No Lo Cargo Yo](https://open.spotify.com/track/6kwNZO2cZ8zOcni06l9e0m?si=9ad74ab93bd44e4f)
