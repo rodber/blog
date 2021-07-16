@@ -78,8 +78,6 @@ My goal is to **drive the user** towards a solution in exchange of just a little
 
 > A third-party is someone enabling to use of Chevereto to other users, like someone wanting to offer hosted Chevereto (SaaS).
 
-I made this decision some time ago, when I [switched to MIT license](https://github.com/Chevereto/Chevereto-Free/commit/bdb6dfe9f6a4709b1494c73d324fd04ccabe3595) to ensure all user freedoms.
-
 ## Support
 
 🛎️ Specialized **support services** will be available for those needing more attention.

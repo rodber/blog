@@ -137,7 +137,7 @@ Development started in 2018-05 and it took long to have it ready to be presented
 
 ## Getting started
 
-Want to use Chevere?! Awesome, go to [chevere.org](https://chevere.org/) where you can learn everything about it. Everything MIT licensed.
+Want to use Chevere?! Awesome, go to [chevere.org](https://chevere.org/) where you can learn everything about it.
 
 Chances are that you won't have any _puta_ clue on how to use it anyway. Don't mind, feel free to contact me if you want me to review your existing system and how Chevere could help you.
 
