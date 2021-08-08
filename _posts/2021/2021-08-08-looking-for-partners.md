@@ -34,7 +34,7 @@ I've the entire development layer covered, for a software which peaked 15K insta
 
 All remote based, and from any nationality, place or culture. I don't have any issues with who you are neither where you came from. I also don't care to ask about formal education.
 
-I can summarize the offering in that you will get yourself involved in the manufacturing of all sorts of cool software products. That you will be partner of this, that your opinion and experience will determine the develop of new software products.
+I can summarize the offering in that you will get yourself involved in the manufacturing of all sorts of cool software products. That you will be my partner in this and that your opinion and experience will help determine the production of new software goods.
 
 ## Contact
 
