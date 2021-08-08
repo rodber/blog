@@ -4,7 +4,7 @@ title: Looking for partners
 tags:
     - 🌎world-domination
 author: Rodolfo
-summary: Want wo build stuff with me?
+summary: Want to build software products with me?
 featuredImage: /photos/2021-co-funders.png
 ---
 
@@ -38,4 +38,4 @@ I can summarize the offering in that you will get yourself involved in the manuf
 
 ## Contact
 
-Feel free to write me an [email](inbox@rodolfoberrios.com) to ask me anything or schedule a meeting.
+Feel free to write me an [email](mailto:inbox@rodolfoberrios.com) to ask me anything or schedule a meeting.
