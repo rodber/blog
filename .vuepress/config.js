@@ -79,8 +79,8 @@ module.exports = {
                     link: 'mailto:inbox@rodolfoberrios.com',
                 },
                 {
-                    type: 'twitter',
-                    link: 'https://twitter.com/godlike',
+                    type: 'web',
+                    link: 'https://rodolfoberrios.com',
                 },
             ],
             copyright: [

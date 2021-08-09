@@ -8,12 +8,6 @@ summary: ¿Puedes vivir de tu propio código?
 featuredImage: /photos/2020-feels-good-man.jpg
 ---
 
-Hace pocos días en twitter [publiqué esto](https://twitter.com/godlike/status/1289270824910950401):
-
-> Debería escribir algo para motivar a los jóvenes a seguir la senda del chevere. Sin jefes, vive de tu propio código.
-
-Creo que soy pasto seco ya que bastaron solo seis likes para prenderme a escribir esto y si bien no creo que _la senda del chévere_ sea transitable para todos, creo que al menos más gente debería saber que existe un camino por el que ya vengo de vuelta.
-
 Mi actividad productiva es el desarrollo de software, específicamente [software de servidores](https://en.wikipedia.org/wiki/Server-side) que son estas maquinas donde aplicaciones distribuidas (software) son ofrecidas al mundo gracias a Internet y ya van siete años en los que he estado trabajado exclusivamente para mis softwares. Yo no hago _freelance_, no tengo un trabajo que me solvente el _hobby_ y solamente tengo los ingresos provenientes del licenciamiento del software [Chevereto](https://chevereto.com/).
 
 Preguntas tipo ¿Cómo chucha? ¿Es muy peluo? ¿Cómo lo hiciste? ¿Cuánto se gana? son las típicas que saltan espontáneamente cuando la gente me conoce o sabe de mi trabajo. En este post me quiero enfocar en por que creo que otros deberían considerar mi experiencia de vida y cuales son los sacrificios que tienes que pagar si es que te interesa.

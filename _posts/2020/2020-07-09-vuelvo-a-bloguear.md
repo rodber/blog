@@ -44,7 +44,7 @@ Todo se genera automáticamente a partir de documentos `.md` que conservo en un 
 
 ## ¿Cómo he estado?
 
-Desde 2017 a la fecha he estado cada vez más ausente de todo. Me aburrí de ene cosas/servicios que puta, no me voy a gastar explicando mucho. Hace rato que dejé de usar Facebook y de las redes el único vicio que me queda es [Twitter](https://twitter.com/godlike/) (lo se, es imposible dejar esa cagá de red social).
+Desde 2017 a la fecha he estado cada vez más ausente de todo. Me aburrí de ene cosas/servicios que puta, no me voy a gastar explicando mucho. Hace rato que dejé de usar Facebook y de las redes el único vicio que me queda es Twitter `https://twitter.com/godlike/` (lo se, es imposible dejar esa cagá de red social).
 
 Vivo con mi conviviente civil, soy muy feliz con ella. Gracias a 😘 Barbara he podido trabajar en todas mis tonteras y siempre me está apoyando.
 
