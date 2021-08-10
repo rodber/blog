@@ -102,6 +102,7 @@ module.exports = {
         // },
         feed: {
             canonical_base: 'https://rodolfo.is/',
+            sort: entries => _.reverse( _.sortBy( entries, 'date' ) ),
         },
         smoothScroll: true
     },
