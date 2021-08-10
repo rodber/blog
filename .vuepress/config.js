@@ -1,3 +1,5 @@
+const { reverse, sortBy } = require('lodash')
+
 module.exports = {
     title: 'Rodolfo Berrios',
     base: '/',
@@ -102,7 +104,7 @@ module.exports = {
         // },
         feed: {
             canonical_base: 'https://rodolfo.is/',
-            sort: entries => _.reverse( _.sortBy( entries, 'date' ) ),
+            sort: (entries) => reverse(sortBy(entries, 'date')),
         },
         smoothScroll: true
     },
