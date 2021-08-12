@@ -28,16 +28,16 @@ module.exports = {
         }],
         ['link', {
             rel: 'apple-touch-icon',
-            href: '/logo.png'
+            href: '/rodo.png'
         }],
         ['link', {
             rel: 'mask-icon',
-            href: '/logo.png',
+            href: '/rodo.png',
             color: '#3eaf7c'
         }],
         ['meta', {
             name: 'msapplication-TileImage',
-            content: '/logo.png'
+            content: '/rodo.png'
         }],
         ['meta', {
             name: 'msapplication-TileColor',
