@@ -49,6 +49,7 @@ module.exports = {
         }]
     ],
     themeConfig: {
+        logo: '/rodo.png',
         pwa: true,
         authors: [
             {
