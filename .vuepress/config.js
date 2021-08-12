@@ -82,7 +82,7 @@ module.exports = {
                     link: 'mailto:inbox@rodolfoberrios.com',
                 },
                 {
-                    type: 'web',
+                    type: 'globe',
                     link: 'https://rodolfoberrios.com',
                 },
             ],
