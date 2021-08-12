@@ -56,7 +56,7 @@ Luego el 2020 apareció el Corona Virus y de repente aquí estamos 🤷🏾.
 
 ### Salud
 
-Para los que me conocían en persona (hay [un video](2013-04-06-junkstr-pitch.md) donde hablo un Ingles horrible) hace mucho tiempo empecé a tomar más importancia a mi alimentación.
+Para los que me conocían en persona (hay [un video](../2013/2013-04-06-junkstr-pitch.md)) donde hablo un Ingles horrible) hace mucho tiempo empecé a tomar más importancia a mi alimentación.
 
 Llegué a pesar 120 kg en su momento, pero gracias a mi genial pareja y su infinito conocimiento en nutrición moderna ahora peso ~73 kg y sigo bajando.
 
