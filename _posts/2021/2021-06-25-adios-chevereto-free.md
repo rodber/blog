@@ -8,23 +8,25 @@ summary: Why I'm shutting down my Open Source software?
 featuredImage: /photos/2021-chevereto-free.jpeg
 ---
 
-In 2016 I released [Chevereto-Free 1.0.0](https://github.com/Chevereto/Chevereto-Free/releases/tag/1.0.0) with the goal of building a new audience and to also discourage piracy of my stuff. I did this move because back then I really wanted to turn the entire project into a collaborative thing as I was getting too burned with the never ending "can you add X please?" or the "add this and you will make rich!" kind of feedback.
+In 2016 I released [Chevereto-Free 1.0.0](https://github.com/Chevereto/Chevereto-Free/releases/tag/1.0.0) with the goal of building a new audience and to also discourage piracy of my stuff. I did this move because I wanted to turn the project into a collaborative initiative as I was getting burned with the never ending "can you add X please?" or the "add this and you will make rich!" feedback.
 
-I was expecting people to join development and that some users will upgrade to paid edition progressively. The idea was also to use this Open Source edition as marketing for my stuff as the general rule of thumb is that more users equals more money.
+I was expecting people to join development and that some users will upgrade to paid edition to make myself a decent income. The idea was to use this Open Source edition as marketing for my work by gifting ongoing releases based on the paid edition to the community.
 
 ## Users don't contribute
 
-Chevereto-Free right now is currently used in about 4K systems and it totals a historic 10K unique installations (per domain). Out of all these it converted less than 1%, meaning that I needed another order of magnitude in distribution to get a meaningful figure, so with something in the range of 100,000 installations I could do just 1,000 licenses? The numbers won't work for me, literally the user base needs to be huge to get a decent living out of it.
+Chevereto-Free right is currently used in ~4K systems and it totals ~10K installations (per domain). Out of these it converted less than 1%, meaning that I needed another order of magnitude in distribution to get a meaningful figure. The user base needs to be huge to get a decent living from this.
 
-But that's normal! I knew the 1% rule I don't live under a rock. Thing is that I was expecting some **collaboration** not just most people using it for free and walk away.
+But that's OK! I knew the 1% rule I don't live under a rock. Thing is that I was expecting **collaboration** not people using it for free and walk away.
 
-IMO something very annoying about Open Source users is the thought that they strongly tell themselves that by just using the software they already did their part. You either contribute or not, using a software is not contributing to it.
+IMO something annoying about Open Source users is the thought that they tell themselves that by using the software they already did their part. You either contribute or not, using a software is not contributing to it.
 
 ## Sorry
 
-Without contribution and with that "low" user base for me it is impossible to keep considering doing Chevereto-Free and that's why I will terminate it by the end of this year. I'm sorry but I can't afford the time neither I've the resources to allocate maintainers for it. If you are a software maintainer or know someone who may be interested in maintain Chevereto-Free please contact me asap.
+Without contribution and with that "low" user base for me it is impossible to keep considering doing Chevereto-Free and that's why I will stop maintaining it by the end of this year. I'm sorry but I can't afford the time neither I've the resources to allocate maintainers for it.
 
-I feel bad because I should have terminated this fork way earlier as working in this wasn't a good use of my time. But I also feel great that I took 4 years to really consider this and give it a try. I love when that shit happens, it teaches me to focus on my own experience.
+If you are a software maintainer or know someone who may be interested in maintain Chevereto-Free please contact me.
+
+I feel bad because I should have terminated this fork earlier as working in this wasn't a good use of my time. But I also feel great that I took 4 solid years to consider this and give it a try. I love when that shit happens, it teaches me to focus on my own experience.
 
 ## Bonus Track
 
