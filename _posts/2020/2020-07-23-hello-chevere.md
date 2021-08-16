@@ -8,7 +8,7 @@ summary: My opinionated PHP framework for building extensible server-side applic
 featuredImage: /photos/2020-chevere.png
 ---
 
-I've created a PHP development framework, and I called it [Chevere](https://chevere.org/). I named it Chevere with the explicit intention to honor how [Chevereto](https://chevereto.com/) pushed me again into another stage of my career.
+I've created a PHP development framework, and I called it [Chevere](https://chevere.org/). I named it Chevere with the explicit intention to honor how [Chevereto](https://chevereto.com/) pushed me into another stage of my career.
 
 > The word [_chévere_](https://en.wiktionary.org/wiki/ch%C3%A9vere) literally means terrific, cool, awesome, nifty. Perfect naming for a software product!
 

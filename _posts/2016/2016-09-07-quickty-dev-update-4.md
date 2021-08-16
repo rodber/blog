@@ -8,7 +8,7 @@ summary: A fourth recap on working side-by-side between Quickty and Chevereto.
 featuredImage: /photos/2016-quickty-zoom.png
 ---
 
-Things are on track again and is the perfect time to share some really cool stuff that is being cooked  at [Chevereto HQ](https://www.google.cl/maps/place/Recoleta+463,+Recoleta,+Regi%C3%B3n+Metropolitana/@-33.4277109,-70.6464023,3a,48.7y,75h,92.63t/data=!3m6!1e1!3m4!1sPmZEAh-tyXSiJZCY9TJbJw!2e0!7i13312!8i6656!4m5!3m4!1s0x9662c5be3da3cc45:0x38c78a31cf2d30de!8m2!3d-33.4276189!4d-70.6463782).
+Things are on track and is the perfect time to share cool stuff that is being cooked at [Chevereto HQ](https://www.google.cl/maps/place/Recoleta+463,+Recoleta,+Regi%C3%B3n+Metropolitana/@-33.4277109,-70.6464023,3a,48.7y,75h,92.63t/data=!3m6!1e1!3m4!1sPmZEAh-tyXSiJZCY9TJbJw!2e0!7i13312!8i6656!4m5!3m4!1s0x9662c5be3da3cc45:0x38c78a31cf2d30de!8m2!3d-33.4276189!4d-70.6463782).
 
 There will be an extensive customization layer thanks to the introduction of plugins and a new template system, all integrated from scratch rather than fill in to the current G\ architecture. Quickty is pushing a new and improved architecture for G\ that I can't wait to release.
 
@@ -18,7 +18,7 @@ Plugins will work very similar to WordPress but in our own way with several laye
 
 #### Template hooks
 
-Template hooks are all about easy extend themes with hotpot where you can inject markup code into existing templates. These defined hotpots will be in crucial points of the theme, like before the  tag, after a given button, after the footer, etc. The idea of template hooks is to allow easy addition of markup code like when you want to add an extra checkbox, an additional menu item, a form, etc.
+Template hooks are about easy extend themes with hotpot where you can inject markup code into existing templates. These defined hotspots will be in crucial points of the theme, like before the  tag, after a given button, after the footer, etc. The idea of template hooks is to allow easy addition of markup code like when you want to add an extra checkbox, an additional menu item, a form, etc.
 
 #### Overrides
 
@@ -30,13 +30,13 @@ Controllers are now the structure that fulfill both route and API requests and w
 
 #### Triggers
 
-Triggers allows to add very sophisticated functionality to your system at very specific instances. A trigger allows to do stuff after something happens, so you custom actions can be executed at crucial points in any given process like after an user is inserted in the database or after a file gets uploaded. Things like add a sepia filter to all image uploads will be dead easy to add.
+Triggers allows to add sophisticated functionality to your system at specific instances. A trigger allows to do stuff after something happens, your custom actions can be executed at crucial points in any given process like after a user is inserted in the database or after a file gets uploaded. Things like add a sepia filter to all image uploads will be dead easy to add.
 
 #### Wapping up
 
-This plugin architecture will make possible really extensive customization and it will provide several paths or alternatives to solve any given need. The idea is that the programmer should choose the approach that makes more sense. I'm opening the paths, you choose.
+This plugin architecture will make possible extensive customization and it will provide several paths or alternatives to solve any given need. The idea is that the programmer should choose the approach that makes more sense. I'm opening the paths, you choose.
 
-For those that want to do extensive modifications, there will be an user folder where you will be able to put all your editing in the same place. By doing this you can easily find your overrides or hooks because it will be in that user folder rather than inside the theme folder.
+For those that want to do extensive modifications, there will be a user folder where you will be able to put all your editing in the same place. By doing this you can find your overrides or hooks because it will be in that user folder rather than inside the theme folder.
 
 ### New template system
 
@@ -48,7 +48,7 @@ All templates will be in plain HTML and the folder structure also changes with a
 
 ### Betas coming!
 
-First public beta should be released in December 2016 and from there several betas will keep shipping. The idea is to follow a stepped development to avoid a tsunami of issues on launch so the very first beta will be all about core functionality then the other betas will add the missing stuff.
+Public beta should be released in December 2016. The idea is to follow a stepped development to avoid a tsunami of issues on launch. The very first beta will be all about core functionality then the other betas will add the missing stuff.
 
 The idea is to ship 4 betas before the stable release but will see if that is possible or needed.
 
