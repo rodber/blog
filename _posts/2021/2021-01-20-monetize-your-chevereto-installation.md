@@ -9,27 +9,27 @@ summary: Pushing towards a saner service provisioning
 featuredImage: /photos/2021-money.jpg
 ---
 
-Doing [Chevereto](https://chevereto.com/) allowed me to learn and understand the different subtle needs of self-hosted services, specially those around money making for providing an image hosting service for others.
+Doing [Chevereto](https://chevereto.com/) allowed me to learn and understand the subtle needs of self-hosted services, specially those around money making for providing an image hosting service for others.
 
-This post is about how monetization has been changing around web services, and how Chevereto will drive monetization for their users in a more organic manner.
+This post is about how monetization has been changing around web services, and how Chevereto will drive monetization for their users in an organic manner.
 
-## Some context
+## Context
 
-About a decade ago it was standard to _easy_ make money online with the good old traffic + ads formula. It is always a thing to talk among people of my age in this business, imagine the hype of getting a printed check which reads your name and GOOGLE for the ads clicks in your website back in the day.
+About a decade ago it was standard to _easy_ make money online with the good old traffic + ads formula. This is always a thing to talk among people of my age in this business, imagine the hype of getting a printed check which reads your name and GOOGLE for the ads clicks in your website.
 
-For Chevereto installations, ads was always THE way to make money until a couple of years back when all started to went down and not only at Chevereto, all ads everywhere started to pay way less than before.
+For Chevereto installations, ads was THE way to make money until a couple of years back when all started to went down and not only at Chevereto, ads everywhere started to pay way less than before.
 
-New ways to make revenue are needed, but in the context of what Chevereto is and avoiding all the vices and bad practices of established services.
+New ways to make revenue are needed, but in the context of what Chevereto is and avoiding the vices and bad practices of established services.
 
 ## Vices
 
-There are some business practices and habits that I classify as vices due that is stuff that I know that **drives trouble**. I strongly believe in that the following practices are bad and triggers a lot of nasty consequences.
+There are business practices and habits that I classify as vices due that is stuff that I know that **drives trouble**. The following practices are bad and triggers a lot of nasty consequences.
 
 ### Freemium as the standard
 
-Freemium is the concept of accessing to a limited version of a product which you can later upgrade to access to more features. To offer something for free it means that the costs of such operation are **covered** by:
+Freemium is the concept of accessing to a limited version of a product which you can later upgrade to access to more features. To offer something for free it means that the costs of the operation are **covered** by:
 
-- 😩 Service owner money.
+- 🎩 Service owner money.
 - 😒 Charging more to paid customers.
 - 🤬 User data mining.
 
@@ -39,7 +39,7 @@ When offering a free tier it will be normal to get a lot of heat, which carries 
 - 👨🏾‍💻 Monitor abuse
 - 😨 Moderate content
 
-Freemium is likely to be the most **expensive** thing you can throw.
+Freemium is likely to be the most **expensive** thing you can throw to a software system.
 
 ### Flat fees
 
@@ -52,17 +52,17 @@ total_cost / all_users = cost_per_user
 cost_per_user + revenue_margin = cost_paid_by_user
 ```
 
-To get more revenue the only alternative is to either reduce total cost or getting more users at the same cost. Overselling could work for a while, and we likely don't notice it because service providers are constantly putting more infrastructure. Eventually it will show off, always.
+To get more revenue the only alternative is to either reduce total cost or getting more users at the same cost. Overselling could work for a while, and we likely don't notice it because service providers are putting more infrastructure but hey, try to commit a transaction on New Years eve.
 
 ### Unnatural offering
 
-Service providers offering unlimited storage, bandwidth or anything without a soft-cap are literally **bullshit** and this usually comes in the same bunch of the overselling guys, which is obvious if you think about it:
+Service providers offering unlimited storage, bandwidth or anything without a soft-cap are **bullshit** and this comes in the same bunch of the overselling guys, which is obvious if you think about it:
 
 > I need moar users, so I will offer unlimited storage! I'm genius MARKETING HALL OF FAME!!1!"
 
-Big companies can afford do this kind of silly offering, but even they are all screwed because it is not _natural_ to offer something like that.
+Big companies can afford do this silly offering, but even they are all screwed because it is not _natural_ to offer something like that.
 
-Check on how Google, the biggest thing in tech, had to take back its stupid free photo offering same as PhotoBucket, TinyPic, etc. Chances are that this will be the same path for Flickr, Imgur, 500px and many others if they don't stop _stupidity_.
+Check on how Google, the biggest thing in tech, had to take back its free photo offering same as PhotoBucket, TinyPic, etc. Chances are that this will be the same path for Flickr, Imgur, 500px and many others if they don't stop _stupidity_.
 
 ## A better business model
 
@@ -84,7 +84,7 @@ To make your service offering _very_ specific is what will give you the edge in 
 - 👩🏾‍🎤 More similar alike users
 - 🤗 Better engagement
 
-You want an user-base with similar needs and goals, don't want to mix people with different use cases for your service, you want a cohesive user base.
+You want a user-base with similar needs and goals, don't want to mix people with different use cases for your service, you want a cohesive user base.
 
 ### Freedom to use
 
@@ -99,6 +99,8 @@ The idea is that users can consume your service as they like, which is achieved 
 
 ## Wrapping up
 
-To make money with media sharing websites has changed a lot and following the steps of big service providers is a no-no. There are many people doing awesome stuff with very little resources, and that's exactly where I want to sit Chevereto as I make this software to empower normal people/business.
+To make money with media sharing websites has changed a lot and following the steps of big service providers is a no-no.
 
-I really hope that this can make a change, will see.
+There's a complete new generation of creators and needs around it, which is currently being exploited by the same old gang of services.
+
+I hope that I empower new creators on their own premises to make things more equal for everybody.

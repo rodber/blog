@@ -9,11 +9,10 @@ summary: How do I pretend to monetize Chevereto?
 featuredImage: /photos/2021-monetize.png
 ---
 
-There was a time when I really wanted to scale my business, to make it a large software development company and hire people to go beyond my single-person limitations. However, I realized that I won't go anywhere without leveraging technical debt.
+I want to scale Chevereto, to make it a large software development company and hire people to go beyond my single-person limitations.
 
-After two and half years of intense learning and refactoring I came with a bunch of new concepts and applications for my software.
-
-As a result of this process, I'm not longer interested in building the software company thing anymore as I realized that there's a better fit for my context and current times.
+I realized that I won't work without leveraging technical debt. 
+After 2.5 years of intense learning and refactoring I came with a bunch of new concepts and applications for my software. As a result of this process, I'm sharing how do I pretend to make it happen.
 
 This post is about the stuff I've learned in all these years of providing self-hosted software and how I pretend to monetize [Chevereto](https://chevereto.com) for the future.
 
@@ -21,7 +20,7 @@ This post is about the stuff I've learned in all these years of providing self-h
 
 👨🏾‍🏭 Each user craft their own offering tailored to specific needs.
 
-I noticed that **dual-licensing** worked very well. To maximize it, I'm splitting the paid package in multiple addons to increment the surface area of the Chevereto paid offering.
+I noticed that **dual-licensing** worked. To maximize it, I will split the package in multiple add-ons to increment the surface area of the Chevereto self-hosted paid offering.
 
 In Chevereto, you pay and care for what you need. Your money goes directly to sustain the offering of what matters to you the most.
 
@@ -29,7 +28,9 @@ In Chevereto, you pay and care for what you need. Your money goes directly to su
 
 🛍 An addon store will enable anyone to offer and sell addons to improve Chevereto.
 
-This is similar to what envato does but **without evil fees**. My idea is to drive the business for developers wanting to make a living out of Chevereto addons, to provide them with delivery and support to avoid all the hassle of having to sell that on their own.
+This is similar to what envato does but **without evil fees**.
+
+My idea is to drive the business for developers wanting to make a living out of Chevereto addons, to provide them with delivery and support to avoid all the hassle of having to sell that on their own.
 
 ### Caring
 
@@ -41,29 +42,25 @@ My store will require a high-standard seeking to **protect the software** and to
 - Expropriate abandoned addons
 - Code review and quality-assurance
 
-It is time to STOP the stores that only care for the commission fee and NEVER protect the customer.
-
 ## Memberships
 
-🎠 Paid memberships will enable users to get perks and to **contribute** back to sustain the ongoing development.
+🎠 Paid memberships will enable users to get perks and to **contribute** to sustain ongoing development.
 
-This will have tiers, users will require to pay depending of the type of user they are and the contribution they want to give back.
+Users will require to pay depending on the extra perks they want to get. This is an additional layer of extra goodies, which may include support assurance, RFC voting and private chat with the developers.
 
 ### Perks
 
-✨ Being honest, I'm not sure yet which kind of perks I will enable. Likely it will include some of these:
+✨ Being honest, I'm not sure yet which perks I will enable but it should be on this tenor:
 
 - Participate in the community
-- Voting ability
+- Voting ability (RFC)
 - Public recognition
 - Support Tickets
-- All-access to official addons (like Netflix)
+- Access to all official addons (like Netflix)
 
 ## Knowledge
 
 📖 Great **documentation**, guides and manuals will be available to ease all the work around the software.
-
-I also want to create video courses to ease the adoption of the software, to make it more easier and friendly to understand.
 
 My goal is to **drive the user** towards a solution in exchange of just a little effort on their end as this causes a domino effect based on the time invested in acquiring knowledge:
 
@@ -71,6 +68,8 @@ My goal is to **drive the user** towards a solution in exchange of just a little
 - Removes the fear on tech
 - Encourages user to go beyond
 - User saves money
+
+For this I've updated our documentation and for the future I want to create video courses to ease the adoption of the software, to make it easier and friendly to understand.
 
 ## Third-parties
 
@@ -80,9 +79,9 @@ My goal is to **drive the user** towards a solution in exchange of just a little
 
 ## Support
 
-🛎️ Specialized **support services** will be available for those needing more attention.
+🛎️ Specialized **support services** will be available for those needing special services.
 
-Self-hosted server side software could be intimidating and even with all the [knowledge](#knowledge) available there will be always stuff hard to understand, requiring to consult me directly. This is specially for those wanting shortcuts, I will available to assist and consult in everything related to the software at different levels:
+Self-hosted server side software could be intimidating and even with the [knowledge](#knowledge) available there will be stuff hard to understand, requiring to consult me directly. I will available to assist and consult in everything related to the software at different levels:
 
 - Community posts
 - Private chats
@@ -99,14 +98,8 @@ I got this idea from CraftCMS which offers a [partner program](https://craftcms.
 
 ⛅ I will offer [chevereto.cloud](https://chevereto.cloud), a hosted service where the main feature will be the software **reliability**, **built-in support** and **early access** to all software assets.
 
-The service will basically me configuring and maintaining VPS instances where you can easily run Chevereto and never worry about the setup hassles, at all. For this I will deliver support, updates, patches, backup, roll-back or anything else required to keep the service provisioning.
-
-I want to provide a service similar to what [ServerPilot](https://serverpilot.io/) does, where you get a panel for handling instances and services in any supported provider. Of course, you can migrate from/to self-hosted at any time.
-
 ## Wrapping up
 
-I believe that I've crafted a nice offering for the context of my software and its users. I can't wait to start running this new business model and to start working in software for my software. Most of all, I'm very happy to see that everything is taking is right place after so many years.
-
-Yeah, I almost forgot to mention that a side effect of all this is that I will earn some serious money.
+I can't wait to start running this new business model and to start working in software for my software. It makes me happy to see that everything is taking is right place after many years.
 
 Cheers for another decade with Chevereto!
