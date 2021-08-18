@@ -2,7 +2,7 @@
 date: 2015-08-05T17:27:49Z
 title: "Quickty dev update #1"
 tags:
-    - 👨🏾‍💻development
+    - 🔬development
 author: OMA
 summary: A first recap on working side-by-side between Quickty and Chevereto.
 featuredImage: /photos/2015-quickty-peafowl.png

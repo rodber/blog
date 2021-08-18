@@ -2,7 +2,7 @@
 date: 2021-08-08T13:08:35Z
 title: Looking for partners
 tags:
-    - 👨🏾‍💼business
+    - 💼business
     - 🌎world-domination
 author: Rodolfo
 summary: Want to build software products with me?

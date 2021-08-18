@@ -2,7 +2,7 @@
 date: 2021-02-03T17:46:26Z
 title: Monetizing Chevereto
 tags:
-    - 👨🏾‍💼business
+    - 💼business
     - 🤑money-making
 author: Rodolfo
 summary: How do I pretend to monetize Chevereto?
