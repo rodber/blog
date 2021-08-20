@@ -2,6 +2,7 @@
 date: 2020-07-09T11:32:02Z
 title: Vuelvo a bloguear
 tags:
+    - 🤯showtime
     - ✊🏾resurrecting
 author: Rodolfo
 summary: Vuelvo a renacer, amado pueblo... Se siente tan vacío sin mi!
