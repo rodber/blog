@@ -111,13 +111,9 @@ Table below shows how the application is now faster than vanilla PHP.
 | RoadRunner 1.8           | 11818.71       |
 | Swoole 4.5               | 13428.49       |
 
-**2021 Update**: Swoole performance with Chevere is now `~18K #/sec` for that same hardware.
-
 The Chevere application with routing, controller, cache, hooks and a bunch of static code is performing way faster than a bare `echo "Hello, World!"` and it is doing it with types and data structures everywhere.
 
 Application runners are _la zorra_, but the caveat is that code for it must address thread safety and many other considerations that we take from granted from the HTTP Web Server realm. Not a big deal, I've to change everything anyway and the performance improvement totally worth the effort. I'm a [one-man army or not](https://www.youtube.com/watch?t=63&v=ko1q9xy6PLk)?
-
-**2021 Update:** Fibers in PHP 8.1 will enable Chevere to drive concurrency operations on the official PHP API.
 
 ### 🧰 Tooling
 
