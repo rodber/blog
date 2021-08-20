@@ -3,8 +3,8 @@ date: 2016-05-14T05:24:19Z
 title: "Quickty dev update #3"
 tags:
     - 🔬development
-author: OMA
-summary: A third recap on working side-by-side between Quickty and Chevereto.
+author: rodber
+summary: Yet another recap on working side-by-side between Quickty and Chevereto.
 featuredImage: /photos/2016-quickty-growl.png
 ---
 

@@ -4,7 +4,7 @@ title: The G\ library
 tags:
     - 🐘php
     - 🔬development
-author: OMA
+author: rodber
 summary: Never liked the available frameworks, so I'm making a new one.
 featuredImage: /photos/2013-g.png
 ---
