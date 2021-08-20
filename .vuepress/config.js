@@ -56,7 +56,13 @@ module.exports = {
                 name: 'Rodolfo',
                 avatar: '/avatars/rodolfo.jpg',
                 link: 'https://rodolfoberrios.com/',
-                linktext: 'Stalk me',
+                linktext: 'Card',
+            },
+            {
+                name: 'rodber',
+                avatar: '/avatars/handsome.png',
+                link: 'https://github.com/rodber',
+                linktext: 'GitHub',
             },
             {
                 name: 'Sape',
@@ -67,8 +73,8 @@ module.exports = {
             {
                 name: 'OMA',
                 avatar: '/avatars/oma.jpg',
-                link: 'https://rodolfoberrios.com/',
-                linktext: 'One Man Army',
+                link: 'https://chevereto.com/',
+                linktext: 'Chevereto.com',
             }
         ],
         footer: {
