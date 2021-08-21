@@ -82,6 +82,8 @@ I figured out that I had to focus in reducing the bootstrapping operations and i
 
 I've an [example script](https://github.com/chevere/examples/tree/main/03.Http) which you use to test the performance of different runtime strategies for a complete request-response context.
 
+**System used** Ubuntu 18.04 Intel i7-2600K (8) @ 3.800GHz.
+
 ```sh
 ab -t 10 -c 10 <target>
 ```
