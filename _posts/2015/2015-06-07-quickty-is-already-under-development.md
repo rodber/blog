@@ -3,7 +3,7 @@ date: 2015-06-07T22:44:40Z
 title: Quickty is already under development!
 tags:
     - 🔬development
-author: OMA
+author: rodber
 summary: The Chevereto for files is becoming a thing.
 featuredImage: /photos/2015-quickty-singup.png
 ---

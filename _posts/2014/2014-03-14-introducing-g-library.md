@@ -4,7 +4,8 @@ title: Introducing G\ Library
 tags:
     - 🐘php
     - 🤯showtime
-author: OMA
+    - 🔬development
+author: rodber
 summary: Taking back the fun to PHP.
 featuredImage: /photos/2013-g.png
 ---

@@ -3,7 +3,7 @@ date: 2017-01-11T16:12:39Z
 title: Quickty Promo
 tags:
     - 🤯showtime
-author: Rodolfo
+author: rodber
 summary: We're goin' for those pleasures in the night.
 featuredImage: /photos/2017-quickty-promo.png
 ---

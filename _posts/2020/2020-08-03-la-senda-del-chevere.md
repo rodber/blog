@@ -3,7 +3,7 @@ date: 2020-08-03T15:22:22Z
 title: La senda del chévere
 tags:
     - 👴🏾experience
-author: Rodolfo
+author: Sape
 summary: ¿Puedes vivir de tu propio código?
 featuredImage: /photos/2020-feels-good-man.jpg
 ---

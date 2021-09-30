@@ -4,7 +4,7 @@ title: Santiago, Chile
 tags:
     - 📸photos
 author: Rodolfo
-summary: Una foto de cuando vivíamos en Club Y Pico con Domeyko.
+summary: De cuando vivíamos en Club Y Pico con Domeyko.
 featuredImage: /photos/2012-santiago-chile.jpg
 ---
 

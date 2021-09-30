@@ -4,7 +4,7 @@ title: Client-side based file storage encryption
 tags:
     - 💻systems
 author: Sape
-summary: Encryption in a storage service is a must have because it provides a better layer of privacy.
+summary: Encryption in the client.
 featuredImage: /photos/2015-encryption.jpg
 ---
 

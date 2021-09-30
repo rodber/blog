@@ -6,7 +6,7 @@ tags:
     - 🌎world-domination
 author: Rodolfo
 summary: Want to build software products with me?
-featuredImage: /photos/2021-co-funders.png
+featuredImage: /photos/2021-co-founders.png
 ---
 
 I'm looking for partners that want to join me at Chevereto for its new generation, where by updating its tech I'm pushing the project to the next level. For this to happen Chevereto requires a new tech foundation (I'm on it!) plus a new offering and servicing. That last part is where I'm looking for help.
