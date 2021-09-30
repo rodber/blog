@@ -12,6 +12,14 @@ In 2016 I released [Chevereto-Free 1.0.0](https://github.com/Chevereto/Chevereto
 
 I was expecting people to join development and that a fraction of these users will upgrade to paid edition to get myself a sustainable income for development. The idea was to use this Open Source edition as marketing for my work by gifting ongoing releases based on the paid edition to the community.
 
+## Update 2021-09-30
+
+I will transfer the project ownership to my personal space at [rodber](https://github.com/rodber) where I will drive it as a hobby/pet project. I figured out that I can manage myself to don't get stressed with this. It doesn't have to end this suddenly, it can be slower.
+
+There won't be new features, only basic maintenance for system operability.
+
+*I'm leaving the rest of this entry "as-is" because I still agree with all what I wrote. Is just that now I'm doing better managing expectations and how I react to how others interact with my work.*
+
 ## Users don't contribute
 
 Chevereto-Free right is currently used in ~4K systems and it totals ~10K installations (per domain). Out of these it converted <1%, meaning that it requires another order of magnitude in distribution to get a meaningful revenue. The user base needs to be huge to get a decent living out of this.
