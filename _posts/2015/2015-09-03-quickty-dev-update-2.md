@@ -5,7 +5,7 @@ tags:
     - 🔬development
 author: rodber
 summary: Another recap on working side-by-side between Quickty and Chevereto.
-featuredImage: /photos/2015-quickty-contacts.png
+image: /photos/2015-quickty-contacts.png
 ---
 
 This time I want to talk about some not mentioned features, show some screen captures and mention what I’m doing to make Quickty another great product. Working in Quickty has been a great experience so far and I want to share how the whole thing is taking shape and how I’m building it.

@@ -6,7 +6,7 @@ tags:
     - ✊🏾resurrecting
 author: Rodolfo
 summary: Vuelvo a renacer, amado pueblo... Se siente tan vacío sin mi!
-featuredImage: /photos/2020-jesus.jpg
+image: /photos/2020-jesus.jpg
 ---
 
 Pasó mucho tiempo (35 meses) desde la última vez que escribí en mi blog, aquel que inicié por 2012 cuando tenia tiernos veintisiempre.

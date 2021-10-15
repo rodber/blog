@@ -5,7 +5,7 @@ tags:
     - 💻systems
 author: Sape
 summary: A method to stop being "nulled" by simply making it impossible to do it.
-featuredImage: /photos/2012-hacker.jpg
+image: /photos/2012-hacker.jpg
 ---
 
 Nulled is a term used to refer to scripts that don't have any licensing or callback method to let the author know if the installation is legal or not. In other words, it means that a commercial script can be pirated and safely used without being catch. Software developers have a real problem dealing with this because they often base their protection system in obfuscation and that in the long term can be always broken.

@@ -6,7 +6,7 @@ tags:
     - 🤭fat-rodolfo
 author: Rodolfo
 summary: Junkstr es un sistema de compra/venta por lotes que he estado creando junto a Patricio Vidal.
-featuredImage: /photos/2013-fat-rodolfo-next-to-the-ducky.jpg
+image: /photos/2013-fat-rodolfo-next-to-the-ducky.jpg
 ---
 
 Durante este mes hemos iniciado la etapa final de desarrollo de Junkstr, el sistema de compra/venta por lotes que he estado creando junto a [Patricio Vidal](https://twitter.com/trikio). Quería aprovechar el tiempo libre de las celebraciones de Septiembre para hablar sobre el producto que estamos creando y compartir con todos lo que estamos planificando lanzar pronto.

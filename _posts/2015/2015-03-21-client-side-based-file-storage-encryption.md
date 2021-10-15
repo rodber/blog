@@ -5,7 +5,7 @@ tags:
     - 💻systems
 author: Sape
 summary: Encryption in the client.
-featuredImage: /photos/2015-encryption.jpg
+image: /photos/2015-encryption.jpg
 ---
 
 Encryption is the process which encodes or transform data making it useless without the proper decryption mechanism. For example, it allows to transform a file, like a picture, into just useless bytes without the encryption key.

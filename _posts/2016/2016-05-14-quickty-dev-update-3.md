@@ -5,7 +5,7 @@ tags:
     - 🔬development
 author: rodber
 summary: Yet another recap on working side-by-side between Quickty and Chevereto.
-featuredImage: /photos/2016-quickty-growl.png
+image: /photos/2016-quickty-growl.png
 ---
 
 Recently I've been working in some really neat stuff and Quickty is looking awesome. In this update I will catch up a little bit and I will talk about more features and current development status.

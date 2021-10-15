@@ -7,7 +7,7 @@ tags:
     - 🤭fat-rodolfo
 author: Rodolfo
 summary: The making of video for Start-Up Chile.
-featuredImage: /photos/2013-junkstr-pitch.jpg
+image: /photos/2013-junkstr-pitch.jpg
 ---
 
 Making of [Junkstr pitch for SUP](http://www.youtube.com/watch?v=fT9rQ29iwI8).

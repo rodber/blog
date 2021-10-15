@@ -5,7 +5,7 @@ tags:
     - 📸photos
 author: Rodolfo
 summary: De cuando vivíamos en Club Y Pico con Domeyko.
-featuredImage: /photos/2012-santiago-chile.jpg
+image: /photos/2012-santiago-chile.jpg
 ---
 
 En realidad la calle se llama "Club Hípico" pero siempre me gustó jugar con eso.

@@ -6,7 +6,7 @@ tags:
     - 🤑money-making
 author: OMA
 summary: How do I pretend to monetize Chevereto?
-featuredImage: /photos/2021-monetize.png
+image: /photos/2021-monetize.png
 ---
 
 I want to scale Chevereto, to make it a large software development company and hire people to go beyond my single-person limitations.

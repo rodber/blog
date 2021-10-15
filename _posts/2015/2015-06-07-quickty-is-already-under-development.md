@@ -5,7 +5,7 @@ tags:
     - 🔬development
 author: rodber
 summary: The Chevereto for files is becoming a thing.
-featuredImage: /photos/2015-quickty-singup.png
+image: /photos/2015-quickty-singup.png
 ---
 
 Years ago I started to think in a second product based on what I’ve learned with Chevereto and it has been like my own _Duke Nukem_ in terms of countless delays to even start the development of the system. The delays are over and Quickty development has just started on mid-April 2015.

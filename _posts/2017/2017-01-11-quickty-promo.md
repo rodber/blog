@@ -5,7 +5,7 @@ tags:
     - 🤯showtime
 author: rodber
 summary: We're goin' for those pleasures in the night.
-featuredImage: /photos/2017-quickty-promo.png
+image: /photos/2017-quickty-promo.png
 ---
 
 > I made [a video](https://www.youtube.com/watch?v=9DrJKfVq6co) to showcase the Quickty user interface. If it goes down is because of copyright on the son I used from The Pointed Sisters.

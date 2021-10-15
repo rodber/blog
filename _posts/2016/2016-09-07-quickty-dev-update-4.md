@@ -5,7 +5,7 @@ tags:
     - 🔬development
 author: rodber
 summary: A fourth recap on working side-by-side between Quickty and Chevereto.
-featuredImage: /photos/2016-quickty-zoom.png
+image: /photos/2016-quickty-zoom.png
 ---
 
 Things are on track and is the perfect time to share cool stuff that is being cooked at [Chevereto HQ](https://www.google.cl/maps/place/Recoleta+463,+Recoleta,+Regi%C3%B3n+Metropolitana/@-33.4277109,-70.6464023,3a,48.7y,75h,92.63t/data=!3m6!1e1!3m4!1sPmZEAh-tyXSiJZCY9TJbJw!2e0!7i13312!8i6656!4m5!3m4!1s0x9662c5be3da3cc45:0x38c78a31cf2d30de!8m2!3d-33.4276189!4d-70.6463782).

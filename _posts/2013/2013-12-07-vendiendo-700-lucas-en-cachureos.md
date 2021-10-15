@@ -5,7 +5,7 @@ tags:
     - 🧪experiments
 author: Sape
 summary: Quiero vender CLP $700.000 en cachureos con Junkstr.
-featuredImage: /photos/2013-700-lucas-en-cachureos.jpg
+image: /photos/2013-700-lucas-en-cachureos.jpg
 ---
 
 Tienes [Junkstr](http://cl.junkstr.com/) y sabes que es un sistema que tiene que funcionar para quien vende y quien compra. La parte de quien vende o publica es fácil, es básicamente una UX que cualquiera ya se querría chorear para su propio proyecto y para quien compra es presentar un sistema intuitivo y fácil de cachurear. En este sentido ya estamos bien encaminados y hemos visto que funcionó bastante bien nuestra primera iteración.

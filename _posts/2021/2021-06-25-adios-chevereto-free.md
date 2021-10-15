@@ -5,7 +5,7 @@ tags:
     - 💔broken-harts
 author: OMA
 summary: Why I'm shutting down my Open Source software?
-featuredImage: /photos/2021-chevereto-free.jpeg
+image: /photos/2021-chevereto-free.jpeg
 ---
 
 In 2016 I released [Chevereto-Free 1.0.0](https://github.com/Chevereto/Chevereto-Free/releases/tag/1.0.0) with the goal of building another audience and to discourage piracy of my software. I did this move because I wanted to turn the project into a collaborative initiative as I was getting burned with the common "can you add X please?" or the "add this and you will make rich!" feedback.

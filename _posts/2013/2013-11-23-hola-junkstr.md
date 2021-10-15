@@ -5,7 +5,7 @@ tags:
     - 🤯showtime
 author: Rodolfo
 summary: El lanzamiento más piola y fome de la historia, contado desde primera fila.
-featuredImage: /photos/2013-junkstr-definido.jpg
+image: /photos/2013-junkstr-definido.jpg
 ---
 
 El 20 de noviembre lanzamos Junkstr aunque en realidad yo diría que lo habilitamos públicamente o algo así por que no cortamos cinta, ni teníamos una banda invitada, ni regalamos poleras o chapitas. Nada de eso. Simplemente lo dejamos ser, refleja lo que somos. ¿Fomes? Nada que ver, aterrizados y conscientes que lo único importante es el producto.

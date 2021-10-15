@@ -6,7 +6,7 @@ tags:
     - 🤑money-making
 author: OMA
 summary: Pushing towards a saner service provisioning
-featuredImage: /photos/2021-money.jpg
+image: /photos/2021-money.jpg
 ---
 
 Doing [Chevereto](https://chevereto.com/) allowed me to learn and understand the subtle needs of self-hosted services, specially those around money making for providing an image hosting service for others.

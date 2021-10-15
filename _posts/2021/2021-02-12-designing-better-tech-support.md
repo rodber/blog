@@ -5,7 +5,7 @@ tags:
     - 👴🏾experience
 author: Sape
 summary: How I'm driven a better support experience.
-featuredImage: /photos/2021-don-sata.jpeg
+image: /photos/2021-don-sata.jpeg
 ---
 
 For a couple of years I've been running experiments on my [Tech Support](https://chevereto.com/support) offering. I'm delivering support for ~15,000 active Chevereto installations at a minimum support cost.

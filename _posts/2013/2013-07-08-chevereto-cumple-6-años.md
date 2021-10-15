@@ -5,7 +5,7 @@ tags:
     - 🎉celebration
 author: OMA
 summary: Feliz 6to cumpleaños Chevereto.
-featuredImage: /photos/2013-chevereto-2.png
+image: /photos/2013-chevereto-2.png
 ---
 Hace ya seis años que estoy con el proyecto [Chevereto](https://chevereto.com), hasta ahora el proyecto más largo en que he estado involucrado y el cual ha pasado por todo: Fue un servicio, luego software libre, código abierto y desde el 2011 es código propietario y mi estable sustento.
 

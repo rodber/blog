@@ -7,7 +7,7 @@ tags:
     - 🔬development
 author: rodber
 summary: Taking back the fun to PHP.
-featuredImage: /photos/2013-g.png
+image: /photos/2013-g.png
 ---
 
 Remember the [framework](../2013/2013-09-02-the-g-library.md) thing I was talking mentioned in a previous post?

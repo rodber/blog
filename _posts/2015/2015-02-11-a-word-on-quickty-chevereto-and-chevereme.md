@@ -5,7 +5,7 @@ tags:
     - 🌎world-domination
 author: Rodolfo
 summary: People always ask me if I know a Chevereto for files.
-featuredImage: /photos/2015-quickty-logo.png
+image: /photos/2015-quickty-logo.png
 ---
 
 Since Chevereto 2.0, people has always asked me when I will release a «Chevereto for files» which is something that keeps my attention and that I want to make it real. This file sharing system already have a name and is Quickty. I want to take a few minutes to talk about Quickty, Chevereto and Chevere.me and how these products will be possible.

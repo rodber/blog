@@ -5,7 +5,7 @@ tags:
     - 👴🏾experience
 author: Sape
 summary: ¿Puedes vivir de tu propio código?
-featuredImage: /photos/2020-feels-good-man.jpg
+image: /photos/2020-feels-good-man.jpg
 ---
 
 Mi actividad productiva es el desarrollo de software, específicamente [software de servidores](https://en.wikipedia.org/wiki/Server-side) que son estas maquinas donde aplicaciones distribuidas (software) son ofrecidas al mundo gracias a Internet y ya van siete años en los que he estado trabajado exclusivamente para mis softwares. Yo no hago _freelance_, no tengo un trabajo que me solvente el _hobby_ y solamente tengo los ingresos provenientes del licenciamiento del software [Chevereto](https://chevereto.com/).

@@ -6,7 +6,7 @@ tags:
     - 🔬development
 author: rodber
 summary: Never liked the available frameworks, so I'm making a new one.
-featuredImage: /photos/2013-g.png
+image: /photos/2013-g.png
 ---
 
 Something that has come recently is a thing that so far I'm calling "G\ Library" and in [this post in Chevereto community](https://chevereto.com/community/threads/chevereto-3-feature-set-final.3288/page-26#post-22059) I talked about it briefly. Since that draft this thing has grow a lot and now I'm ready to talk more about it and explain why I think that is necessary and why I'm working on it.

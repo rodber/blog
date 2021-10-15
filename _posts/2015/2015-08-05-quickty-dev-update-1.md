@@ -5,7 +5,7 @@ tags:
     - 🔬development
 author: rodber
 summary: A recap on working side-by-side between Quickty and Chevereto.
-featuredImage: /photos/2015-quickty-peafowl.png
+image: /photos/2015-quickty-peafowl.png
 ---
 
 I’ve been working side-by-side between Quickty and Chevereto and several things have happened so far and I  think that is good time to share it. Currently I’m into an early stage of the front development stage so this post refers mostly to this process.

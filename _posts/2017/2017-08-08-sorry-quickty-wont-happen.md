@@ -5,7 +5,7 @@ tags:
     - 💔broken-harts 
 author: OMA
 summary: Dropping Quickty development and focus back on Chevereto.
-featuredImage: /photos/2017-nothing-to-see.jpg
+image: /photos/2017-nothing-to-see.jpg
 ---
 
 [Nothing to see here!](https://www.youtube.com/watch?v=aKnX5wci404)
