@@ -27,7 +27,7 @@ I can abstract predictable needs, but many stuff are too green and potential can
 
 My mess was caused by adding more toppings and enforcing new rules on users. For user gates that can be solved with request middleware, but for extra steps there's no one-size fits all solution. Plugin strategies (event sourcing among others) help on the toppings situation, but is not that flexible and it works best if the system needs are already predicted. Back to square one.
 
-## Here be Workflows
+## Here be Workflows!
 
 A workflow enables to define a procedure of a series of interconnected independent jobs. With workflows you care about the job units that define the process to solve the problem, not how abstract "the problem".
 
@@ -48,9 +48,9 @@ Some challenges:
 
 ## Chevere Workflow
 
-The [Workflow package](https://chevere.org/packages/Workflow.html) provides managing for complex workflow declarations. The package is freely available, and I'm using it on the controller layer of Chevereto V4 and some other systems. This post is actually a glorified ad for my package, _pretends to be shocked!_ as I believe using the workflow pattern can solve a ton of problems.
+The [Workflow package](https://chevere.org/packages/Workflow.html) provides managing for complex workflow declarations.  This post is a glorified ad for my package, _pretends to be shocked!_ as I believe using the workflow pattern can solve a ton of problems.
 
-✅ Superb workflow syntax.
+### Superb workflow syntax
 
 The most important aspect of Workflow is the end-user experience, is all about enable to easy solve progressive problems and its syntax is a reflection of this motto.
 
@@ -73,26 +73,42 @@ workflow(
 );
 ```
 
-✅ It uses `${var}` for declaring Workflow variables that must be passed by the Workflow runner. It uses `${job:key}` to reference previous jobs response keys.
+### Actions
+
+[Actions](https://chevere.org/library/Action.html) contains the logic for Workflow jobs, responsible for declaring the `run` method and its expected response parameters. Actions can be _anything_ although my recommendation is to keep actions minimal as possible.
+
+Don't hesitate to split a process in four, twelve or more job-actions. That's the point! The more you _unitize_ the procedures the easier it gets to maintain and keep all moving parts willing to move.
+
+### Variables & References
+
+It uses `${var}` for declaring Workflow variables that must be passed by the Workflow runner. It uses `${job:key}` to reference previous jobs response keys.
 
 Variables `${message}` and `${url}` are Workflow variables, `${prepare:payload}` is a job response variable reference. Job `send` needs a payload parameter, which pass `${prepare:payload}` as a variable reference. This job implicit declares that it depends on `prepare` job and it will run always after `prepare`.
 
-💡 You can explicit declare jobs dependencies using `withDepends`. A job won't run until their previous job dependencies are resolved.
+### Dependencies
 
-✅ Define async independent jobs, validated against the complete declaration. Jobs must be compatible with each other.
+Workflow supports to explicit declare jobs dependencies using `withDepends` method. A job won't run until their previous job dependencies are resolved, it determines a dependency graph for this purpose.
 
-If `Action::run` for `job` respond with `['user' => 'Rodolfo']`, other jobs can reference that variable as `${job:user}` to pass `Rodolfo` on runtime. If `another_job` references `${job:email}` it will fail to validate as the action in charge of `job` declares `user` as the only return key.
+### Async
 
-Jobs run async by default if no dependencies are implicit or explicit declared. It determines a dependency graph for this purpose.
+Workflow uses [amphp](https://amphp.org/) to handle parallel processing. This is _true parallel processing_ using multiple process or native threads, without blocking and no extensions required.
 
-✅ Actions Actions Actions
+Jobs run async by default if no dependencies are declared (either implicit or explicit).
 
-Actions contains the logic for Workflow jobs. Actions responsibility is to declare the `run` method and its expected response parameters (keys and types). Actions can be anything although the recommendation is to keep actions minimal as possible.
+### Strict
 
-Don't hesitate to split a process in four, twelve or more job-actions. That's the point! The more you _unitize_ the procedures the easier it gets to maintain and keep all moving parts willing to move.
+Workflow declaration gets validated against the complete declaration and Jobs must be compatible with each other. A Workflow won't run if it detects that Jobs aren't compatible.
+
+If `Action::run` for `job` respond with `['user' => 'Rodolfo']`, other jobs can freely reference that variable as `${job:user}` to pass `Rodolfo` on runtime. If a job references undeclared response keys, or if the value doesn't match type declaration the Workflow will emit an Exception.
+
+### Extensible
+
+Workflows can grow at wild and many strategies can be used for it. For example, using a base workflow for common functionality, pack related Actions in packages, add a plugin layer to enable users to add their own extra jobs, etc.
+
+The Workflow package, as the entire Chevere library, is completely [immutable](https://chevere.org/developer/standard/immutability.html). Users can safely use our logic in several different contexts where mutable code will be your doom, specially when using application runners.
 
 ## Feedback
 
 By the time I'm writing this the Workflow package is on early preview `0.2` and is missing must-have additions like conditional job syntax. You are welcome to contribute and provide feedback at [chevere/workflow](https://github.com/chevere/workflow).
 
-I hope this problem-solving approach can help you to attack your problems on a cheaper way, at least that's what my design and intentions aims for.
+I hope this problem-solving approach can help you to attack your problems on a cheaper and more maintainable manner, at least that's what my design and intentions aims for.
