@@ -97,7 +97,7 @@ Jobs run async by default if no dependencies are declared (either implicit or ex
 
 ### Strict
 
-Workflow declaration gets validated against the complete declaration and Jobs must be compatible with each other. A Workflow won't run if it detects that Jobs aren't compatible.
+Workflow gets validated against the complete declaration and Jobs must be compatible with each other. A Workflow won't run if it detects that Jobs aren't compatible.
 
 If `Action::run` for `job` respond with `['user' => 'Rodolfo']`, other jobs can freely reference that variable as `${job:user}` to pass `Rodolfo` on runtime. If a job references undeclared response keys, or if the value doesn't match type declaration the Workflow will emit an Exception.
 
