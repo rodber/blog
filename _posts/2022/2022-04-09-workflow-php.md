@@ -30,6 +30,8 @@ My mess was caused by adding more toppings and enforcing new rules on users. For
 
 ## Here be Workflows!
 
+![Workflow](/logos/chevere/packages/workflow/workflow-social-alt.svg)
+
 A workflow enables to define a procedure of a series of interconnected independent jobs. With workflows you care about the job units that define the process to solve the problem, not how abstract "the problem".
 
 ✨ Think about it as Lego, but instead of bricks we use Jobs which are made from templates called Actions.
