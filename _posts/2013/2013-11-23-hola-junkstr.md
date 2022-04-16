@@ -2,7 +2,7 @@
 date: 2013-11-23T07:29:00Z
 title: Hola Junkstr
 tags:
-    - 🤯showtime
+    - 🤯show
 author: Rodolfo
 summary: El lanzamiento más piola y fome de la historia, contado desde primera fila.
 image: /photos/2013-junkstr-definido.jpg

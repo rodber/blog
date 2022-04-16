@@ -3,7 +3,7 @@ date: 2013-09-02T22:36:00Z
 title: The G\ library
 tags:
     - 🐘php
-    - 🔬development
+    - 🔬dev
 author: rodber
 summary: Never liked the available frameworks, so I'm making a new one.
 image: /photos/2013-g.png

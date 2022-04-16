@@ -2,7 +2,7 @@
 date: 2013-09-19T00:44:00Z
 title: Pre-Presentando Junkstr
 tags:
-    - 🤯showtime
+    - 🤯show
     - 🤭fat-rodolfo
 author: Rodolfo
 summary: Junkstr es un sistema de compra/venta por lotes que he estado creando junto a Patricio Vidal.

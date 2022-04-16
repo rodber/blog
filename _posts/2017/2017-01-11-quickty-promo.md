@@ -2,7 +2,7 @@
 date: 2017-01-11T16:12:39Z
 title: Quickty Promo
 tags:
-    - 🤯showtime
+    - 🤯show
 author: rodber
 summary: We're goin' for those pleasures in the night.
 image: /photos/2017-quickty-promo.png
