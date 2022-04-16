@@ -5,6 +5,8 @@ title: Workflow for PHP
 tags:
     - 🤯showtime
     - 🔬development
+    - 🐘php
+    - 🥑chevere
 author: rodber
 summary: The Chevere workflow.
 image: /photos/2022-workflow.jpg

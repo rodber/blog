@@ -4,6 +4,8 @@ title: Hello, Chevere
 tags:
     - 🤯showtime
     - 🔬development
+    - 🐘php
+    - 🥑chevere
 author: rodber
 summary: My opinionated PHP framework for building extensible server-side applications.
 image: /photos/2020-chevere.png
