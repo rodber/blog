@@ -1,5 +1,6 @@
 ---
 date: 2022-04-09T15:55:48Z
+lastmod: 2022-04-16T17:21:29Z
 title: Workflow for PHP
 tags:
     - 🤯showtime
@@ -11,7 +12,7 @@ image: /photos/2022-workflow.jpg
 
 One of my goals with [Chevere](https://chevere.org) was to learn more problem-solving approaches and the culture that comes with these. I achieved this by consuming more software, starting with CI tools and I continued all the way up to esoteric software practices.
 
-Out of all I got exposed [GitHub Actions](https://github.com/features/actions) caught my attention: You can declare interconnected jobs and use actions published by third-parties to keep you productive. What interested me the most was the [workflow pattern](https://en.wikipedia.org/wiki/Workflow_pattern), which inspired me to create the [Workflow package](https://chevere.org/packages/Workflow.html) for Chevere.
+Out of all I got exposed [GitHub Actions](https://github.com/features/actions) caught my attention: You can declare interconnected jobs and use actions published by third-parties to keep you productive. What interested me the most was the [workflow pattern](https://en.wikipedia.org/wiki/Workflow_pattern), which inspired me to create the [Workflow package](https://chevere.org/packages/workflow) for Chevere.
 
 ## Introduction
 
@@ -48,7 +49,7 @@ Some challenges:
 
 ## Chevere Workflow
 
-The [Workflow package](https://chevere.org/packages/Workflow.html) provides managing for complex workflow declarations.  This post is a glorified ad for my package, _pretends to be shocked!_ as I believe using the workflow pattern can solve a ton of problems.
+The [Workflow package](https://chevere.org/packages/workflow) provides managing for complex workflow declarations.  This post is a glorified ad for my package, _pretends to be shocked!_ as I believe using the workflow pattern can solve a ton of problems.
 
 ### Superb workflow syntax
 
@@ -75,7 +76,7 @@ workflow(
 
 ### Actions
 
-[Actions](https://chevere.org/library/Action.html) contains the logic for Workflow jobs, responsible for declaring the `run` method and its expected response parameters. Actions can be _anything_ although my recommendation is to keep actions minimal as possible.
+[Actions](https://chevere.org/library/action) contains the logic for Workflow jobs, responsible for declaring the `run` method and its expected response parameters. Actions can be _anything_ although my recommendation is to keep actions minimal as possible.
 
 Don't hesitate to split a process in four, twelve or more job-actions. That's the point! The more you _unitize_ the procedures the easier it gets to maintain and keep all moving parts willing to move.
 
