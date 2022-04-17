@@ -11,9 +11,9 @@ summary: File-functions as templates for PHP.
 image: /photos/2022-danky-social.jpg
 ---
 
-When it comes to templates to generate documents there are two very distinctive approaches. You have raw stuff and template-syntax approaches where there's no programing language but placeholders for limited programming functionality.
+When it comes to templates to generate documents there are two distinctive approaches. You have raw code and template-syntax approaches where there's no programing language but placeholders for limited programming functionality.
 
-Codes below show these two approaches for PHP. Context-wise is the same thing for other languages with some distinctive differences of course.
+Codes below show these two approaches for PHP. Context-wise is the same thing for other languages.
 
 ```php
 // greet.php
@@ -21,9 +21,9 @@ Codes below show these two approaches for PHP. Context-wise is the same thing fo
 <h1><?php echo $greet; ?></h1>
 ```
 
-Code above is a raw template, where you use a PHP file with explicit placeholders. This is the primitive way to drive templates.
+Code above is a raw template, where you use a PHP file with explicit placeholders. This is the primitive way to create templates.
 
-Then there's template-syntax, which usually comes under their own extension:
+Then there's template-syntax, which comes under their own extension(s):
 
 ```php
 // greet.tpl
@@ -31,11 +31,11 @@ Then there's template-syntax, which usually comes under their own extension:
 <h1>{{ greet }}</h1>
 ```
 
-I never liked any of these alternatives because in both cases you end up with a file without context.
+I never liked any of these alternatives. In both cases you end up with a file without context.
 
 ## The problem with templates
 
-I get the idea of these files being anon bytes of code that can be re-used anywhere, but I don't see why these need to be **not-scoped** and **not declare** the variables it needs to handle. This brings a lot of issues, to name a few:
+I get the idea of these files being anon bytes of code that can be re-used, but I don't see why these need to be **not-scoped** and **not declare** the variables it needs to handle. This brings a lot of issues, to name a few:
 
 * Unrestricted access to data (raw templates).
 * Requires introspection to know which variables are required.
@@ -100,7 +100,7 @@ echo
     );
 ```
 
-🥳 **Congratulations**! You just mastered Danky.
+🥳 **Congratulations**! You mastered Danky.
 
 ```html
 <main>
