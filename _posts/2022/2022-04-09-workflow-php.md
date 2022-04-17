@@ -8,7 +8,7 @@ tags:
     - 🐘php
     - 🥑chevere
 author: rodber
-summary: The Chevere workflow.
+summary: Workflow for PHP in a similar fashion to GitHub Actions.
 image: /photos/2022-workflow.jpg
 ---
 
