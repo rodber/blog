@@ -9,7 +9,7 @@ tags:
     - 🥑chevere
 author: rodber
 summary: Workflow for PHP in a similar fashion to GitHub Actions.
-image: /photos/2022-workflow.jpg
+image: /logos/chevere/packages/workflow/workflow-social.png
 ---
 
 One of my goals with [Chevere](https://chevere.org) was to learn more problem-solving approaches and the culture that comes with these. I achieved this by consuming more software, starting with CI tools and I continued all the way up to esoteric software practices.
@@ -18,7 +18,7 @@ Out of all I got exposed [GitHub Actions](https://github.com/features/actions) c
 
 ## Introduction
 
-When I have to write a new system I try to keep it neat and clean. To achieve this I do TDD, ensure a good code coverage threshold and if fancy times aim for high [MSI](https://en.wikipedia.org/wiki/Mutation_testing). I should say "ideally" because that's not always the case (is the oddity) as this approach is freaking expensive and not needed for most organizations.
+When I have to write a new system I try to keep it neat and clean. To achieve this I do TDD, ensure a good code coverage threshold and if fancy times aim for high [MSI](https://en.wikipedia.org/wiki/Mutation_testing). This is not always the case (is the oddity) as this approach is freaking expensive and not needed for most organizations.
 
 If a system is evolving (as it should!) it will eventually get patched the MVP way, which is to add features the quickest. Once done, who cares... It works and we are printing money. While the product get features this fashion it does increasing technical debt. This will happen in any project as teams change, people bring different approaches, tech evolves, the only guy who knows the system that deep is now 90 years old, etc.
 
@@ -32,26 +32,26 @@ My mess was caused by adding more toppings and enforcing new rules on users. For
 
 ## Here be Workflows!
 
-![Workflow](/logos/chevere/packages/workflow/workflow-social-alt.svg)
-
 A workflow enables to define a procedure of a series of interconnected independent jobs. With workflows you care about the job units that define the process to solve the problem, not how abstract "the problem".
 
 ✨ Think about it as Lego, but instead of bricks we use Jobs which are made from templates called Actions.
 
 A workflow-based approach has interesting advantages:
 
-* Actions can be re-used
-* Testing gets lighter on Workflows ("the problem")
-* Easy re-arrange jobs and its dependencies
-* Room for endless additions
+* Actions are re-usable.
+* Testing gets lighter on Workflows ("the problem").
+* Easy re-arrange jobs and its dependencies.
+* Room for endless additions.
 
-Some challenges:
+**Challenges**:
 
-* Async execution
-* Validate declaration
-* Complex conditions
+* Async (parallel) execution.
+* Validate declaration.
+* Run-if conditions.
 
 ## Chevere Workflow
+
+![Workflow](/logos/chevere/packages/workflow/workflow-social-alt.svg)
 
 The [Workflow package](https://chevere.org/packages/workflow) provides managing for complex workflow declarations.  This post is a glorified ad for my package, _pretends to be shocked!_ as I believe using the workflow pattern can solve a ton of problems.
 
@@ -92,7 +92,7 @@ Variables `${message}` and `${url}` are Workflow variables, `${prepare:payload}`
 
 ### Dependencies
 
-Workflow supports to explicit declare jobs dependencies using `withDepends` method. A job won't run until their previous job dependencies are resolved, it determines a dependency graph for this purpose.
+Workflow supports explicit declare jobs dependencies using `withDepends` method. A job won't run until their previous job dependencies are resolved, it determines a dependency graph for this purpose.
 
 ### Async
 

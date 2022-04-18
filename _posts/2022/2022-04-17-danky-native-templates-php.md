@@ -8,12 +8,12 @@ tags:
     - 🥑chevere
 author: rodber
 summary: File-functions as templates for PHP.
-image: /photos/2022-danky-social.jpg
+image: /logos/chevere/packages/danky/danky-social.jpg
 ---
 
-When it comes to templates to generate documents there are two distinctive approaches. You have raw code and template-syntax approaches where there's no programing language but placeholders for limited programming functionality.
+When it comes to templates there are two distinctive approaches. You have raw code, and template-syntax where there's no programing language but placeholders for limited programming functionality.
 
-Codes below show these two approaches for PHP. Context-wise is the same thing for other languages.
+Code below is a raw template, where you use a PHP file with explicit `<?php` placeholders for PHP syntax. This is the primitive way to create templates.
 
 ```php
 // greet.php
@@ -21,9 +21,7 @@ Codes below show these two approaches for PHP. Context-wise is the same thing fo
 <h1><?php echo $greet; ?></h1>
 ```
 
-Code above is a raw template, where you use a PHP file with explicit placeholders. This is the primitive way to create templates.
-
-Then there's template-syntax, which comes under their own extension(s):
+Then there's template-syntax, which appeared as an answer to how ugly and unsafe it gets to create raw templates.
 
 ```php
 // greet.tpl
@@ -31,11 +29,13 @@ Then there's template-syntax, which comes under their own extension(s):
 <h1>{{ greet }}</h1>
 ```
 
-I never liked any of these alternatives. In both cases you end up with a file without context.
+😣 I never liked any of these alternatives. This is because in both cases you end up with template file without any context.
 
 ## The problem with templates
 
-I get the idea of these files being anon bytes of code that can be re-used, but I don't see why these need to be **not-scoped** and **not declare** the variables it needs to handle. This brings a lot of issues, to name a few:
+I get the idea of these template files being anon bytes of code that can be re-used. But I don't see why these need to be **not scoped** and **not declare** the variables it needs to handle.
+
+This brings a lot of issues:
 
 * Unrestricted access to data (raw templates).
 * Requires introspection to know which variables are required.
@@ -44,11 +44,13 @@ I get the idea of these files being anon bytes of code that can be re-used, but 
 
 ## My takeaway
 
-If templates where **anonymous file-return functions**, it will declare its scope and variables, adding context for these. This enables to easier detect issues on template wiring and to enforce types on variables. It also makes templates easier to tests.
+If templates where **anonymous file-return functions**, they will declare its scope and variables, adding context for these. This enables to easier detect issues on template wiring and to enforce types on variables, making templates trivial to tests.
 
 😘 In this post I introduce [Danky](https://chevere.org/packages/danky), which I created to avoid the caveats of traditional template systems.
 
 ## What is Danky?
+
+![Danky](/logos/chevere/packages/danky/danky-social-alt.svg)
 
 Danky is a native template system for PHP. Contrary to all other template systems and engines, in Danky **templates are functions** provided as file returns.
 

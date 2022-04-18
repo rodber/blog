@@ -8,12 +8,12 @@ tags:
     - 🥑chevere
 author: rodber
 summary: My opinionated PHP framework for building extensible server-side applications.
-image: /photos/2020-chevere.png
+image: /logos/chevere/chevere-social.png
 ---
 
 I've created a PHP development framework, and I called it [Chevere](https://chevere.org/). I named it Chevere with the explicit intention to honor how [Chevereto](https://chevereto.com/) pushed me into another stage of my career.
 
-> The word [_chévere_](https://en.wiktionary.org/wiki/ch%C3%A9vere) literally means terrific, cool, awesome, nifty. Perfect naming for a software product!
+> The word [_chévere_](https://en.wiktionary.org/wiki/ch%C3%A9vere) means terrific, cool, awesome, nifty. Perfect naming for a software product!
 
 This is the second framework I [announce](../2014/2014-03-14-introducing-g-library.md) and this time I'm better prepared for the challenge. The original idea that I had [the first time](../2013/2013-09-02-the-g-library.md) is still there and I've been all these years lurking for more knowledge to make it happen.
 
