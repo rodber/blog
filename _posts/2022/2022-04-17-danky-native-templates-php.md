@@ -3,7 +3,6 @@ date: 2022-04-17T13:51:19Z
 title: Danky, native templates for PHP
 tags:
     - 🤯show
-    - 🔬dev
     - 🐘php
     - 🥑chevere
 author: rodber
@@ -42,9 +41,9 @@ This brings a lot of issues:
 * Can't tell if the template is missing a variable unless it panics.
 * Templates gets harder to test.
 
-## My takeaway
+## My solution
 
-If templates where **anonymous file-return functions**, they will declare its scope and variables, adding context for these. This enables to easier detect issues on template wiring and to enforce types on variables, making templates trivial to tests.
+If templates were **anonymous file-return functions**, they will declare its scope and variables, adding context for these. This enables to easier detect issues on template wiring and to enforce types on variables, making templates trivial to tests.
 
 😘 In this post I introduce [Danky](https://chevere.org/packages/danky), which I created to avoid the caveats of traditional template systems.
 

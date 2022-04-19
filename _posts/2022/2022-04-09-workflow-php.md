@@ -4,7 +4,6 @@ lastmod: 2022-04-16T17:21:29Z
 title: Workflow for PHP
 tags:
     - 🤯show
-    - 🔬dev
     - 🐘php
     - 🥑chevere
 author: rodber
@@ -14,13 +13,13 @@ image: /logos/chevere/packages/workflow/workflow-social.png
 
 One of my goals with [Chevere](https://chevere.org) was to learn more problem-solving approaches and the culture that comes with these. I achieved this by consuming more software, starting with CI tools and I continued all the way up to esoteric software practices.
 
-Out of all I got exposed [GitHub Actions](https://github.com/features/actions) caught my attention: You can declare interconnected jobs and use actions published by third-parties to keep you productive. What interested me the most was the [workflow pattern](https://en.wikipedia.org/wiki/Workflow_pattern), which inspired me to create the [Workflow package](https://chevere.org/packages/workflow) for Chevere.
+Out of all I was exposed [GitHub Actions](https://github.com/features/actions) caught my attention: You can declare interconnected jobs and use actions published by third-parties to keep you productive. What interested me the most was the [workflow pattern](https://en.wikipedia.org/wiki/Workflow_pattern), which inspired me to create the [Workflow package](https://chevere.org/packages/workflow) for Chevere.
 
 ## Introduction
 
-When I have to write a new system I try to keep it neat and clean. To achieve this I do TDD, ensure a good code coverage threshold and if fancy times aim for high [MSI](https://en.wikipedia.org/wiki/Mutation_testing). This is not always the case (is the oddity) as this approach is freaking expensive and not needed for most organizations.
+When I have to write a new system I try to keep it neat and clean. To achieve this I do TDD, ensure a good code coverage threshold and if fancy times aim for high [MSI](https://en.wikipedia.org/wiki/Mutation_testing). This is not always the case (is the oddity) as this approach gets expensive and not needed for most organizations.
 
-If a system is evolving (as it should!) it will eventually get patched the MVP way, which is to add features the quickest. Once done, who cares... It works and we are printing money. While the product get features this fashion it does increasing technical debt. This will happen in any project as teams change, people bring different approaches, tech evolves, the only guy who knows the system that deep is now 90 years old, etc.
+Any evolving system could be eventually get patched the MVP way, which is to add features the quickest. Once done, who cares... It works and we are printing money. While the product get features this fashion it does increasing technical debt. This will happen in any project as teams change, people bring different approaches, tech evolves, the only guy who knows the system that deep is now 90 years old, etc.
 
 At some point it will be expensive to go in any direction namely to maintain, to change or to replace it.
 
@@ -28,7 +27,7 @@ At some point it will be expensive to go in any direction namely to maintain, to
 
 I can abstract predictable needs, but many stuff are too green and potential candidates for re-factoring loop as it evolves. I realized that my code went wrong when new business rules keep being added for a long period (4 years). You know how it goes, one writes a clean implementation and years later it has a galore of prep steps, moderation enforcement, etc.
 
-My mess was caused by adding more toppings and enforcing new rules on users. For user gates that can be solved with request middleware, but for extra steps there's no one-size fits all solution. Plugin strategies (event sourcing among others) help on the toppings situation, but is not that flexible and it works best if the system needs are already predicted. Back to square one.
+My mess was caused by adding more features and enforcing new rules on users. For user restrictions you apply request middleware, but for random extra stuff there's no one-size fits all solution. Plugin strategies (event sourcing among others) help, but is not that flexible and it works best if the system needs are already predicted. Back to square one.
 
 ## Here be Workflows!
 
