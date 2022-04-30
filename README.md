@@ -1,6 +1,6 @@
 # Rodolfo Berrios
 
-This is my personal blog which gets automatically published to [rodolfo.is](https://rodolfo.is).
+This is my personal blog which gets automatically published to [rodolfoberrios.com](https://rodolfoberrios.com).
 
 ## Get yours
 

@@ -28,7 +28,7 @@ Luego de cinco meses en GRM renuncié para incorporarme a [Doomos](https://www.d
 
 En 2011 lancé [Chevereto 2.0](https://github.com/chevereto/chevereto-2), la primera versión con una tarifa de licenciamiento. Cuando lo lancé venia saliendo de GRM y me encontraba recién trabajando en Doomos, donde me despidieron como al año cuando la empresa tuvo que reducir toda su operación.
 
-> Años después con Pato hicimos [Yunke](https://rodolfo.is/2013/11/23/hola-junkstr/), donde nos ganamos un [SUP](https://www.startupchile.org/).
+> Años después con Pato hicimos [Yunke](https://rodolfoberrios.com/2013/11/23/hola-junkstr/), donde nos ganamos un [SUP](https://www.startupchile.org/).
 
 Desde entonces nunca más he trabajado en código que no sea de mi propiedad, todo es mio. No he vuelto a ser asalariado de nadie.
 

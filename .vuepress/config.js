@@ -43,7 +43,7 @@ module.exports = {
             name: 'msapplication-TileColor',
             content: '#000000'
         }],
-        ['meta', { 
+        ['meta', {
             name: 'viewport',
             content: 'width=device-width, initial-scale=1.0'
         }]
@@ -100,7 +100,7 @@ module.exports = {
             ],
         },
         sitemap: {
-            hostname: 'https://rodolfo.is/'
+            hostname: 'https://rodolfoberrios.com/'
         },
         // comment: {
         //   service: 'disqus',
@@ -110,7 +110,7 @@ module.exports = {
         //   endpoint: '/'
         // },
         feed: {
-            canonical_base: 'https://rodolfo.is/',
+            canonical_base: 'https://rodolfoberrios.com/',
             sort: (entries) => reverse(sortBy(entries, 'date')),
         },
         smoothScroll: true

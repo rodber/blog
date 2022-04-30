@@ -11,11 +11,11 @@ image: /photos/2020-jesus.jpg
 
 Pasó mucho tiempo (35 meses) desde la última vez que escribí en mi blog, aquel que inicié por 2012 cuando tenia tiernos veintisiempre.
 
-## Ahora en rodolfo.is
+## Ahora en rodolfoberrios.com
 
-Yo solía bloguear en [rodolfoberrios.com](https://rodolfoberrios.com/) pero ahora en adelante lo haré en [rodolfo.is](https://rodolfo.is/).
+Yo solía bloguear en [rodolfoberrios.com](https://rodolfoberrios.com/) pero ahora en adelante lo haré en [rodolfoberrios.com](https://rodolfoberrios.com/).
 
-Elegí el ccTLD (is) por que me permite armar URLs del tipo `rodolfo.is/pissing-out-the-tiesto` et al. _That way I can_ tirar la talla _with URL semantics_.
+Elegí el ccTLD (is) por que me permite armar URLs del tipo `rodolfoberrios.com/pissing-out-the-tiesto` et al. _That way I can_ tirar la talla _with URL semantics_.
 
 Aparte, sentía que `rodolfoberrios.com` nunca fue y más encima me trae ene recuerdos de cosas añejas que quiero superar y dejar atrás.
 
