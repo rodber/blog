@@ -1,12 +1,13 @@
 ---
 date: 2022-04-17T13:51:19Z
+lastmod: 2022-05-02T18:30:29Z
 title: Danky, native templates for PHP
 tags:
     - 🤯show
     - 🐘php
     - 🥑chevere
 author: rodber
-summary: File-functions as templates for PHP.
+summary: Classes as templates for PHP.
 image: /logos/chevere/packages/danky/danky-social.jpg
 ---
 
@@ -45,7 +46,7 @@ This brings a lot of issues:
 
 ## My solution
 
-If templates were **anonymous file-return functions**, they will declare its scope and variables, adding context for these. This enables to easier detect issues on template wiring and to enforce types on variables, making templates trivial to tests.
+If templates where **classes**, they will declare its scope and variables, adding context for these. This enables to easier detect issues on template wiring and to enforce types on variables, making templates trivial to tests.
 
 😘 In this post I introduce [Danky](https://chevere.org/packages/danky), which I created to avoid the caveats of traditional template systems.
 
@@ -53,63 +54,46 @@ If templates were **anonymous file-return functions**, they will declare its sco
 
 ![Danky](/logos/chevere/packages/danky/danky-social-alt.svg)
 
-Danky is a native template system for PHP. Contrary to all other template systems and engines, in Danky **templates are functions** provided as file returns.
+Danky is a native template system for PHP. Contrary to all other template systems and engines, in Danky **templates are classes**.
 
-🦄 In Danky, templates **explicit declare** its scope, parameters and `string` return type.
+🦄 In Danky, templates **explicit declare** its scope.
 
 ```php
-<?php // quote.php
+<?php // Quote.php
 
-return function(string $text, string $author): string {
-    return
-        <<<HTML
-        <quote>"$text" --$author</quote>
-        HTML;
+use Chevere\Danky\Template;
+
+class Quote extends Template
+{
+    public function __construct(string $text, string $author) {
+        $this->render =
+            <<<HTML
+            <quote>"$text" --$author</quote>
+            HTML;
+    }
 };
 ```
 
 That `<<<HTML ...` is [Heredoc](https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc) syntax [string literal](https://www.php.net/manual/en/language.types.string.php). In Danky, you use all the stuff that _has been always there_ to handle multi-line string literals. Heredoc is great for templates as it evaluates variables, making templates clean to read.
 
 ```php
-<?php // home.php
-
-return function(string $content): string {
-    return
-        <<<HTML
-        <main>
-            $content
-        </main>
-        HTML;
-}
-```
-
-👽 Next, `import` which runs the template function.
-
-```php
-<?php // index.php
-
-use function Chevere\Danky\import;
-
-require_once __DIR__ . '/vendor/autoload.php';
-
+<?php
 echo
-    import(
-        'home',
-        content: import(
-            'quote',
-            text: 'Hello, world!',
-            author: 'Rodolfo'
-        )
+    new Quote(
+        text: 'Hello, world!',
+        author: 'Rodolfo'
     );
 ```
 
-🥳 **Congratulations**! You mastered Danky.
+Which produces:
 
 ```html
 <main>
     <quote>"Hello, world!" --Rodolfo</quote>
 </main>
 ```
+
+🥳 **Congratulations**! You mastered Danky.
 
 ### Name meaning
 
