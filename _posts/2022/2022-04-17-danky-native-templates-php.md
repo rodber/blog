@@ -1,6 +1,6 @@
 ---
 date: 2022-04-17T13:51:19Z
-lastmod: 2022-05-02T18:30:29Z
+lastmod: 2022-05-02T22:04:10Z
 title: Danky, native templates for PHP
 tags:
     - 🤯show
@@ -74,6 +74,8 @@ class Quote extends Template
 
 That `<<<HTML ...` is [Heredoc](https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc) syntax [string literal](https://www.php.net/manual/en/language.types.string.php). In Danky, you use all the stuff that _has been always there_ to handle multi-line string literals. Heredoc is great for templates as it evaluates variables, making templates clean to read.
 
+Templates must assign the `$render` property, which accepts `string` and `Template` types. When needing to render the template is easy as:
+
 ```php
 <?php
 echo
@@ -83,12 +85,10 @@ echo
     );
 ```
 
-Which produces:
+Which echoes:
 
 ```html
-<main>
-    <quote>"Hello, world!" --Rodolfo</quote>
-</main>
+<quote>"Hello, world!"</quote>
 ```
 
 🥳 **Congratulations**! You mastered Danky.
