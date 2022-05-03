@@ -12,7 +12,14 @@ image: /org/chevere/packages/throwable-handler/throwable-handler-social.png
 
 New from [Chevere](https://chevere.org) is the [chevere/throwable-handler](https://chevere.org/packages/throwable-handler) package for PHP. This software enables to easily configure how a PHP logic handles its exceptions, with a myriad of alternatives to support generating documents for HTML, console and plain-text.
 
-![Fortachin](/org/chevere/packages/throwable-handler/throwable-handler-social.png)
+## Demo
+
+![HTML demo](/org/chevere/packages/throwable-handler/demo.svg)
+
+* [HTML](https://chevere.github.io/throwable-handler/demo/output/html.html)
+* [HTML (silent)](https://chevere.github.io/throwable-handler/demo/output/html-silent.html)
+* [Plain text](https://chevere.github.io/throwable-handler/demo/output/plain.txt)
+* [Console (asciinema)](https://asciinema.org/a/qqrx4VwYsLgMB5dmuSzSjr7G7)
 
 ## Features
 
