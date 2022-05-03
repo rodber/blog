@@ -1,14 +1,14 @@
 ---
 date: 2022-04-17T13:51:19Z
-lastmod: 2022-05-02T22:04:10Z
-title: Danky, native templates for PHP
+lastmod: 2022-05-03T15:30:33Z
+title: Danky, typed native templates for PHP
 tags:
     - 🤯show
     - 🐘php
     - 🥑chevere
 author: rodber
 summary: Classes as templates for PHP.
-image: /logos/chevere/packages/danky/danky-social.jpg
+image: /org/chevere/packages/danky/danky-social.jpg
 ---
 
 When it comes to templates there are two distinctive approaches. You have raw code, and template-syntax where there's no programing language but placeholders for limited programming functionality.
@@ -50,7 +50,7 @@ If templates where **classes**, they will declare its scope and variables, addin
 
 ## What is Danky?
 
-![Danky](/logos/chevere/packages/danky/danky-social-alt.svg)
+![Danky](/org/chevere/packages/packages/danky/danky-social-alt.svg)
 
 Danky is a native template system for PHP. Contrary to all other template systems and engines, in Danky **templates are classes**.
 

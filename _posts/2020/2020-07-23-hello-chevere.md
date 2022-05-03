@@ -8,7 +8,7 @@ tags:
     - 🥑chevere
 author: rodber
 summary: My opinionated PHP framework for building extensible server-side applications.
-image: /logos/chevere/chevere-social.png
+image: /org/chevere/packages/chevere/chevere-social.png
 ---
 
 I've created a PHP development framework, and I called it [Chevere](https://chevere.org/). I named it Chevere with the explicit intention to honor how [Chevereto](https://chevereto.com/) pushed me into another stage of my career.

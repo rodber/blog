@@ -8,7 +8,7 @@ tags:
     - 🥑chevere
 author: rodber
 summary: Workflow for PHP in a similar fashion to GitHub Actions.
-image: /logos/chevere/packages/workflow/workflow-social.png
+image: /org/chevere/packages/workflow/workflow-social.png
 ---
 
 One of my goals with [Chevere](https://chevere.org) was to learn more problem-solving approaches and the culture that comes with these. I achieved this by consuming more software, starting with CI tools and I continued all the way up to esoteric software practices.
@@ -50,7 +50,7 @@ A workflow-based approach has interesting advantages:
 
 ## Chevere Workflow
 
-![Workflow](/logos/chevere/packages/workflow/workflow-social-alt.svg)
+![Workflow](/org/chevere/packages/workflow/workflow-social-alt.svg)
 
 The [Workflow package](https://chevere.org/packages/workflow) provides managing for complex workflow declarations.  This post is a glorified ad for my package, _pretends to be shocked!_ as I believe using the workflow pattern can solve a ton of problems.
 
