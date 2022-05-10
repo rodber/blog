@@ -2,7 +2,6 @@
 date: 2022-05-03T15:29:55Z
 title: Throwable Handler for PHP
 tags:
-    - 🤯show
     - 🐘php
     - 🥑chevere
 author: rodber
