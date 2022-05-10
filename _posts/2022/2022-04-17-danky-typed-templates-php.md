@@ -56,7 +56,7 @@ If templates where **classes**, they can declare its scope and variables, adding
 
 ## What is Danky?
 
-![Danky](/org/chevere/packages/packages/danky/danky-social-alt.svg)
+![Danky](/org/chevere/packages/danky/danky-social-alt.svg)
 
 Danky is a native template system for PHP. Contrary to all other template systems and engines, in Danky **templates are classes**.
 
