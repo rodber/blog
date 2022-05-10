@@ -24,16 +24,16 @@ New from [Chevere](https://chevere.org) is the [chevere/throwable-handler](https
 
 There's a strong focus in consistency. All documents share the exact same text content, try copying the HTML text and it will match console and plain-text representations. This is because the system is intended to be used in contexts where users and/or developers need to share these documents.
 
-- Multiple use modes (auto, triggered, manual)
-- Supports nested throwables (`previous: $e`)
-- Console document
-  - Colorful console output (where available)
-- Plain document
-  - Same as console (no-color)
-  - Same as copy HTML text
-- HTML document
-  - Responsive design (narrow devices)
-  - Silent mode for end-user
+* Multiple use modes (auto, triggered, manual)
+* Supports nested throwables (`previous: $e`)
+* Console document
+  * Colorful console output (where available)
+* Plain document
+  * Same as console (no-color)
+  * Same as copy HTML text
+* HTML document
+  * Responsive design (narrow devices)
+  * Silent mode for end-user
 
 The system enables to go all-auto or fine-tune everything, all depends on how your app works.
 
