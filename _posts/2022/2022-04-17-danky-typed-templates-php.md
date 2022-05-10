@@ -1,6 +1,6 @@
 ---
 date: 2022-04-17T13:51:19Z
-lastmod: 2022-05-10T14:19:19Z
+lastmod: 2022-05-10T18:04:43Z
 title: Danky, typed templates for PHP
 tags:
     - 🐘php
@@ -42,23 +42,37 @@ This brings a lot of issues:
 
 The more relevant issue is that templates makes you to repeat yourself because of the **unpredictable coupling** between template and its replacements. If the template file change variables, the system that perform template parsing and the test to check the outcome must change.
 
-### On the wild
+### Save `<nil>` on your ride
 
-This error on Uber (reported by [@ynorsk](https://twitter.com/ynorsk/status/1512746491261116419), [@rogeriopvl](https://twitter.com/rogeriopvl/status/1512686156223328260), [@delroth_](https://twitter.com/delroth_/status/1512604223573315586) and [@ignacio_s](https://mobile.twitter.com/ignacio_s/status/1512844950135664648)) is remarkable as users received a notification message that reads `Ready to ride again? Save <nil>`. To get these _nil savings_ it means that someone forgot to check for the passed value and a null got fault-tolerant interpreted in a template file as `<nil>`.
+This error on Uber (reported by [@ynorsk](https://twitter.com/ynorsk/status/1512746491261116419), [@rogeriopvl](https://twitter.com/rogeriopvl/status/1512686156223328260), [@delroth_](https://twitter.com/delroth_/status/1512604223573315586) and [@ignacio_s](https://mobile.twitter.com/ignacio_s/status/1512844950135664648)) is remarkable as users received a notification message that reads:
 
-To be fair, I ignore if Uber uses a template for these notifications as this could happen in any weak-typed system. The issue that should be troubling your head at this time is that if Uber used a template system then it may be coupled, and if Uber didn't use a template then they are passing uncontrolled weak types internally. In any case, I think that the situation is ridiculous for a company of the size and technological footprint as Uber.
+```plain
+Ready to ride again? Save <nil>
+```
 
-## My solution
+To get these _nil savings_ it means that someone forgot to check for the passed value and a null got fault-tolerant interpreted as `<nil>`. This can happen in any weak-typed system, not limited to just templates. I ignore how Uber handles the generation of that text, but it doesn't matter as the issue that should be troubling your head right now is how a company of the size and technological footprint as Uber can be affected by something like this where a simple `string` type declaration would have prevent that text from being generated.
 
-If templates where **classes**, they can declare its scope and variables, adding context. This enables easier detect issues on template wiring and to enforce types on variables, making templates trivial to change and tests.
-
-😘 In this post I introduce [Danky](https://chevere.org/packages/danky), which I created to avoid the caveats of traditional template systems.
-
-## What is Danky?
+## Introducing Danky
 
 ![Danky](/org/chevere/packages/danky/danky-social-alt.svg)
 
-Danky is a native template system for PHP. Contrary to all other template systems and engines, in Danky **templates are classes**.
+[Danky](https://chevere.org/packages/danky) is a native typed template system for PHP. Contrary to all other template systems and engines, in Danky **templates are classes**, which declare its scope and variables, adding language level context to templates.
+
+Some benefits of using Danky:
+
+* Explicit scope, variables and types.
+* Static template wiring (linting, references, etc).
+* Easy re-factoring, one-click class renaming.
+* Templates become trivial to test.
+
+There's also a few caveats:
+
+* Requires auto-loading.
+* You have to write _a bit more_.
+
+The tradeoff is more than appealing. Sure, you have to organize your template in such fashion compatible with auto-loading, but as your other logic classes are already doing that is not that dramatic isn't? Also, you don't need to to learn a new syntax, Danky is just PHP code and the extra verbosity shouldn't really bother you.
+
+### Demo
 
 🦄 In Danky, templates **explicit declare** its scope.
 
