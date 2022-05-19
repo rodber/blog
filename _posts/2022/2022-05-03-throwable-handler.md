@@ -1,6 +1,7 @@
 ---
 date: 2022-05-03T15:29:55Z
-title: Throwable Handler for PHP
+lastmod: 2022-05-19T14:09:07Z
+title: ThrowableHandler for PHP
 tags:
     - 🐘php
     - 🥑chevere
@@ -9,7 +10,11 @@ summary: Multi-purpose throwable handling.
 image: /org/chevere/packages/throwable-handler/throwable-handler-social.png
 ---
 
-New from [Chevere](https://chevere.org) is the [chevere/throwable-handler](https://chevere.org/packages/throwable-handler) package for PHP. This software enables to easily configure how a PHP logic handles its exceptions, with a myriad of alternatives to support generating documents for HTML, console and plain-text.
+New from [Chevere](https://chevere.org) is the [chevere/throwable-handler](https://chevere.org/packages/throwable-handler) package for PHP. This software enables to configure a friendly error handling, with a myriad of alternatives to support generating documents for HTML, console and plain-text.
+
+Error handling has been a nasty experience for me as users trend to freak out when error happens. This gets horrible in PHP context as the infra dribbles on top of plenty moving parts, it is easy to get frustrated. When people get in that mood it gets complicated to carry further communication. I figured out that I needed to create a _really friendly_ error handling experience for everyone involved, specially me.
+
+The error should be explicit, with a clear document hierarchy that anyone can understand, specially non-developers. I needed portability so peers can share, and it must be available in all contexts required by [Chevereto](https://chevereto.com) (HTTP, CLI, log).
 
 ## Demo
 
@@ -23,17 +28,6 @@ New from [Chevere](https://chevere.org) is the [chevere/throwable-handler](https
 ## Features
 
 There's a strong focus in consistency. All documents share the exact same text content, try copying the HTML text and it will match console and plain-text representations. This is because the system is intended to be used in contexts where users and/or developers need to share these documents.
-
-* Multiple use modes (auto, triggered, manual)
-* Supports nested throwables (`previous: $e`)
-* Console document
-  * Colorful console output (where available)
-* Plain document
-  * Same as console (no-color)
-  * Same as copy HTML text
-* HTML document
-  * Responsive design (narrow devices)
-  * Silent mode for end-user
 
 The system enables to go all-auto or fine-tune everything, all depends on how your app works.
 
