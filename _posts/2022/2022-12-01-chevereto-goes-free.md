@@ -13,15 +13,15 @@ At Chevereto we now provide a brand new free edition for personal usage, with sa
 
 The motivation for this new free edition is that Chevereto's paywall drives away too many users in a market dominated by free tier players. I'm amazed that we made it this far with a tall entry barrier like that one.
 
-I took a ton of lessons from the failed [Chevereto-Free](https://github.com/rodber/chevereto-free) project and I'm doing things with more brains. In this post I want to expose this new project and what I learned from my previous experiences.
+I took a ton of lessons from my previous Open Source projects and I'm doing things with more brains. In this post I want to expose this new project and what I learned from my previous experiences.
 
 ## Chevereto 1, 2 & Chevereto-Free
 
 Open Source in Chevereto has been a thing since its first version and I've been trying to succeed with [FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) within 15 years of its development. All these previous attempts have failed in commercial terms which is crucial for me and the longevity of the project.
 
-With [Chevereto V1](https://releases.chevereto.com/1.X/) I learned that I needed a paid edition to move forward. With [Chevereto V2](https://releases.chevereto.com/2.X/) I realized that giving away old major releases doesn't catch the eye. With Chevereto-Free I understood  that the value proposition must be more compiling and that removing a few features won't direct drive sales.
+With [Chevereto V1](https://releases.chevereto.com/1.X/) I learned that I needed a paid edition to move forward. With [Chevereto V2](https://releases.chevereto.com/2.X/) I realized that giving away old major releases doesn't catch the eye. With [Chevereto-Free](https://github.com/rodber/chevereto-free) I understood  that the value proposition must be more compiling and that removing a few features won't direct drive sales.
 
-Out of all these free editions the most known was Chevereto-Free which lasted for about 5 years. What went wrong? A lot! Keep reading.
+Out of all these free editions the most known was Chevereto-Free which lasted for about 5 years. What went wrong?
 
 ## How Chevereto-Free went wrong
 
@@ -90,8 +90,8 @@ There's version parity between all Chevereto editions, its all automatic.
 
 ## Upgrade from Chevereto-Free
 
-Personal users of Chevereto-Free are encouraged to migrate now to Chevereto free edition. Not only the software is newer, it has tons of new features and nifty additions that will make your experience a delight.
+Personal users of Chevereto-Free are encouraged to migrate now to Chevereto free edition. Not only the software is newer, it has tons of [new features](https://v4-docs.chevereto.com/introduction/changelog/4.0.html) and [nifty additions](2022-09-20-chevereto-4.md) that will make your experience a delight.
 
-For those using Chevereto-Free commercially: We recommend going to [chevereto.com/pricing](https://chevereto.com/pricing) to get our Pro edition. At Chevereto we will happy to assist you with the migration process.
+For those using Chevereto-Free commercially: Head to [chevereto.com/pricing](https://chevereto.com/pricing) to get our Pro edition. At Chevereto we will happy to assist you with the migration process.
 
-Chevereto supports all popular infra provisioning, including Docker, VPS, cPanel, Plesk and more. Chevereto V4 runs anywhere and it is the best Chevereto yet.
+Chevereto supports all popular infra provisioning systems, including Docker, VPS, cPanel, Plesk and more. Chevereto V4 runs anywhere and it is the best Chevereto yet, I recommend you to try out its free edition or request your own private demo from our website.
