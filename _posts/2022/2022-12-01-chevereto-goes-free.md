@@ -9,7 +9,7 @@ summary: Now AGPLv3 licensed for personal use.
 image: /photos/2022-chevereto-ultimate.png
 ---
 
-At Chevereto we now provide a brand new [free edition](https://github.com/chevereto/chevereto) for personal usage with same versioning and tooling than our paid editions.
+At Chevereto we now provide a brand new [free edition](https://github.com/chevereto/chevereto) for personal usage with same versioning and tooling than our [paid editions](https://chevereto.com/pricing).
 
 The motivation for this new free edition is that Chevereto's paywall drives away many users in a market dominated by free tier players. I'm amazed that we made it this far with a tall entry barrier like that one.
 
@@ -46,7 +46,7 @@ Having too many features made challenging for users to determine the value of th
 
 ### 🤪 Unrealistic expectations
 
-I got frustrated with Chevereto-Free because I was expecting too much from their users. Not because a project is Open Source people will flock to help you with it. Being realistic, nobody will donate their time to benefit an unknown company/project. 
+I got frustrated with Chevereto-Free because I was expecting too much from their users. Not because a project is Open Source people will flock to help you with it. Being realistic, nobody will donate their time to benefit an unknown company/project.
 
 You know the old saying: Never expect anything and you won't be ever disappointed.
 
@@ -58,7 +58,7 @@ The software release process in Chevereto-Free was exhausting, expensive and abo
 
 ### 😭 Different versioning
 
-Having a different versions required mapping to understand how Chevereto-Free releases correlate with paid editions and it enforced the fact of it being a different project. This mess affected everything including documentation, Dockerfile, guides, bug tracking, etc. 
+Having a different versions required mapping to understand how Chevereto-Free releases correlate with paid editions and it enforced the fact of it being a different project. This mess affected everything including documentation, Dockerfile, guides, bug tracking, etc.
 
 Chevereto-Free had its own versioning which was super stupid. Everything needed to be made twice.
 
