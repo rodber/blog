@@ -58,7 +58,7 @@ The software release process in Chevereto-Free was exhausting, expensive and abo
 
 ### 😭 Different versioning
 
-Having a different versions required mapping to understand how Chevereto-Free releases correlate with paid editions and it enforced the fact of it being a different project. This mess affected everything including documentation, Dockerfile, guides, bug tracking, etc.
+Having different versions required mapping to understand how Chevereto-Free releases correlate with paid editions and it enforced the fact of it being a different project. This mess affected everything including documentation, Dockerfile, guides, bug tracking, etc.
 
 Chevereto-Free had its own versioning which was super stupid. Everything needed to be made twice.
 
