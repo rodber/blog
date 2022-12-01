@@ -76,7 +76,7 @@ This extends to issues, bugs, marketing, everything. I'm talking about identical
 
 ### 😘 Made for personal usage
 
-Chevereto free edition is for personal usage and it enforces that by removing guest uploads, external storage, spam fight, multi-user, moderation tools and anything that could suit a non-personal service provisioning.
+Chevereto free edition is for personal usage, this edition doesn't include guest uploads, external storage, spam fight, multi-user, moderation tools and anything that could suit a non-personal service provisioning.
 
 Nobody should pay to use Chevereto for personal needs, and those needing extras can afford to pay and sustain further development of the software.
 
