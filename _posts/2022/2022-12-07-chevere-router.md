@@ -42,7 +42,7 @@ router(
 );
 ```
 
-## Main features
+## Features
 
 * Define path, name, view, middleware and HTTP method to controller binding using named arguments.
 * HTTP method binding works with [HttpControllerInterface](https://chevere.org/library/http-controller.html) objects.
