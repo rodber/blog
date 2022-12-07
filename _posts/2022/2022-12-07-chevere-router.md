@@ -45,18 +45,18 @@ router(
 ## Main features
 
 * Define path, name, view, middleware and HTTP method to controller binding using named arguments.
-* HTTP method binding works with objects implementing [HttpControllerInterface](https://chevere.org/library/http-controller.html).
+* HTTP method binding works with [HttpControllerInterface](https://chevere.org/library/http-controller.html) objects.
 * Wildcards (`{id}` in the code above) inherits regex from parameter attributes at controller layer.
   * Can be implicit (`{id}`) or explicit (`{id:[0-9]+}`).
   * Detects conflicts for all endpoints.
 * Supports route groups, define `web`, `api`, `admin` and any group you may need to add.
-* Supports PSR middleware.
+* Supports [PSR middleware](https://www.php-fig.org/psr/psr-15/).
 
 ## How it works
 
 Under the hood Router detects path collision, controllers conflicts, path wildcard regex from attributes and it uses [FastRoute](https://github.com/nikic/FastRoute) for request matching. You don't need to worry about anything about it, I just wanted to write this.
 
-Router creates an index for further instrospection, which at this time is not that useful but it will be relevant for `chevere/router-dump`, which will enable to dump routing to a file. This will suit the need of **self-exposed APIs** for routing defined using `chevere/router`.
+Router creates an index for further introspection, which at this time is not that useful but it will be relevant for `chevere/router-dump`, which will enable to dump routing to a file. This will suit the need of **self-exposed APIs** for routing defined using `chevere/router`.
 
 ## Learn more
 
