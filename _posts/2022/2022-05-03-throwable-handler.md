@@ -33,7 +33,7 @@ The system enables to go all-auto or fine-tune everything, all depends on how yo
 
 ## Automatic handling
 
-Using `set_exception_handler` this package can be used to handle throwables automatically. For example, to quick setup the console handler for the whole script:
+Using `set_exception_handler` this package can be used to handle throwable automatically. For example, to quick setup the console handler for the whole script:
 
 ```php
 use Chevere\ThrowableHandler\ThrowableHandler;
