@@ -60,7 +60,7 @@ module.exports = {
             },
             {
                 name: 'rodber',
-                avatar: '/avatars/handsome.png',
+                avatar: '/avatars/rodber.png',
                 link: 'https://github.com/rodber',
                 linktext: 'GitHub',
             },
