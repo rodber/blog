@@ -6,7 +6,7 @@ tags:
     - 🐘php
     - 🥑chevere
 author: rodber
-summary: Typed dynamic data structures
+summary: Typed dynamic data structures.
 image: /photos/2023/koac.jpg
 ---
 
