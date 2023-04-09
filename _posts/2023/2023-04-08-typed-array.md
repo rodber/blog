@@ -1,6 +1,6 @@
 ---
 date: 2023-04-08T09:57:06Z
-lastmod: 2023-04-08T09:57:06Z
+lastmod: 2023-04-09T12:09:59Z
 title: Typed Array
 tags:
     - 🐘php
@@ -10,11 +10,21 @@ summary: Typed dynamic data structures.
 image: /photos/2023/koac.jpg
 ---
 
-PHP has this overkill flexible data structure known as [array](https://www.php.net/manual/en/language.types.array.php) which can be used as a vector, hash table, dictionary, collection, stack, queue and I will stop quoting the manual now. TL;DR: Array is a super data-structure.
+PHP has this flexible data structure known as [array](https://www.php.net/manual/en/language.types.array.php) which can be used as a vector, hash table, dictionary, collection, stack, queue and perhaps many more. You get the idea, array is the ominipresent PHP's super data-structure.
 
-By (ab)using arrays I created lots of software in the early days as to use it for everything is dirty cheap and darn effective. But array isn't perfect. There's no type support and to validate an array you need to create a custom validator for each one of your array shapes which could get time consuming and a constant maintenance issue.
+By (ab)using arrays as the only way to handle data I created lots of software in the early days as for me to use array for everything was dirty cheap and darn effective. This "arrays for everything" motto is common in PHP and you can see it everywhere, developers trends to rely on array when possible and there's nothing wrong when handled with care.
 
-For [Chévere](https://chevere.org) I created a type sub-system and I used it as the base for typed arrays. To type arrays with Chévere is easy as:
+When working with arrays the annoyance is on creating custom validators for each different array shape and not being 100% sure about the entire structure of the array being handled at a given time. The later happens often when the array comes from a third-party package, which adds another concern to be worried about. Altough there's [ArrayObject](https://www.php.net/manual/es/class.arrayobject.php) for type hinting array access, it suits better for a generic list of values as the complexity increases when wanting multiple types or complex validation rules for each different key.
+
+I wanted a way to stricly-type any array of any nested deep with generic and/or fixed values. To achieve this I had to create a [parameter-argument](https://chevere.org/library/parameter.html) abstraction for each single PHP variable type.
+
+The outcome of this research is a superb type system built on top of PHP which allowed me to achive the concept of Typed Array. In this post I introduce this concept and how it may be used.
+
+## ArrayParameter
+
+[ArrayParameter](https://chevere.org/library/parameter.html#array-parameter) is a component that enables to define any array. It has nothing in common with its `ArrayObject` cousin as `ArrayParameter` is used to define an array parameter which you can assert against any array.
+
+To stricly type arrays with Chévere is easy as:
 
 ```php
 // 1. Define the parameter
