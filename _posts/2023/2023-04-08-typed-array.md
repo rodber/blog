@@ -1,6 +1,6 @@
 ---
 date: 2023-04-08T09:57:06Z
-lastmod: 2023-04-09T12:09:59Z
+lastmod: 2023-04-09T12:20:30Z
 title: Typed Array
 tags:
     - 🐘php
@@ -10,21 +10,21 @@ summary: Typed dynamic data structures.
 image: /photos/2023/koac.jpg
 ---
 
-PHP has this flexible data structure known as [array](https://www.php.net/manual/en/language.types.array.php) which can be used as a vector, hash table, dictionary, collection, stack, queue and perhaps many more. You get the idea, array is the ominipresent PHP's super data-structure.
+PHP has this flexible data structure known as [array](https://www.php.net/manual/en/language.types.array.php) which can be used as a vector, hash table, dictionary, collection, stack, queue and many more. You get the idea, array is the omnipresent PHP's super data-structure.
 
 By (ab)using arrays as the only way to handle data I created lots of software in the early days as for me to use array for everything was dirty cheap and darn effective. This "arrays for everything" motto is common in PHP and you can see it everywhere, developers trends to rely on array when possible and there's nothing wrong when handled with care.
 
-When working with arrays the annoyance is on creating custom validators for each different array shape and not being 100% sure about the entire structure of the array being handled at a given time. The later happens often when the array comes from a third-party package, which adds another concern to be worried about. Altough there's [ArrayObject](https://www.php.net/manual/es/class.arrayobject.php) for type hinting array access, it suits better for a generic list of values as the complexity increases when wanting multiple types or complex validation rules for each different key.
+When working with arrays the annoyance is on creating custom validators for each different array shape and not being 100% sure about the entire structure of the array being handled at a given time. The later happens often when the array comes from a third-party package, which adds another concern to be worried about. Although there's [ArrayObject](https://www.php.net/manual/es/class.arrayobject.php) for type hinting array access, it suits better for a generic list of values as the complexity increases when wanting multiple types or custom validation rules for each different key.
 
-I wanted a way to stricly-type any array of any nested deep with generic and/or fixed values. To achieve this I had to create a [parameter-argument](https://chevere.org/library/parameter.html) abstraction for each single PHP variable type.
+I wanted a way to strictly-type any array of any nested deep with generic and/or fixed values. To achieve this I had to create a [parameter-argument](https://chevere.org/library/parameter.html) abstraction for each single PHP variable type.
 
-The outcome of this research is a superb type system built on top of PHP which allowed me to achive the concept of Typed Array. In this post I introduce this concept and how it may be used.
+The outcome of this research is a superb type system built on top of PHP which allowed me to achieve the concept of **Typed Array**. In this post I introduce this concept and how it may be used.
 
 ## ArrayParameter
 
 [ArrayParameter](https://chevere.org/library/parameter.html#array-parameter) is a component that enables to define any array. It has nothing in common with its `ArrayObject` cousin as `ArrayParameter` is used to define an array parameter which you can assert against any array.
 
-To stricly type arrays with Chévere is easy as:
+To strictly type arrays with Chévere is easy as:
 
 ```php
 // 1. Define the parameter
@@ -158,4 +158,4 @@ This system works for any array shape and supports all types. You can validate n
 
 This was designed with a high level of abstraction to be able to create something similar to a sub-language as it was the only way to create an experience capable of successfully wrapping array.
 
-I'm very happy with the results and with the way I solved this issue. It worth the investment as I won't ever need to write the logic to validate arrays! And all these dirty cheap arrays can now become oh-la-la top tier data-structures with little effort on my end.
+I'm very happy with the results and with the way I solved this issue. It worth the investment as I won't ever need to write the logic to validate arrays! And all these dirty cheap arrays can now become top tier data-structures with little effort on my end.
