@@ -49,7 +49,7 @@ module.exports = {
         }]
     ],
     themeConfig: {
-        logo: '/rodo.png',
+        logo: '/avatars/rodber.png',
         pwa: true,
         authors: [
             {
