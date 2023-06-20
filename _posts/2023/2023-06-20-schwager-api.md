@@ -1,6 +1,6 @@
 ---
-date: 2023-06-20T00:25:53Z
-lastmod: 2023-06-20T00:25:53Z
+date: 2023-06-20T10:25:53Z
+lastmod: 2023-06-20T10:25:53Z
 title: Schwager API
 tags:
     - 🐘php
