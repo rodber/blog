@@ -1,7 +1,7 @@
 ---
 date: 2023-06-20T00:25:53Z
 lastmod: 2023-06-20T00:25:53Z
-title: Chevere Schwager
+title: Schwager API
 tags:
     - 🐘php
     - 🥑chevere
