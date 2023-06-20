@@ -34,7 +34,7 @@ The Schwager [API specification](https://chevere.org/packages/schwager.html#spec
 
 But Schwager differs on several key elements. At first, it is white-label as you can define `api` property freely enabling you to set the pace for each project by defining its own API standard.
 
-Schwager doesn't merge parameters like OpenAPI. In Schwager, "path variables" are referred as wildcards and it maps these at path level for all endpoints. Body and query parameters have its own respective namespace.
+Schwager doesn't merge parameters like OpenAPI. Path variables are mapped at path level while body and query parameters have its own respective namespace.
 
 Finally, Schwager enables to define more than one response schema per status code.
 
