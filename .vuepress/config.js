@@ -50,7 +50,7 @@ module.exports = {
     ],
     themeConfig: {
         logo: '/avatars/rodber.png',
-        pwa: true,
+        pwa: false,
         authors: [
             {
                 name: 'Rodolfo',
