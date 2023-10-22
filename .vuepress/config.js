@@ -8,11 +8,7 @@ module.exports = {
     head: [
         ['link', {
             rel: 'icon',
-            href: `/rodo.png`
-        }],
-        ['link', {
-            rel: 'manifest',
-            href: '/manifest.json'
+            href: `/rodber.png`
         }],
         ['meta', {
             name: 'theme-color',
@@ -28,16 +24,7 @@ module.exports = {
         }],
         ['link', {
             rel: 'apple-touch-icon',
-            href: '/rodo.png'
-        }],
-        ['link', {
-            rel: 'mask-icon',
-            href: '/rodo.png',
-            color: '#3eaf7c'
-        }],
-        ['meta', {
-            name: 'msapplication-TileImage',
-            content: '/rodo.png'
+            href: '/rodber.png'
         }],
         ['meta', {
             name: 'msapplication-TileColor',
@@ -102,17 +89,10 @@ module.exports = {
         sitemap: {
             hostname: 'https://rodolfoberrios.com/'
         },
-        // comment: {
-        //   service: 'disqus',
-        //   shortname: 'demowebsite',
-        // },
-        // newsletter: {
-        //   endpoint: '/'
-        // },
         feed: {
             canonical_base: 'https://rodolfoberrios.com/',
             sort: (entries) => reverse(sortBy(entries, 'date')),
         },
-        smoothScroll: true
+        smoothScroll: false
     },
 }
