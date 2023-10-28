@@ -7,7 +7,7 @@ tags:
     - 🐘php
     - 🥑chevere
 author: rodber
-summary: Lightweight portable debug utility
+summary: Generates docs for Schwager
 image: /org/chevere/packages/schwager-html/schwager-html-social.png
 ---
 
