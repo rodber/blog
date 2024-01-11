@@ -1,6 +1,6 @@
 ---
 date: 2024-01-10T14:10:59Z
-lastmod: 2024-01-10T14:10:59Z
+lastmod: 2024-01-11T11:40:54Z
 title: Chevere Parameter 1.0
 tags:
     - 🐘php
@@ -67,14 +67,10 @@ The [Action](https://chevere.org/packages/action) package wraps Parameter to off
 
 Parameter introspection is used at [Router](https://chevere.org/packages/router) to generate path regex by reading attribute rules on Http Controller path parameters. Parameter schemas are used at [Schwager](https://chevere.org/packages/schwager) which reads Http Controller attributes and expose that schema. [Schwager HTML](https://github.com/chevere/schwager-html) also uses parameter schemas.
 
-At this time I'm writing another package based on Parameter which generates parameter object definition from a MySQL database schema. The concept is to describe MySQL tables using [ArrayParameter](https://chevere.org/packages/parameter#array) enabling to validate data retrieval and provide schema introspection for any set of columns.
+I'm writing another Parameter-based package which generates parameters from a MySQL database schema. The concept is to describe MySQL tables using [ArrayParameter](https://chevere.org/packages/parameter#array), enabling to validate data retrieval and provide schema introspection for any set of columns.
 
 ## Wrapping up
 
-The Parameter package fills in for the lack of several language features, all around parameter-argument, which I always missed when creating software.
+Parameter plays at low-level and is a flexible system which can be used to build anything on top of it. From simple wrappers up to full flagged conventions, it enables to build a solid foundation for your validation needs with a neat syntax backed on PHP's newest features introduced onwards PHP 8, like named arguments and attributes.
 
-Parameter plays at low-level and it is a very flexible system which can be used to build anything on top of it. From simple wrappers up to full flagged conventions.
-
-Parameter offers a super syntax backed on PHP's newest features introduced since PHP 8. It uses named arguments, attributes, constructor promotion and more. It is a library for the PHP 8 (and beyond) era.
-
-To be able to craft this piece of engineering is a gift and I'm happy to share my work.
+I'm looking forward to see what else I can built on top of it.
