@@ -1,7 +1,7 @@
 ---
 date: 2022-04-09T15:55:48Z
-lastmod: 2022-12-23T18:11:57Z
-title: Workflow for PHP
+lastmod: 2024-01-13T15:20:33Z
+title: Chevere Workflow
 tags:
     - 🐘php
     - 🥑chevere
@@ -80,7 +80,7 @@ workflow(
 
 ### Actions
 
-[Actions](https://chevere.org/library/action) contains the logic for Workflow jobs, responsible for declaring the `run` method and its expected response parameters. Actions can be _anything_ although my recommendation is to keep actions minimal as possible.
+[Actions](https://chevere.org/packages/action) contains the logic for Workflow jobs, responsible for declaring the `run` method and its expected response parameters. Actions can be _anything_ although my recommendation is to keep actions minimal as possible.
 
 Don't hesitate to split a process in four, twelve or more job-actions. That's the point! The more you _unitize_ the procedures the easier it gets to maintain and keep all moving parts willing to move.
 

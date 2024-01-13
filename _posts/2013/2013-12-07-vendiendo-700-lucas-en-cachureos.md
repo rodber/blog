@@ -1,5 +1,6 @@
 ---
 date: 2013-12-07T02:10:00Z
+lastmod: 2024-01-13T15:26:46Z
 title: Vendiendo 700 lucas en cachureos
 tags:
     - 🧪experiments
@@ -20,4 +21,4 @@ Si tu vas a MercadoLibre es casi imposible que vendas tus cachureos, pero en Jun
 
 Actualmente estoy lejos de la meta, tan sólo llevo CLP 340.000, eso si contando solamente cosas mías por que seria más si cuento otras cosas que vendí por encargo. ¿Llegaré a la meta? Puede ser, sacando cuentas puede ser. Pero la verdad es que no era tan imposible. Me hice más de 300 lucas vendiendo cosas que para mis papas era basura y lo que me va quedando ahora son las cosas que el tiempo las obliga a ser cachureos (mi iPad, mi bicicleta, etc).
 
-Espero venir un buen día y contarles que logre la meta. Pero no esperen una foto mia sosteniendo el Mac, se presta para cosas como este [meme](https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-frc3/1469757_10152098928249203_859115589_n.jpg).
+Espero venir un buen día y contarles que logre la meta.

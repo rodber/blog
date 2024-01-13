@@ -1,5 +1,6 @@
 ---
 date: 2015-08-05T17:27:49Z
+lastmod: 2024-01-13T15:23:42Z
 title: "Quickty dev update #1"
 tags:
     - 🔬dev
@@ -16,7 +17,7 @@ Soon as I was half way designing Quickty I noticed that my current custom made f
 
 Don’t panic. Rebuild in this case doesn’t means that I will start from square one, it means that I will re-visit the core components and that I will have to fit some coding structures into existing code. Part of this process involves the addition of [Normalize](https://necolas.github.io/normalize.css/) and some [Bootstrap](https://getbootstrap.com) core components like grid, table and responsive elements.
 
-I’ve already improved the font icons and now it will include [Entypo+](https://www.entypo.com) and [Font awesome](https://fortawesome.github.io/Font-Awesome/), each one with his own CSS prefix so there is no naming issues. There are more than 950 icons in the new Peafowl with an smaller file size compared with the current font icons.
+I’ve already improved the font icons and now it will include [Entypo+](https://www.entypo.com) and Font awesome, each one with his own CSS prefix so there is no naming issues. There are more than 950 icons in the new Peafowl with an smaller file size compared with the current font icons.
 
 Peafowl also does a lot of JavaScript and it should get improved because now it looks like  huge unsorted jQuery cake of event listeners. At this time I don’t know yet how I will structure or which library/framework I will use for this but it is something that I will get worked out because it needs and urgent revision.
 

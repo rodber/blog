@@ -1,5 +1,6 @@
 ---
 date: 2013-09-02T22:36:00Z
+lastmod: 2024-01-13T15:25:45Z
 title: The G\ library
 tags:
     - 🐘php
@@ -9,7 +10,7 @@ summary: Never liked the available frameworks, so I'm making a new one.
 image: /photos/2013-g.png
 ---
 
-Something that has come recently is a thing that so far I'm calling "G\ Library" and in [this post in Chevereto community](https://chevereto.com/community/threads/chevereto-3-feature-set-final.3288/page-26#post-22059) I talked about it briefly. Since that draft this thing has grow a lot and now I'm ready to talk more about it and explain why I think that is necessary and why I'm working on it.
+Something that has come recently is a thing that so far I'm calling "G\ Library" and in this post in [Chevereto community](https://chevereto.com/community) I talked about it briefly. Since that draft this thing has grow a lot and now I'm ready to talk more about it and explain why I think that is necessary and why I'm working on it.
 
 I've never liked frameworks because they suit almost every need and therefore they are very general. This makes frameworks things that do a lot of functions but they don't focus in anything. Any framework that is highly focused in something is a rare thing and therefore is not so popular, which in fact is great because they work more like libraries rather than frameworks. The perfect example of this is jQuery which is a library rather than a framework.
 

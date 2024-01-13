@@ -1,7 +1,7 @@
 ---
 date: 2022-12-07T12:51:01Z
-lastmod: 2022-12-07T12:51:01Z
-title: Router for PHP
+lastmod: 2024-01-13T15:19:59Z
+title: Chevere Router
 tags:
     - 🐘php
     - 🥑chevere
@@ -45,7 +45,7 @@ router(
 ## Features
 
 * Define path, name, view, middleware and HTTP method to controller binding using named arguments.
-* HTTP method binding works with [HttpControllerInterface](https://chevere.org/library/http-controller.html) objects.
+* HTTP method binding works with [Http Controller](https://chevere.org/packages/http#controller) objects.
 * Wildcards (`{id}` in the code above) inherits regex from parameter attributes at controller layer.
   * Can be implicit (`{id}`) or explicit (`{id:[0-9]+}`).
   * Detects conflicts for all endpoints.

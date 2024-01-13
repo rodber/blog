@@ -40,7 +40,7 @@ For those that want to do extensive modifications, there will be a user folder w
 
 ### New template system
 
-I'm dropping PHP based themes in favor of [Twig](https://twig.sensiolabs.org/) based themes for more easy-to-read stuff. Twig is a template system that allows friendly editing without sacrificing performance, it is used by Drupal and it has been created by [Fabien Potencier](https://fabien.potencier.org/), the same guy that created [Symfony](https://symfony.com/).
+I'm dropping PHP based themes in favor of Twig based themes for more easy-to-read stuff. Twig is a template system that allows friendly editing without sacrificing performance, it is used by Drupal and it has been created by Fabien Potencier, the same guy that created Symfony.
 
 This new template system has pushed several changes in how G\ handles templates and G\ 2.0 will get rid of the annoying get_var() functions and conditionals. Instead, the system will rely on the render output array provided by the controller so it will be easier than ever to create themes.
 
