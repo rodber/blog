@@ -13,7 +13,7 @@ image: /org/chevere/packages/schwager-html/schwager-html-social.png
 
 New from Chevere is the Schwager HTML package. This software creates a HTML document representation for [Schwager API](https://chevere.org/packages/schwager.html), a human friendly readable user interface easier to the eye and more comfortable to work with.
 
-The package is available at [chevere/schwager-html](https://github.com/chevere/schwager-html). It looks like this:
+The package source is available at [chevere/schwager-html](https://github.com/chevere/schwager-html).
 
 ![Schwager HTML screen](/photos/2023/schwager-html-screen.webp)
 

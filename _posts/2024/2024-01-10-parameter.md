@@ -12,7 +12,7 @@ image: /org/chevere/packages/parameter/parameter-social.png
 
 New from Chevere is the [Parameter](https://chevere.org/packages/parameter) package. This software provides a library around parameter-argument, with extra rules which can be used for both validation and to expose I/O schemas.
 
-The package is available at [chevere/parameter](https://github.com/chevere/parameter).
+The package source is available at [chevere/parameter](https://github.com/chevere/parameter).
 
 ## What it does?
 
