@@ -93,6 +93,9 @@ module.exports = {
             canonical_base: 'https://rodolfoberrios.com/',
             sort: (entries) => reverse(sortBy(entries, 'date')),
         },
+        globalPagination: {
+            lengthPerPage: 9,
+        },
         smoothScroll: false
     },
 }
