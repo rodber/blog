@@ -54,8 +54,6 @@ To get these _nil savings_ it means that someone forgot to check for the passed 
 
 ## Introducing Danky
 
-![Danky](/org/chevere/packages/danky/danky-social-alt.svg)
-
 [Danky](https://chevere.org/packages/danky) is a native typed template system for PHP. Contrary to all other template systems and engines, in Danky **templates are classes**, which declare its scope and variables, adding language level context to templates.
 
 Some benefits of using Danky:
