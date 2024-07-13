@@ -38,6 +38,10 @@ module.exports = {
     themeConfig: {
         logo: '/avatars/rodber.png',
         pwa: false,
+        nav: [
+            { text: 'Tags', link: '/tag/' },
+            { text: 'About', link: '/about/' },
+        ],
         authors: [
             {
                 name: 'Rodolfo',
@@ -69,6 +73,14 @@ module.exports = {
                 {
                     type: 'github',
                     link: 'https://github.com/rodber',
+                },
+                {
+                    type: 'linkedin',
+                    link: 'https://www.linkedin.com/in/rodber/',
+                },
+                {
+                    type: 'twitter',
+                    link: 'https://twitter.com/godlike',
                 },
                 {
                     type: 'mail',
