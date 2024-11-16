@@ -3,7 +3,7 @@ date: 2015-08-05T17:27:49Z
 lastmod: 2024-01-13T15:23:42Z
 title: "Quickty dev update #1"
 tags:
-    - 🔬dev
+    - dev
 author: rodber
 summary: A recap on working side-by-side between Quickty and Chevereto.
 image: /photos/2015-quickty-peafowl.png

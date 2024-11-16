@@ -2,7 +2,7 @@
 date: 2015-03-21T23:23:51Z
 title: Client-side based file storage encryption
 tags:
-    - 💻systems
+    - systems
 author: Sape
 summary: Encryption in the client.
 image: /photos/2015-encryption.jpg

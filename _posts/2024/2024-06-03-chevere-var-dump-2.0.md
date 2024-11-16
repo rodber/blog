@@ -3,9 +3,9 @@ date: 2024-06-03T18:51:42Z
 lastmod: 2024-06-03T18:51:42Z
 title: Chevere VarDump 2.0
 tags:
-    - 🤯show
-    - 🐘php
-    - 🥑chevere
+    - show
+    - php
+    - chevere
 author: rodber
 summary: Beautiful looking dumps!
 image: /org/chevere/packages/var-dump/var-dump-social.png

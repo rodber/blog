@@ -3,8 +3,8 @@ date: 2022-04-17T13:51:19Z
 lastmod: 2022-05-10T18:04:43Z
 title: Danky, typed templates for PHP
 tags:
-    - 🐘php
-    - 🥑chevere
+    - php
+    - chevere
 author: rodber
 summary: Classes as templates for PHP.
 image: /org/chevere/packages/danky/danky-social.png

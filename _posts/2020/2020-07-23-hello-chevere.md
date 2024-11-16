@@ -2,8 +2,8 @@
 date: 2020-07-23T19:44:41Z
 title: Hello, Chevere
 tags:
-    - 🐘php
-    - 🥑chevere
+    - php
+    - chevere
 author: rodber
 summary: My opinionated PHP framework for building extensible server-side applications.
 image: /org/chevere/packages/chevere/chevere-social-1.0.png

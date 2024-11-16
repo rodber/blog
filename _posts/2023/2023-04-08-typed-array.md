@@ -3,8 +3,8 @@ date: 2023-04-08T09:57:06Z
 lastmod: 2024-01-13T15:05:31Z
 title: Typed Array
 tags:
-    - 🐘php
-    - 🥑chevere
+    - php
+    - chevere
 author: rodber
 summary: Typed dynamic data structures.
 image: /photos/2023/koac.jpg

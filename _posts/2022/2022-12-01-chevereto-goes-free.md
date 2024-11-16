@@ -3,7 +3,7 @@ date: 2022-12-01T14:38:50Z
 lastmod: 2022-12-01T14:38:50Z
 title: Chevereto goes free
 tags:
-    - 🤯show
+    - show
 author: OMA
 summary: Now AGPLv3 licensed for personal use.
 image: /photos/2022-chevereto-ultimate.png

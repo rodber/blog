@@ -2,7 +2,7 @@
 date: 2017-08-08T16:43:02Z
 title: Sorry, Quickty won't happen
 tags:
-    - 💔broken-harts 
+    - broken-harts
 author: OMA
 summary: Dropping Quickty development and focus back on Chevereto.
 image: /photos/2017-nothing-to-see.jpg

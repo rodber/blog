@@ -3,9 +3,9 @@ date: 2024-07-13T19:45:38Z
 lastmod: 2024-07-13T19:45:38Z
 title: xrDebug WordPress
 tags:
-    - 🤯show
-    - 🔬dev
-    - 🐘php
+    - show
+    - dev
+    - php
 author: rodber
 summary: Debug WordPress with xrDebug
 image: /org/xrdebug/packages/wordpress/xrdebug-wordpress-social.png

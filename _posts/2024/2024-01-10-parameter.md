@@ -3,8 +3,8 @@ date: 2024-01-10T14:10:59Z
 lastmod: 2024-01-11T15:47:44Z
 title: Chevere Parameter 1.0
 tags:
-    - 🐘php
-    - 🥑chevere
+    - php
+    - chevere
 author: rodber
 summary: Library around parameter-argument
 image: /org/chevere/packages/parameter/parameter-social.png

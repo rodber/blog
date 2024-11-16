@@ -3,8 +3,8 @@ date: 2022-12-07T12:51:01Z
 lastmod: 2024-01-13T15:19:59Z
 title: Chevere Router
 tags:
-    - 🐘php
-    - 🥑chevere
+    - php
+    - chevere
 author: rodber
 summary: A strict, strong typed router for PHP.
 image: /org/chevere/packages/router/router-social.png

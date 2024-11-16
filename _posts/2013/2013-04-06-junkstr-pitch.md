@@ -2,9 +2,9 @@
 date: 2013-04-06T22:45:32Z
 title: Junkstr Pitch
 tags:
-    - 📸photos
-    - 🇨🇱start-up
-    - 🤭fat-rodolfo
+    - photos
+    - start-up
+    - fat-rodolfo
 author: Rodolfo
 summary: The making of video for Start-Up Chile.
 image: /photos/2013-junkstr-pitch.jpg

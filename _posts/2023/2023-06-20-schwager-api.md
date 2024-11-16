@@ -3,8 +3,8 @@ date: 2023-06-20T10:25:53Z
 lastmod: 2023-06-20T10:25:53Z
 title: Schwager API
 tags:
-    - 🐘php
-    - 🥑chevere
+    - php
+    - chevere
 author: rodber
 summary: Al empate Schwager.
 image: /org/chevere/packages/schwager/schwager-social.png

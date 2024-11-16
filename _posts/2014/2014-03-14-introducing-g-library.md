@@ -2,8 +2,8 @@
 date: 2014-03-14T22:47:00Z
 title: Introducing G\ Library
 tags:
-    - 🐘php
-    - 🔬dev
+    - php
+    - dev
 author: rodber
 summary: Taking back the fun to PHP.
 image: /photos/2013-g.png

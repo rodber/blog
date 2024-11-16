@@ -3,8 +3,8 @@ date: 2022-05-03T15:29:55Z
 lastmod: 2022-05-19T14:09:07Z
 title: ThrowableHandler for PHP
 tags:
-    - 🐘php
-    - 🥑chevere
+    - php
+    - chevere
 author: rodber
 summary: Multi-purpose throwable handling.
 image: /org/chevere/packages/throwable-handler/throwable-handler-social.png

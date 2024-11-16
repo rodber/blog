@@ -3,7 +3,7 @@ date: 2021-06-25T15:16:02Z
 lastmod: 2022-08-15T12:02:13Z
 title: Adiós Chevereto-Free
 tags:
-    - 💔broken-harts
+    - broken-harts
 author: OMA
 summary: Why I'm shutting down my Open Source software?
 image: /photos/2021-chevereto-free.jpeg

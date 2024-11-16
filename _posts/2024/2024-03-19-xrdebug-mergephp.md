@@ -3,9 +3,9 @@ date: 2024-03-19T14:08:53Z
 lastmod: 2024-03-19T14:08:53Z
 title: Watch xrDebug at MergePHP
 tags:
-    - 🤯show
-    - 🔬dev
-    - 🐘php
+    - show
+    - dev
+    - php
 author: rodber
 summary: Introducing xrDebug at MergePHP
 image: /photos/2024/xrdebug-mergephp.webp

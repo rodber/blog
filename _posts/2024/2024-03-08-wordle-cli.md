@@ -3,8 +3,8 @@ date: 2024-03-08T14:36:22Z
 lastmod: 2024-03-08T14:36:22Z
 title: Wordle-CLI
 tags:
-    - 🐘php
-    - 🕹️games
+    - php
+    - game
 author: rodber
 summary: Rodber's Wordle-CLI
 image: /photos/2024/wordle-cli-social.png

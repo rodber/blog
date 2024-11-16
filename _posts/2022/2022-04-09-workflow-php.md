@@ -3,8 +3,8 @@ date: 2022-04-09T15:55:48Z
 lastmod: 2024-01-13T15:20:33Z
 title: Chevere Workflow
 tags:
-    - 🐘php
-    - 🥑chevere
+    - php
+    - chevere
 author: rodber
 summary: Workflow for PHP in a similar fashion to GitHub Actions.
 image: /org/chevere/packages/workflow/workflow-social.png

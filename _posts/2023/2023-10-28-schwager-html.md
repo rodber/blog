@@ -3,9 +3,9 @@ date: 2023-10-28T17:11:12Z
 lastmod: 2023-10-29T21:42:54Z
 title: Schwager HTML
 tags:
-    - 🤯show
-    - 🐘php
-    - 🥑chevere
+    - show
+    - php
+    - chevere
 author: rodber
 summary: Generates docs for Schwager
 image: /org/chevere/packages/schwager-html/schwager-html-social.png

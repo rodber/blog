@@ -2,7 +2,7 @@
 date: 2015-09-03T19:43:50Z
 title: "Quickty dev update #2"
 tags:
-    - 🔬dev
+    - dev
 author: rodber
 summary: Another recap on working side-by-side between Quickty and Chevereto.
 image: /photos/2015-quickty-contacts.png

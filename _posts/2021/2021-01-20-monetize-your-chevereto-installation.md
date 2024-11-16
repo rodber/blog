@@ -2,8 +2,8 @@
 date: 2021-01-20T20:48:42Z
 title: Monetize your Chevereto installation
 tags:
-    - 👴🏾experience
-    - 🤑money-making
+    - experience
+    - money-making
 author: OMA
 summary: Pushing towards a saner service provisioning
 image: /photos/2021-money.jpg

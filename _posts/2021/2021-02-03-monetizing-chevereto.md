@@ -2,8 +2,8 @@
 date: 2021-02-03T17:46:26Z
 title: Monetizing Chevereto
 tags:
-    - 💼business
-    - 🤑money-making
+    - business
+    - money-making
 author: OMA
 summary: How do I pretend to monetize Chevereto?
 image: /photos/2021-monetize.png
@@ -11,7 +11,7 @@ image: /photos/2021-monetize.png
 
 I want to scale Chevereto, to make it a large software development company and hire people to go beyond my single-person limitations.
 
-I realized that I won't work without leveraging technical debt. 
+I realized that I won't work without leveraging technical debt.
 After 2.5 years of intense learning and refactoring I came with a bunch of new concepts and applications for my software. As a result of this process, I'm sharing how do I pretend to make it happen.
 
 This post is about the stuff I've learned in all these years of providing self-hosted software and how I pretend to monetize [Chevereto](https://chevereto.com) for the future.

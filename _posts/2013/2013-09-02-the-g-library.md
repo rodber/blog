@@ -3,8 +3,8 @@ date: 2013-09-02T22:36:00Z
 lastmod: 2024-01-13T15:25:45Z
 title: The G\ library
 tags:
-    - 🐘php
-    - 🔬dev
+    - php
+    - dev
 author: rodber
 summary: Never liked the available frameworks, so I'm making a new one.
 image: /photos/2013-g.png

@@ -3,7 +3,7 @@ date: 2013-12-07T02:10:00Z
 lastmod: 2024-01-13T15:26:46Z
 title: Vendiendo 700 lucas en cachureos
 tags:
-    - 🧪experiments
+    - experiments
 author: Sape
 summary: Quiero vender CLP $700.000 en cachureos con Junkstr.
 image: /photos/2013-700-lucas-en-cachureos.jpg

@@ -2,7 +2,7 @@
 date: 2012-12-03T18:22:00Z
 title: A system to stop being nulled
 tags:
-    - 💻systems
+    - systems
 author: Sape
 summary: A method to stop being "nulled" by simply making it impossible to do it.
 image: /photos/2012-hacker.jpg

@@ -2,7 +2,7 @@
 date: 2021-02-14T16:28:42Z
 title: Designing better Tech Support
 tags:
-    - 👴🏾experience
+    - experience
 author: Sape
 summary: How I'm driven a better support experience.
 image: /photos/2021-don-sata.jpeg
