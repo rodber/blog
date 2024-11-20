@@ -2,6 +2,7 @@
 date: 2021-01-20T20:48:42Z
 title: Monetize your Chevereto installation
 tags:
+    - chevereto
     - experience
     - money-making
 author: OMA

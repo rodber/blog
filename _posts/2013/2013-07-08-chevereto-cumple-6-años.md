@@ -3,6 +3,7 @@ date: 2013-07-08T21:46:00Z
 lastmod: 2024-01-13T15:26:26Z
 title: Chevereto cumple 6 años
 tags:
+    - chevereto
     - celebration
 author: OMA
 summary: Feliz 6to cumpleaños Chevereto.
