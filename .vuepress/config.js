@@ -36,6 +36,7 @@ module.exports = {
         }]
     ],
     themeConfig: {
+        domain: 'https://rodolfoberrios.com',
         logo: '/avatars/rodber.png',
         pwa: false,
         nav: [
