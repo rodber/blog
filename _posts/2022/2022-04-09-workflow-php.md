@@ -1,7 +1,7 @@
 ---
 date: 2022-04-09T15:55:48Z
 lastmod: 2024-01-13T15:20:33Z
-title: Chevere Workflow
+title: Workflow PHP
 tags:
     - php
     - chevere
@@ -48,8 +48,6 @@ A workflow-based approach has interesting advantages:
 * Run-if conditions.
 
 ## Chevere Workflow
-
-![Workflow](/org/chevere/packages/workflow/workflow-social-alt.svg)
 
 The [Workflow package](https://chevere.org/packages/workflow) provides managing for complex workflow declarations. This post is a glorified ad for my package, _pretends to be shocked!_ as I believe using the workflow pattern can solve a ton of problems.
 
