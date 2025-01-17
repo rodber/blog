@@ -1,59 +1,59 @@
 ---
 date: 2022-04-09T15:55:48Z
-lastmod: 2024-01-13T15:20:33Z
+lastmod: 2025-01-17T16:30:57Z
 title: Workflow PHP
 tags:
     - php
     - chevere
 author: rodber
-summary: Workflow for PHP in a similar fashion to GitHub Actions.
+summary: Workflow procedures for PHP
 image: /org/chevere/packages/workflow/workflow-social.png
 ---
 
-One of my goals with [Chevere](https://chevere.org) was to learn more problem-solving approaches and the culture that comes with these. I achieved this by consuming more software, starting with CI tools and I continued all the way up to esoteric software practices. Out of all I was exposed [GitHub Actions](https://github.com/features/actions) caught my attention: You can declare interconnected jobs and use actions published by third-parties to keep you productive. What interested me the most was the [workflow pattern](https://en.wikipedia.org/wiki/Workflow_pattern), which inspired me to create the [Workflow package](https://chevere.org/packages/workflow) for Chevere.
+One of my goals with [Chevere](https://chevere.org) was to learn more about problem-solving approaches and the culture that comes with them. I achieved this by exploring various software, starting with CI tools and continuing through to esoteric software practices. Among all the tools I encountered, [GitHub Actions](https://github.com/features/actions) caught my attention the most. It allows you to declare interconnected jobs and use actions published by third parties to stay productive. What interested me the most was the [workflow pattern](https://en.wikipedia.org/wiki/Workflow_pattern), which inspired me to create the [Workflow package](https://chevere.org/packages/workflow) for Chevere.
 
 ## Technical debt
 
-When I have to produce a new system I try to keep it neat and clean. To achieve this I do [TDD](https://en.wikipedia.org/wiki/Test-driven_development), ensure a good code coverage threshold and if fancy times aim for high [MSI](https://en.wikipedia.org/wiki/Mutation_testing). This is not always the case as this approach gets expensive and gets sacrificed for most organizations.
+When I have to produce a new system, I try to keep it neat and clean. To achieve this, I use [TDD](https://en.wikipedia.org/wiki/Test-driven_development), ensure a good code coverage threshold, and aim for high [MSI](https://en.wikipedia.org/wiki/Mutation_testing) when possible. However, this approach can be expensive and is often sacrificed in many organizations.
 
-Any evolving system is potential for getting patched the MVP way which is to add features the quickest. Once done, who cares... It works and we are printing money. While the product get features this fashion it does increasing [technical debt](https://en.wikipedia.org/wiki/Technical_debt). This will happen in any project as teams change, people bring different approaches, tech evolves, the only guy who knows the system is now 90 years old, etc.
+Any evolving system is prone to being patched in the MVP way, which means adding features as quickly as possible. Once done, who cares... It works, and we are making money. While the product gains features in this manner, it also accumulates [technical debt](https://en.wikipedia.org/wiki/Technical_debt). This happens in any project as teams change, people bring different approaches, technology evolves, and the only person who knows the system is now 90 years old, etc.
 
-At some point it will be expensive to go in any direction namely to maintain, to change or to replace it.
+At some point, it will become expensive to go in any direction, whether it is to maintain, change, or replace the system.
 
 ## Predict the unknown
 
-I can abstract predictable needs, but many stuff are too green and potential candidates for re-factoring loop as it evolves. I realized that my code went wrong when new business rules keep being added for a long period (4 years in a row). You know how it goes, you struggle in a loop to find the solution for a known problem that will be changing with time.
+I can abstract predictable needs, but many aspects are too uncertain and potential candidates for a re-factoring loop as they evolve. I realized that my code went wrong when new business rules kept being added for a long period (4 years in a row). You know how it goes; you struggle in a loop to find the solution for a known problem that will keep changing over time.
 
-I noticed that my mess was caused by the combination of adding more features while altering permissions and not extensively testing that. I tried first with plug-in strategies and I noticed that my business logic was getting sparse as I was pushing beyond what a plug-in system is meant for.
+I noticed that my mess was caused by the combination of adding more features while altering permissions and not extensively testing them. I first tried with plug-in strategies and noticed that my business logic was getting sparse as I was pushing beyond what a plug-in system is meant for.
 
-To be able to easy maintain the business it requires to abstract  everything in modules that we can plug each other.
+To easily maintain the business, it requires abstracting everything into modules that can be plugged into each other.
 
 ## Here be Workflows!
 
-A Workflow enables to define a procedure of a series of interconnected independent jobs. With workflows you care about the job units that define the process to solve the problem, not how to abstract "the problem".
+A Workflow allows you to define a procedure consisting of a series of interconnected independent jobs. With workflows, you focus on the job units that define the process to solve the problem, rather than abstracting "the problem".
 
-✨ Think about it as Lego, but instead of bricks we use **Jobs** which are made from templates called **Actions**.
+✨ Think about it as Lego, but instead of bricks, we use **Jobs** which are made from templates called **Actions**.
 
-A workflow-based approach has interesting advantages:
+A workflow-based approach has several advantages:
 
-* Actions are re-usable.
-* Testing gets lighter on Workflow ("the problem").
-* Easy re-arrange jobs and its dependencies.
+* Actions are reusable.
+* Testing becomes lighter on the Workflow ("the problem").
+* Easy to rearrange jobs and their dependencies.
 * Room for endless additions.
 
 **Challenges**:
 
 * Async (parallel) execution in PHP.
-* Validate definition.
+* Validating definitions.
 * Run-if conditions.
 
 ## Chevere Workflow
 
-The [Workflow package](https://chevere.org/packages/workflow) provides managing for complex workflow declarations. This post is a glorified ad for my package, _pretends to be shocked!_ as I believe using the workflow pattern can solve a ton of problems.
+The [Workflow package](https://chevere.org/packages/workflow) provides management for complex workflow declarations. This post is a glorified ad for my package, _pretends to be shocked!_ as I believe using the workflow pattern can solve a ton of problems.
 
 ### Superb syntax
 
-The most important aspect of Workflow is the end-user experience. Is all about enable to easy solve progressive problems and its syntax is a reflection of this motto.
+The most important aspect of Workflow is the end-user experience. It's all about enabling easy solutions to progressive problems, and its syntax reflects this motto.
 
 ```php
 use function Chevere\Workflow\job;
@@ -78,36 +78,36 @@ workflow(
 
 ### Actions
 
-[Actions](https://chevere.org/packages/action) contains the logic for Workflow jobs, responsible for declaring the `run` method and its expected response parameters. Actions can be _anything_ although my recommendation is to keep actions minimal as possible.
+[Actions](https://chevere.org/packages/action) contain the logic for Workflow jobs and are responsible for declaring the `main()` method and its expected response parameters. Actions can be _anything_, although my recommendation is to keep actions as minimal as possible.
 
-Don't hesitate to split a process in four, twelve or more job-actions. That's the point! The more you _unitize_ the procedures the easier it gets to maintain and keep all moving parts willing to move.
+Don't hesitate to split a process into four, twelve, or more job-actions. That's the point! The more you _unitize_ the procedures, the easier it gets to maintain and keep all moving parts willing to move.
 
 ### Variables & References
 
-It uses `variable('var')` for declaring Workflow variables that must be passed by the Workflow runner. It uses `reference('job', 'key')` to reference previous jobs response keys.
+It uses `variable('var')` for declaring Workflow variables that must be passed by the Workflow runner. It uses `reference('job', 'key')` to reference previous jobs' response keys.
 
-Variables `variable('message')` and `variable('url')` are Workflow variables, `reference('prepare', 'payload')` is a Job response reference. Job `send` needs a payload parameter, which pass `reference('prepare', 'payload')`. This job implicit declares that it depends on `prepare` Job and it will run always after `prepare`.
+Variables `variable('message')` and `variable('url')` are Workflow variables, while `reference('prepare', 'payload')` is a Job response reference. Job `send` needs a payload parameter, which passes `reference('prepare', 'payload')`. This job implicitly declares that it depends on the `prepare` Job and will always run after `prepare`.
 
 ### Dependencies
 
-Workflow supports explicit declare jobs dependencies using `withDepends` method. A job won't run until their previous job dependencies are resolved, it determines a dependency graph for this purpose.
+Workflow supports explicitly declared job dependencies using the `withDepends` method. A job won't run until its previous job dependencies are resolved, and it determines a dependency graph for this purpose.
 
 ### Async
 
-Workflow uses [amphp](https://amphp.org/) to handle parallel processing. This is _true parallel processing_ using multiple process or native threads, without blocking and no extensions required.
+Workflow uses [amphp](https://amphp.org/) to handle parallel processing. This is _true parallel processing_ using multiple processes or native threads, without blocking.
 
 Jobs run async by default if no dependencies are declared (either implicit or explicit).
 
 ### Strict
 
-Workflow gets validated against the complete declaration and Job references must be compatible with each other. Job declaration must match the Action binding, and Jobs variables and references parameters are asserted for matching.
+Workflow gets validated against the complete declaration, and Job references must be compatible with each other. Job declarations must match the Action binding, and Jobs' variables and reference parameters are asserted for matching.
 
 ### Extensible
 
-Workflows can grow at wild under many strategies. For example, using a base Workflow for common functionality, pack related Actions in packages, add a plugin layer to enable users to add their own extra Job, etc.
+Workflows can grow wildly under many strategies. For example, using a base Workflow for common functionality, packing related Actions in packages, adding a plugin layer to enable users to add their own extra Job, etc.
 
 ## Feedback
 
-By the time I'm writing this the Workflow package is on early preview `0.8` and is missing must-have additions like conditional job syntax. You are welcome to contribute and provide feedback at [chevere/workflow](https://github.com/chevere/workflow).
+By the time I'm writing this, the Workflow package is in early preview (`0.8`) and is missing essential features like conditional job syntax. You are welcome to contribute and provide feedback at [chevere/workflow](https://github.com/chevere/workflow).
 
-I hope this problem-solving approach can help you to attack your problems on a cheaper and more maintainable manner.
+I hope this problem-solving approach can help you tackle your problems in a cheaper and more maintainable manner.
