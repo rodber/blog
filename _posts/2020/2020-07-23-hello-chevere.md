@@ -1,5 +1,6 @@
 ---
 date: 2020-07-23T19:44:41Z
+lastmod: 2026-03-06T11:27:56Z
 title: Hello, Chevere
 tags:
     - php
@@ -27,7 +28,7 @@ This basic foundation made PHP capable to power most of the web (yes, the whole 
 
 ## Mistakes made
 
-### 🤦🏾 Bad planning
+### Bad planning
 
 [Chevereto V2](https://github.com/chevereto/chevereto-2) was very basic with just three views and even being spaghetti code, I never experienced any maintenance issues because the code base was small. With [Chevereto V3](https://v3-docs.chevereto.com/) I added listings, dashboard panel, users, albums, etc. I thought that the new feature set was large enough for the iteration, I didn't worry about making it extensible.
 
@@ -39,7 +40,7 @@ Everyday people came with great ideas, but I was hands-tied with the code struct
 
 It was foolish to don't embrace change, to assume that "it will do" and no re-design the architecture.
 
-### 🤤 Lack of responsibility
+### Lack of responsibility
 
 Up to Chevereto V3, I took the well-know [front controller](https://en.wikipedia.org/wiki/Front_controller) mapped to the web server to provide the application. The model was everywhere, and since the market existed, I assumed that it was OK to rely the responsibility of designing my own application model in favor of choose the market defacto standard. Also, I didn't knew that much about software architecture back then anyway.
 
@@ -47,7 +48,7 @@ My mistake was that I didn't realized how not-standard was the market until I go
 
 I learned how and when to delegate responsibility in the systems that I design, and that mission critical systems like the server layer must be designed on my discretion.
 
-### 😴 Late response
+### Late response
 
 I assumed stupid stuff, like that [cPanel](https://en.wikipedia.org/wiki/CPanel) based shared servers was my market or that the maintenance hell was how every software works in this world. I assumed that clients won't look for newer tech, that "if ain't broke don't fix it" and I told myself everything needed to resist the need of change.
 
@@ -57,7 +58,7 @@ My mistake was that I should have started this new foundation earlier.
 
 ## The change
 
-### 😱 Everything
+### Everything
 
 I needed to change my software to make it customizable enough, from the simple turnkey options up to very specific needs. Must became easier to others to collaborate in all layers, and I must offer a delicate fine-tuned control on the service provisioning so it can be optimized.
 
@@ -67,13 +68,13 @@ A new foundation was needed to be created from scratch forbidding all the old ba
 
 Thats how I got into the long journey of crafting a new system that can be plugged to the very _line_, covering from the most basic "what-if" up to complex systems extending their base functionality.
 
-### 🔌 Pluggable
+### Pluggable
 
 Chevere is all about being able to create pluggable distributed applications that can be _wired_ to do _anything_. Pluggable applications are those in which it is intended to allow extension via adding extra code, think about it as a bunch of wires and switches.
 
 A pluggable architecture is a must have for me because it enables me to put toggles and hooks that will allow me to easily change the code and to distribute these assets. It also enables users to do their own changes and to grow an ecosystem of developers and services around my software.
 
-### 👯 Performing
+### Performing
 
 Adding more bells & whistles turns costumers, but it also means lot of trouble. At first, adding more plugins means more uncertain computing time so the application runtime strategy must be addressed.
 
@@ -103,9 +104,9 @@ Adding stuff on top of vanilla PHP will drastically reduce the performance as sh
 | PHP -S                   | 419.86         |
 | Apache 2.4               | 884.46         |
 
-The reduction is because, even using cache, the system needs to bootstrap everything on every single request.
+The reduction is because, even using cache, the system needs to bootstrap everything on every single request. Shared nothing, but with a lot of overhead.
 
-But when using application runners the bootstrapping remains in the loop and the result is a drastically improvement in application I/O performance.
+When using application runners the bootstrapping happens once and remains in the loop, resulting in a drastic improvement in application I/O performance.
 
 Table below shows how the application is now faster than vanilla PHP.
 
@@ -116,9 +117,9 @@ Table below shows how the application is now faster than vanilla PHP.
 
 The Chevere application with routing, controller, cache, hooks and a bunch of static code is performing way faster than a bare `echo "Hello, World!"` and it is doing it with types and data structures everywhere.
 
-Application runners are _la zorra_, but the caveat is that code for it must address thread safety and many other considerations that we take from granted from the HTTP Web Server realm. Not a big deal, I've to change everything anyway and the performance improvement totally worth the effort. I'm a [one-man army or not](https://www.youtube.com/watch?t=63&v=ko1q9xy6PLk)?
+Application runners are awesome, but the caveat is that code for it must address thread safety and many other considerations that we take from granted from the shared-nothing architecture. Not a big deal (edit 2026, yeah right...), I've to change everything anyway and the performance improvement totally worth the effort. I'm a [one-man army or not](https://www.youtube.com/watch?t=63&v=ko1q9xy6PLk)?
 
-### 🧰 Tooling
+### Tooling
 
 Chevere is a collection of highly opinionated components that provide the basic tooling needed for the changes I require. Rather offering an application model or even over simplify things, it focus exclusively in the tools.
 
@@ -126,7 +127,7 @@ In Chevere is standard to bring your own knowledge, as for me each different app
 
 I can't live with the idea of a fixed application model. What can I say? I like Lego bricks and I hate the little wheels on the side of the bike.
 
-### 🛒 A different market
+### A different market
 
 The current server market offering is great and it gets better quickly.
 
