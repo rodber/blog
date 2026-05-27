@@ -36,7 +36,7 @@ I posted the full details in the community forum: [🎉 Introducing Chevereto Cl
 
 ## I want your feedback
 
-This has been years in the making. The multitenancy architecture, the storage decoupling, the provisioning layer—all of it was built toward this moment. But software that hasn't been used by real people isn't done. It's just ready to be tested.
+This has been years in the making. The multitenancy architecture, the storage decoupling, the provisioning layer, all of it was built toward this moment. But software that hasn't been used by real people isn't done. It's just ready to be tested.
 
 What I need right now is people signing up, running into edges, and telling me what they found. The experience should be seamless. If it isn't, I want to know where it breaks.
 
