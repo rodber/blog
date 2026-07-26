@@ -7,7 +7,7 @@ tags:
     - chevere
 author: rodber
 summary: Library around parameter-argument
-image: /org/chevere/packages/parameter/parameter-social.png
+image: /org/chevere/packages/parameter/parameter-social-parody.png
 ---
 
 New from Chevere is the [Parameter](https://chevere.org/packages/parameter) package. This software provides a library around parameter-argument, with extra rules which can be used for both validation and to expose I/O schemas.

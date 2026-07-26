@@ -7,7 +7,7 @@ tags:
     - chevere
 author: rodber
 summary: Al empate Schwager.
-image: /org/chevere/packages/schwager/schwager-social.png
+image: /org/chevere/packages/schwager/schwager-social-parody.jpg
 ---
 
 New from Chevere is the [Schwager](https://chevere.org/packages/schwager) package. This software generates an API spec, which is a document that describes how to interact with an API created using [Router](https://chevere.org/packages/router).

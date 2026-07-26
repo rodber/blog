@@ -7,7 +7,7 @@ tags:
     - chevere
 author: rodber
 summary: Workflow procedures for PHP
-image: /org/chevere/packages/workflow/workflow-social.png
+image: /org/chevere/packages/workflow/workflow-social-parody.png
 ---
 
 One of my goals with [Chevere](https://chevere.org) was to learn more about problem-solving approaches and the culture that comes with them. I achieved this by exploring various software, starting with CI tools and continuing through to esoteric software practices. Among all the tools I encountered, [GitHub Actions](https://github.com/features/actions) caught my attention the most. It allows you to declare interconnected jobs and use actions published by third parties to stay productive. What interested me the most was the [workflow pattern](https://en.wikipedia.org/wiki/Workflow_pattern), which inspired me to create the [Workflow package](https://chevere.org/packages/workflow) for Chevere.

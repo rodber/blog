@@ -8,7 +8,7 @@ tags:
     - chevere
 author: rodber
 summary: Beautiful looking dumps!
-image: /org/chevere/packages/var-dump/var-dump-social.png
+image: /org/chevere/packages/var-dump/var-dump-social-parody.jpg
 ---
 
 New from Chevere is the [VarDump 2.0.0](https://github.com/chevere/var-dump/releases/tag/2.0.0) package. This update adds foldable sections and improve HTML rendering with CSS classes, foldable sections and automatic light/dark mode display.

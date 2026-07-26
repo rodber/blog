@@ -7,7 +7,7 @@ tags:
     - chevere
 author: rodber
 summary: A strict, strong typed router for PHP.
-image: /org/chevere/packages/router/router-social.png
+image: /org/chevere/packages/router/router-social-parody.jpg
 ---
 
 New from [Chevere](https://chevere.org) is the [chevere/router](https://chevere.org/packages/router) package for PHP. This software provides a strict typed router, enabling to create a more predictable HTTP routing for PHP.

@@ -7,7 +7,7 @@ tags:
     - chevere
 author: rodber
 summary: Classes as templates for PHP.
-image: /org/chevere/packages/danky/danky-social.png
+image: /org/chevere/packages/danky/danky-social-parody.jpg
 ---
 
 When it comes to templates there are two distinctive approaches. You have raw code, and template-syntax where there's no programing language but placeholders for limited programming functionality. Code below is a raw template, where you use a PHP file with explicit `<?php` placeholders for PHP syntax, the primitive way to create templates.
