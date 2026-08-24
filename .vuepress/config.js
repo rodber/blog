@@ -48,7 +48,7 @@ module.exports = {
                 name: 'Rodolfo',
                 avatar: '/avatars/rodolfo.jpg',
                 link: 'https://rodolfoberrios.com/',
-                linktext: 'Card',
+                linktext: 'Blog',
             },
             {
                 name: 'rodber',
