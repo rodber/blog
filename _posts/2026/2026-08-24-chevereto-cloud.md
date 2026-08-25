@@ -1,5 +1,6 @@
 ---
 date: 2026-08-24T21:28:00Z
+lastmod: 2026-08-25T18:57:17Z
 title: Chevereto Cloud
 tags:
     - chevereto
@@ -134,7 +135,7 @@ Regarding pricing, I wanted to be able to fully control this from my own panel i
 
 ![Plan settings](/org/chevereto/cloud/v1/plan-settings.avif)
 
-Each plan has 4 different prices monthly, monthly with trial, yearly and yearly with trial. The system enables us to easily link these on a single select combo box.
+Each plan supports four billing variants (monthly and yearly, with or without a trial) all managed through a single dropdown menu.
 
 ![Plan settings Paddle binding](/org/chevereto/cloud/v1/plan-settings-paddle-binding.avif)
 
