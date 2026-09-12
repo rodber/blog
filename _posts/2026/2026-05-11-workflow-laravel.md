@@ -1,6 +1,6 @@
 ---
 date: 2026-05-11T17:28:52Z
-title: Workflow for Laravel
+title: Chevere Workflow for Laravel
 tags:
     - php
     - chevere
