@@ -5,11 +5,11 @@ tags:
     - php
     - chevere
 author: rodber
-summary: Bitwise role-based authorization for PHP
+summary: Bitwise driven role authorization system
 image: /photos/2026/authorization.png
 ---
 
-New from Chevere is the [Authorization](https://chevere.org/packages/authorization) package. This software provides bitwise role-based authorization for PHP.
+New from Chevere is the [Authorization](https://chevere.org/packages/authorization) package. Bitwise driven role authorization (grants) system for PHP.
 
 The package source is available at [chevere/authorization](https://github.com/chevere/authorization).
 
