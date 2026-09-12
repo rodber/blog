@@ -69,8 +69,6 @@ use Chevere\Authorization\RolesMask;
 
 class RequestUser
 {
-    public readonly Roles $roles;
-
     public function __construct(
         public readonly Roles $roles = new Roles(),
         // ... other user properties
@@ -78,8 +76,9 @@ class RequestUser
     }
 
     // Shortcut to check if the user has the given permission(s)
-    public function hasPermission(string|PermissionInterface|BackedEnum ...$permission): bool
-    {
+    public function hasPermission(
+        string|PermissionInterface|BackedEnum ...$permission
+    ): bool {
         return $this->roles->permissions()->contains(...$permission);
     }
 }
