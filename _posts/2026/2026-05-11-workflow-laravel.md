@@ -7,7 +7,7 @@ tags:
     - laravel
 author: rodber
 summary: Declarative multi-step workflows for Laravel on top of chevere/workflow
-image: /org/chevere/packages/workflow-laravel/workflow-social.png
+image: /org/chevere/packages/workflow-laravel/workflow-laravel-social.png
 ---
 
 I built this package to solve a recurring Laravel problem: once business flows grow beyond linear steps, orchestration logic starts leaking everywhere. You can chain jobs, batch jobs, and build pipelines, but complex flows still end up with manual dependency wiring, conditional branches spread across classes, and hard-to-reason execution order.
