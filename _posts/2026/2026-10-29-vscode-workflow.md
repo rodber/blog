@@ -2,6 +2,7 @@
 date: 2026-10-29T13:25:53Z
 title: Chevere Workflow VS Code extension
 tags:
+    - typescript
     - vscode
     - chevere
 author: rodber
