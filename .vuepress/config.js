@@ -29,14 +29,15 @@ module.exports = {
         ['meta', {
             name: 'msapplication-TileColor',
             content: '#000000'
-        }],
-        ['meta', {
-            name: 'viewport',
-            content: 'width=device-width, initial-scale=1.0'
         }]
     ],
+    shouldPrefetch: () => false,
     themeConfig: {
         domain: 'https://rodolfoberrios.com',
+        author: {
+            name: 'Rodolfo Berrios',
+            twitter: '@godlike',
+        },
         logo: '/avatars/rodber.png',
         pwa: false,
         nav: [
